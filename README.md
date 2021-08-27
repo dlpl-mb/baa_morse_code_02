@@ -13,7 +13,7 @@ Wusstest du, dass ein micro:bit mit anderen micro:bit über Funkwellen kommunizi
  
 ## Die Zeichen des Morsealphabets
 Wir werden nun bereits alle Morsezeichen verwenden, damit ihr auch ordentlich kommunizieren könnt. Diese sind bereits im Programm eingespeilt und ihr könnt damit weiterarbeiten. 
-<img width="100%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/morse-tab.png?raw=1"> D
+<img width="100%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/morse-tab.png?raw=1"> Drucke Dir die Tabelle aller Morsecodes aus (Rechte Maustaste - Bild kopieren und dann mit Word ausdrucken))
 **Hier ist der Code mit allen Zeichen:**
 ```blocks
 let morse = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--..",".----","..---","...--","....-",".....","-....","--...","---..","----.","-----"]
@@ -129,6 +129,6 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMDE5MjcyMCw5MDE0MDg5MTgsMTI3OT
+eyJoaXN0b3J5IjpbMTg3MzIxMjU0NSw5MDE0MDg5MTgsMTI3OT
 Q5ODc4MCwxODQ1OTcyOTg0LDE4NzkzMjY1ODFdfQ==
 -->
