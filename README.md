@@ -25,11 +25,6 @@ let morse = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",
 let alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0"]
 ```
 
-```block
-basic.showNumber(88)
-
-
-```
 
 
 * Wie du aus der Tabelle siehst haben Morsezeichen nur den **Punkte** und den **Striche**. Jeder Buchstabe hat einen bestimmte Kombination von Punkten und Strichen.
@@ -133,6 +128,6 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTM0Njk5OTAsOTAxNDA4OTE4LDEyNz
-k0OTg3ODAsMTg0NTk3Mjk4NCwxODc5MzI2NTgxXX0=
+eyJoaXN0b3J5IjpbMTQyMzQ2ODI3MCw5MDE0MDg5MTgsMTI3OT
+Q5ODc4MCwxODQ1OTcyOTg0LDE4NzkzMjY1ODFdfQ==
 -->
