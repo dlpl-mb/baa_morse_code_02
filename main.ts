@@ -1,4 +1,4 @@
-let morse = [
+let liste_morsecodes = [
 ".-",
 "-...",
 "-.-.",
@@ -36,7 +36,7 @@ let morse = [
 "----.",
 "-----"
 ]
-let alphabet = [
+let liste_buchstaben = [
 "a",
 "b",
 "c",
