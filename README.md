@@ -4,9 +4,7 @@
 
 <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/SOS.svg.png?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">
 
-Wir werden uns nun einen Geheimsprache ansehen - das ** Morse-Alphabet **. Es diente jahrzehntelang zum Übertragen von Nachrichten und wurde inzwischen in vielen Bereichen von technisch aufwendigen Verfahren abgelöst.
-Inzwischen gibt es unzählige Codes, die sogar noch zusätzlich verschlüsselt werden, damit beispielswiese Geldüberweisungen oder auch militärische Informationen sicherer übermittelt werden können.
-Du wirst nun diese wichtige Morsealphabet kennenlernen.
+Wusstest du, dass ein micro:bit mit anderen micro:kommunizieren kann. wir werden nun nicht gleich zu
 
 ## Die Zeichen des Morsealphabets
 Die Morsezeichen kann man optisch (Bildern) oder akustisch (Ton) oder auch über elektrische Leitungen übermitteln. Wichtig ist dabei, dass jeder Buchstabe, jede Ziffer genau einem Code entspricht.
@@ -113,3 +111,6 @@ anz_bst = liste_buchstaben.length - 1
 
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTIzNzAyODUwOF19
+-->
