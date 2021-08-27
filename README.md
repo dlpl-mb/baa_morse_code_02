@@ -1,10 +1,10 @@
 
 ## Geheimzeichen: Das Morse-Alphabet II
-**Hallo, ich bin Robi und werde dich beim Programmieren mit micro:bit begleiten. Wir werden bei diesem Projekt nun Morsezeichen zu meiner Schwester Robi02 übertragen.**
+**Hallo, ich bin Robi01 und werde dich beim Programmieren mit micro:bit begleiten. Wir werden bei diesem Projekt nun Morsezeichen zu meiner Freundin Robi02 übertragen.**
 
 <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/SOS.svg.png?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">
 
-Wusstest du, dass ein micro:bit mit anderen micro:bit über wellen kommunizieren kann. In diesem Morse-Code-Projekt II werden wir nun den Morsecode zwischen 2 micro:bits versenden. Dazu müssen wir einige Vereinbarungen treffen, damit di
+Wusstest du, dass ein micro:bit mit anderen micro:bit über wellen kommunizieren kann. In diesem Morse-Code-Projekt II werden wir nun den Morsecode zwischen 2 micro:bits versenden. Dazu müssen wir einige Vereinbarungen treffen, damit die Kommunikation auch funktioniert, wenn ich Robi02 nicht sehen und hören kann - etwa, wenn sie sich in einem anderen Raumbefindet.
 
 ## Die Zeichen des Morsealphabets
 Die Morsezeichen kann man optisch (Bildern) oder akustisch (Ton) oder auch über elektrische Leitungen übermitteln. Wichtig ist dabei, dass jeder Buchstabe, jede Ziffer genau einem Code entspricht.
@@ -112,5 +112,5 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MTE5NzM0N119
+eyJoaXN0b3J5IjpbLTU1NzM5NDExMl19
 -->
