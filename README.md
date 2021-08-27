@@ -76,7 +76,7 @@ Wir packen nun alles 7 Buchstaben in ein Programm:
 * Innerhalb der Schleife zeigen wir mit einer **Laufvariable** - wir nennen sie hier **index** auf jeweils ein Element.
 
 
-## Fertiges Programm I
+## Fertiges Programm: Morse-Alphabet II
 Du kannst nun am folgenden fertigen Programms noch experimentiert. 
 * Verändere Variable und Zeiten
 * Beim Experimentieren an fremden Programmen kannst du viel lernen 
@@ -128,6 +128,7 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMzQ2ODI3MCw5MDE0MDg5MTgsMTI3OT
-Q5ODc4MCwxODQ1OTcyOTg0LDE4NzkzMjY1ODFdfQ==
+eyJoaXN0b3J5IjpbMTI1MDY1NjA1OSwxNDIzNDY4MjcwLDkwMT
+QwODkxOCwxMjc5NDk4NzgwLDE4NDU5NzI5ODQsMTg3OTMyNjU4
+MV19
 -->
