@@ -9,13 +9,10 @@ Wusstest du, dass ein micro:bit mit anderen micro:bit über Funkwellen kommunizi
  * Die Taste B dient zum Bestätigen: 
  Ein Symbol Herz dient als OK! Dann kann der Sender die nächste Nachricht senden.
  Ein rauriger Smiley dient als - Nicht OK - bitte noch einmal senden!
- Natürlich könnt ihr euch beim progr
- * 
-
- * List item
-
+ Natürlich könnt ihr euch beim Programmieren eigene Kommunikationssymbole ausmachen.
+ 
 ## Die Zeichen des Morsealphabets
-Die Morsezeichen kann man optisch (Bildern) oder akustisch (Ton) oder auch über elektrische Leitungen übermitteln. Wichtig ist dabei, dass jeder Buchstabe, jede Ziffer genau einem Code entspricht.
+Wir werden nun bereits alle Morsezeichen verwenden, damit ihr auch 
 
 <img width="100%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/morse-tab.png?raw=1">
 
@@ -120,5 +117,5 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njg1NTkyNjBdfQ==
+eyJoaXN0b3J5IjpbLTQzNjkwMjUxNV19
 -->
