@@ -6,7 +6,10 @@
 
 Wusstest du, dass ein micro:bit mit anderen micro:bit über Funkwellen kommunizieren kann. In diesem Morse-Code-Projekt II werden wir nun den Morsecode zwischen 2 micro:bits versenden. Dazu müssen wir einige Vereinbarungen treffen, damit die Kommunikation auch funktioniert, wenn ich Robi02 nicht sehen und hören kann - etwa, wenn sie sich in einem anderen Raum befindet. Die Vereinbarungen sind:
 * Die Taste A sendet den Morse-Code
-* Die Taste B dient zum Bestätigen
+* Die Taste B dient zum Bestätigen: 
+* * Ein Hackerl dient als OK!
+* 
+
 
 ## Die Zeichen des Morsealphabets
 Die Morsezeichen kann man optisch (Bildern) oder akustisch (Ton) oder auch über elektrische Leitungen übermitteln. Wichtig ist dabei, dass jeder Buchstabe, jede Ziffer genau einem Code entspricht.
@@ -114,5 +117,5 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0OTY1MzQ0MV19
+eyJoaXN0b3J5IjpbLTQ3Njc0OTAzMF19
 -->
