@@ -28,7 +28,8 @@ let morse = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",
 
 * Einige Zeichen hast du ja im ersten Teil schon verwendet - hier nun alle Zeichen.  Beachte, dass genau jene Zeichen, die in unserer Sprache oft verwendet werden, sehr kurze Morsekombinationen haben und andere, seltene Zeichen längere Morsesymbole.
 * Eines der wichtigsten Symbole solltest du die in Zukunft merken - es ist für Notfälle gedacht: 
-* SOS save our ship
+* SOS (save our ship): drei kurz, drei lang, drei kurz - ... --- ... 
+* Beachte dabei, dass nach drei kurz ein kurze Pause ist, ebenso nach
 * 
 
 ## Programm 1: Codes anzeigen 
@@ -127,7 +128,7 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMjA0MTc0MSwxMjUwNjU2MDU5LDE0Mj
+eyJoaXN0b3J5IjpbMTMyNTQ0MDcyOSwxMjUwNjU2MDU5LDE0Mj
 M0NjgyNzAsOTAxNDA4OTE4LDEyNzk0OTg3ODAsMTg0NTk3Mjk4
 NCwxODc5MzI2NTgxXX0=
 -->
