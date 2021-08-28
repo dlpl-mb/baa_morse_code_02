@@ -38,11 +38,10 @@ Um Daten senden zu können, müssen zwei micro:bit mit einigen Programmzeilen ve
  ```blocks
 	radio.setGroup(99)
  ```
-* **Abmachung:** 
-* Wir werden mit `|Taste A|` senden und mit Taste B immer antworten
+* **Erster Test:** 
+* Wir werden mit `|Taste A|` senden und mit `|Taste B|` immer antworten
 
-* Folgendes Programm soll nun auf beiden micro:bit programmiert werden:
-
+* Folgendes Programm soll nun auf beiden micro:bit programmiert werden, damit könnt ihr schon einmal einige Texts machen:
 ```blocks
 	input.onButtonPressed(Button.A, function () {
 		basic.showString("A") //damit siehst du als Sender den Buchstaben auch auf deinem Display
@@ -233,11 +232,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDc2MTM3NDMsLTIzMjc2NzA1MCw4ND
-U0MDk3NDYsNDcwNzIxMTEsMTkwMjEwMDcyNCwtMjAzNTg1ODQ5
-LC0xMjg0OTE2OTIzLC0xNzY0OTU3NDczLDg5MzcxNTg4MiwtMT
-c1MDkyMTEyMSwtMTU1NjY2MDc4NywtMjExMjM0OTY1NiwtNTE3
-MjEyMDU1LC0xODczNDcyNDQxLDE0MTQyMjM2OTIsLTE0NTIzMj
-MwMjYsLTYxOTU5NDQwMywtMTUwOTMwMTIzMywxMjc0NTc4MTU1
-LDE5NTEyMzg4NTFdfQ==
+eyJoaXN0b3J5IjpbMTk5ODI3MDU2NywtMjMyNzY3MDUwLDg0NT
+QwOTc0Niw0NzA3MjExMSwxOTAyMTAwNzI0LC0yMDM1ODU4NDks
+LTEyODQ5MTY5MjMsLTE3NjQ5NTc0NzMsODkzNzE1ODgyLC0xNz
+UwOTIxMTIxLC0xNTU2NjYwNzg3LC0yMTEyMzQ5NjU2LC01MTcy
+MTIwNTUsLTE4NzM0NzI0NDEsMTQxNDIyMzY5MiwtMTQ1MjMyMz
+AyNiwtNjE5NTk0NDAzLC0xNTA5MzAxMjMzLDEyNzQ1NzgxNTUs
+MTk1MTIzODg1MV19
 -->
