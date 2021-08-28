@@ -67,13 +67,12 @@ Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit d
 * Achtet unbedingt darauf, dass nicht andere Gruppen in eurem Raum denselben Kommunikationskanal benutzen
 * * Schreibt auf, was noch nicht gut funktioniert
 
-**Verbesserungswünsche:**
-Wenn du einen neuen Buchstaben senden will, musst du das Sender-Programm immer umschreiben.
-Es wäre gut, könnte man den Buchstaben auswählen:
- - Es fehlt eine Tastatur zum Eingeben des Buchstabens
+**Verbesserungsüberlegungen:**
+* Wenn du einen neuen Buchstaben senden will, musst du das Sender-Programm immer umschreiben.
+* Es wäre gut, könnte man den Buchstaben auswählen (es fehlt leider eine Tastatur auf dem Micro:bit zum Eingeben eines neuen Buchstabens).
  - Wie könnte man aus den Buchstaben auswählen?
-	- Entweder durch Zufall oder 
-	- mit einer virtuellen (gedachten) Tastatur
+	- Entweder durch Zufallgenerator oder 
+	- mit einer virtuellen (=gedachten) Tastatur
 
 Programm: Ein Auswahl eines Buchstabens per Zufall
 Probiere folgende Zufallsfunktion aus 
@@ -242,7 +241,7 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NDk5MTI4NiwtMTY5MjQzMjM0NiwtMj
+eyJoaXN0b3J5IjpbLTkzNTU2Njk4NywtMTY5MjQzMjM0NiwtMj
 cwNTc3Mjc4LC0xODkxNjc2ODEsLTY3NTA4MTkxNywtMTkwNzAw
 MTI4NSwxMjEwMTA1ODM3LDY0NjY0MjY4OCwxNjQxMjA2NTkzLD
 E0NjYzMTU4NDcsLTE2NjY0MzcxOTEsLTIzMjc2NzA1MCw4NDU0
