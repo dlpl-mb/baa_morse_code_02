@@ -200,10 +200,10 @@ anz_bst = liste_buchstaben.length - 1
 
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_Ux2V81PmkYMM" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:50vh;padding-bottom:70%;overflow:hidden;width:100%"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_Ux2V81PmkYMM" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc1MDI2NzgxLC0yMTEyMzQ5NjU2LC01MT
+eyJoaXN0b3J5IjpbNTgwNTI2MDk4LC0yMTEyMzQ5NjU2LC01MT
 cyMTIwNTUsLTE4NzM0NzI0NDEsMTQxNDIyMzY5MiwtMTQ1MjMy
 MzAyNiwtNjE5NTk0NDAzLC0xNTA5MzAxMjMzLDEyNzQ1NzgxNT
 UsMTk1MTIzODg1MSwtNjU4NzM0ODA1LDIxMzAxMzA5MDcsNDMx
