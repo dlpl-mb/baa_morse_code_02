@@ -38,11 +38,12 @@ Um Daten senden zu können, müssen zwei micro:bit mit einigen Programmzeilen ve
  ```blocks
 	radio.setGroup(99)
  ```
-* **Erster Test:** 
+* **Der erster Test:** 
 * Wir werden mit `|Taste A|` senden und mit `|Taste B|` immer antworten
 * Was senden wir? 
 	* Wir senden einmal den Buchstaben A und den dazugehörigen Morsecode.
-	* Der Empfänger bekommt den Morsecode angezeigt und muss den Buchstaben daraus in erfahrungen liste nachsehen
+	* Der Empfänger bekommt den Morsecode angezeigt und muss den empfangenen Morsecode in den Buchstaben übersetzen.
+	* Der Empfänger 
 
 * Folgendes Programm soll nun auf beiden micro:bit programmiert werden, damit könnt ihr schon einmal einige Texts machen. Tauscht 
 ```blocks
@@ -235,11 +236,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjY0MzcxOTEsLTIzMjc2NzA1MCw4ND
-U0MDk3NDYsNDcwNzIxMTEsMTkwMjEwMDcyNCwtMjAzNTg1ODQ5
-LC0xMjg0OTE2OTIzLC0xNzY0OTU3NDczLDg5MzcxNTg4MiwtMT
-c1MDkyMTEyMSwtMTU1NjY2MDc4NywtMjExMjM0OTY1NiwtNTE3
-MjEyMDU1LC0xODczNDcyNDQxLDE0MTQyMjM2OTIsLTE0NTIzMj
-MwMjYsLTYxOTU5NDQwMywtMTUwOTMwMTIzMywxMjc0NTc4MTU1
-LDE5NTEyMzg4NTFdfQ==
+eyJoaXN0b3J5IjpbLTY0MDM3OTMzNCwtMTY2NjQzNzE5MSwtMj
+MyNzY3MDUwLDg0NTQwOTc0Niw0NzA3MjExMSwxOTAyMTAwNzI0
+LC0yMDM1ODU4NDksLTEyODQ5MTY5MjMsLTE3NjQ5NTc0NzMsOD
+kzNzE1ODgyLC0xNzUwOTIxMTIxLC0xNTU2NjYwNzg3LC0yMTEy
+MzQ5NjU2LC01MTcyMTIwNTUsLTE4NzM0NzI0NDEsMTQxNDIyMz
+Y5MiwtMTQ1MjMyMzAyNiwtNjE5NTk0NDAzLC0xNTA5MzAxMjMz
+LDEyNzQ1NzgxNTVdfQ==
 -->
