@@ -93,7 +93,7 @@ Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit d
 [Programmcode](https://makecode.microbit.org/#pub:_DVe8TrKz3cRU "(target|_blank)")
 
 Eingebaut in das Übertragungsprogramm:
-* 
+* Nun wird der zufallsgenerator
 
 ```blocks
 	input.onButtonPressed(Button.A, function () {
@@ -121,7 +121,7 @@ Eingebaut in das Übertragungsprogramm:
 	let liste_morsecodes: string[] = []
 	let liste_buchstaben: string[] = []
 	radio.setGroup(99)
-	liste_buchstaben = ["A","B","C","D","E","F","G"]
+	liste_buchstaben = ["A","B","C","D","E","F","G","S","O"]
 	liste_morsecodes = [".-","-...","-.-.","-..",".","..-.","--."]
 	anz_bst = liste_buchstaben.length - 1
 ```
@@ -259,11 +259,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDk1NzMzMjcsLTg2ODM2ODEyMSwxND
-U2MzU0MDI5LDE1MTY0MjcyMjcsLTE2MjI2MDIyNjAsMTY0MDAz
-NzY2Miw1NTA4MTk0NjAsMTA2MTk1NTcxNCwtNzI3NTY2MzE5LC
-0xNjkyNDMyMzQ2LC0yNzA1NzcyNzgsLTE4OTE2NzY4MSwtNjc1
-MDgxOTE3LC0xOTA3MDAxMjg1LDEyMTAxMDU4MzcsNjQ2NjQyNj
-g4LDE2NDEyMDY1OTMsMTQ2NjMxNTg0NywtMTY2NjQzNzE5MSwt
-MjMyNzY3MDUwXX0=
+eyJoaXN0b3J5IjpbOTYzMzkyNjQxLC04NjgzNjgxMjEsMTQ1Nj
+M1NDAyOSwxNTE2NDI3MjI3LC0xNjIyNjAyMjYwLDE2NDAwMzc2
+NjIsNTUwODE5NDYwLDEwNjE5NTU3MTQsLTcyNzU2NjMxOSwtMT
+Y5MjQzMjM0NiwtMjcwNTc3Mjc4LC0xODkxNjc2ODEsLTY3NTA4
+MTkxNywtMTkwNzAwMTI4NSwxMjEwMTA1ODM3LDY0NjY0MjY4OC
+wxNjQxMjA2NTkzLDE0NjYzMTU4NDcsLTE2NjY0MzcxOTEsLTIz
+Mjc2NzA1MF19
 -->
