@@ -40,6 +40,7 @@ Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit d
  ```
 * **Der erster Test zur Übertragung:** 
 * Wir werden mit ``|Taste A|`` senden und mit `|Taste B|` immer antworten. ``||basic:Zeige LEDs||``
+*  sss
 * Was heißt die Aufgabenstellung? 
 	* Der Sender sendet einmal den Buchstaben A und den dazugehörigen Morsecode
 	* Der Empfänger bekommt den Morsecode angezeigt und muss den empfangenen Morsecode in den Buchstaben übersetzen.
@@ -240,11 +241,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzIxMzg5OTQsNjQ2NjQyNjg4LDE2ND
-EyMDY1OTMsMTQ2NjMxNTg0NywtMTY2NjQzNzE5MSwtMjMyNzY3
-MDUwLDg0NTQwOTc0Niw0NzA3MjExMSwxOTAyMTAwNzI0LC0yMD
-M1ODU4NDksLTEyODQ5MTY5MjMsLTE3NjQ5NTc0NzMsODkzNzE1
-ODgyLC0xNzUwOTIxMTIxLC0xNTU2NjYwNzg3LC0yMTEyMzQ5Nj
-U2LC01MTcyMTIwNTUsLTE4NzM0NzI0NDEsMTQxNDIyMzY5Miwt
-MTQ1MjMyMzAyNl19
+eyJoaXN0b3J5IjpbLTk3ODExODkyNSw2NDY2NDI2ODgsMTY0MT
+IwNjU5MywxNDY2MzE1ODQ3LC0xNjY2NDM3MTkxLC0yMzI3Njcw
+NTAsODQ1NDA5NzQ2LDQ3MDcyMTExLDE5MDIxMDA3MjQsLTIwMz
+U4NTg0OSwtMTI4NDkxNjkyMywtMTc2NDk1NzQ3Myw4OTM3MTU4
+ODIsLTE3NTA5MjExMjEsLTE1NTY2NjA3ODcsLTIxMTIzNDk2NT
+YsLTUxNzIxMjA1NSwtMTg3MzQ3MjQ0MSwxNDE0MjIzNjkyLC0x
+NDUyMzIzMDI2XX0=
 -->
