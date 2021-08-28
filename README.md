@@ -93,7 +93,7 @@ Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit d
 [Programmcode](https://makecode.microbit.org/#pub:_DVe8TrKz3cRU "(target|_blank)")
 
 Eingebaut in das Übertragungsprogramm:
-* Nun wird der Zufallsgenerator bei Taste 
+* Nun wird der Zufallsgenerator in der `Taste A-Funktion` ei
 
 ```blocks
 	input.onButtonPressed(Button.A, function () {
@@ -259,11 +259,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIyOTY5MzEsLTg2ODM2ODEyMSwxNDU2Mz
-U0MDI5LDE1MTY0MjcyMjcsLTE2MjI2MDIyNjAsMTY0MDAzNzY2
-Miw1NTA4MTk0NjAsMTA2MTk1NTcxNCwtNzI3NTY2MzE5LC0xNj
-kyNDMyMzQ2LC0yNzA1NzcyNzgsLTE4OTE2NzY4MSwtNjc1MDgx
-OTE3LC0xOTA3MDAxMjg1LDEyMTAxMDU4MzcsNjQ2NjQyNjg4LD
-E2NDEyMDY1OTMsMTQ2NjMxNTg0NywtMTY2NjQzNzE5MSwtMjMy
-NzY3MDUwXX0=
+eyJoaXN0b3J5IjpbMjYxMjMzNjU1LC04NjgzNjgxMjEsMTQ1Nj
+M1NDAyOSwxNTE2NDI3MjI3LC0xNjIyNjAyMjYwLDE2NDAwMzc2
+NjIsNTUwODE5NDYwLDEwNjE5NTU3MTQsLTcyNzU2NjMxOSwtMT
+Y5MjQzMjM0NiwtMjcwNTc3Mjc4LC0xODkxNjc2ODEsLTY3NTA4
+MTkxNywtMTkwNzAwMTI4NSwxMjEwMTA1ODM3LDY0NjY0MjY4OC
+wxNjQxMjA2NTkzLDE0NjYzMTU4NDcsLTE2NjY0MzcxOTEsLTIz
+Mjc2NzA1MF19
 -->
