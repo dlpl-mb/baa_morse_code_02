@@ -142,18 +142,21 @@ Eingebaut in das Übertragungsprogramm:
 	})
 ```
 * Beobachte dabei die x-Werte - wir wollen diese Neigung ausnutzen, um in den Buchstaben zu `blättern`. 
-* Experimentiere mit der folgenden Funktion zum Blättern in der Buchstabenliste (sehr schwierig): 
+* Experimentiere mit der folgenden Funktion zum Hinauf- und Herunterzählen einer Zahl (sehr schwierig): 
 
 ```blocks
-	input.onButtonPressed(Button.A, function () {
-	    basic.showLeds(`
-	        . . . . .
-	        . . . . .
-	        . . . . .
-	        . . . . .
-	        . . . . .
-	        `)
-	    basic.showNumber(randint(0, 10))
+	let index = 5
+	let neigung = 0
+	basic.forever(function () {
+	    neigung = input.acceleration(Dimension.X)
+	    if (neigung > 300) {
+	        index += 1
+	    }
+	    if (neigung < -300) {
+	        index += -1
+	    }
+	    basic.showNumber(index)
+	    basic.pause(1000)
 	})
 ```
 [Programmcode](https://makecode.microbit.org/#pub:_DVe8TrKz3cRU "(target|_blank)")
@@ -332,11 +335,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwOTA2MzQ5NCwtNTc5MjY3NDQyLC05Nj
-Y4MzU1OTcsNTQ2Mzk4NDkxLC04NjgzNjgxMjEsMTQ1NjM1NDAy
-OSwxNTE2NDI3MjI3LC0xNjIyNjAyMjYwLDE2NDAwMzc2NjIsNT
-UwODE5NDYwLDEwNjE5NTU3MTQsLTcyNzU2NjMxOSwtMTY5MjQz
-MjM0NiwtMjcwNTc3Mjc4LC0xODkxNjc2ODEsLTY3NTA4MTkxNy
-wtMTkwNzAwMTI4NSwxMjEwMTA1ODM3LDY0NjY0MjY4OCwxNjQx
-MjA2NTkzXX0=
+eyJoaXN0b3J5IjpbLTE3MDU0NzI3NiwtNDA5MDYzNDk0LC01Nz
+kyNjc0NDIsLTk2NjgzNTU5Nyw1NDYzOTg0OTEsLTg2ODM2ODEy
+MSwxNDU2MzU0MDI5LDE1MTY0MjcyMjcsLTE2MjI2MDIyNjAsMT
+Y0MDAzNzY2Miw1NTA4MTk0NjAsMTA2MTk1NTcxNCwtNzI3NTY2
+MzE5LC0xNjkyNDMyMzQ2LC0yNzA1NzcyNzgsLTE4OTE2NzY4MS
+wtNjc1MDgxOTE3LC0xOTA3MDAxMjg1LDEyMTAxMDU4MzcsNjQ2
+NjQyNjg4XX0=
 -->
