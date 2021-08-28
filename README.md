@@ -90,10 +90,7 @@ Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit d
 	    basic.showNumber(randint(0, 10))
 	})
 ```
-
-
-
-
+[Programmcode](https://makecode.microbit.org/_HJhPgwVr29Ka "(target|_blank)")
 
 
 
@@ -268,11 +265,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNjQyNzIyNywtMTYyMjYwMjI2MCwxNj
-QwMDM3NjYyLDU1MDgxOTQ2MCwxMDYxOTU1NzE0LC03Mjc1NjYz
-MTksLTE2OTI0MzIzNDYsLTI3MDU3NzI3OCwtMTg5MTY3NjgxLC
-02NzUwODE5MTcsLTE5MDcwMDEyODUsMTIxMDEwNTgzNyw2NDY2
-NDI2ODgsMTY0MTIwNjU5MywxNDY2MzE1ODQ3LC0xNjY2NDM3MT
-kxLC0yMzI3NjcwNTAsODQ1NDA5NzQ2LDQ3MDcyMTExLDE5MDIx
-MDA3MjRdfQ==
+eyJoaXN0b3J5IjpbMTQ1NjM1NDAyOSwxNTE2NDI3MjI3LC0xNj
+IyNjAyMjYwLDE2NDAwMzc2NjIsNTUwODE5NDYwLDEwNjE5NTU3
+MTQsLTcyNzU2NjMxOSwtMTY5MjQzMjM0NiwtMjcwNTc3Mjc4LC
+0xODkxNjc2ODEsLTY3NTA4MTkxNywtMTkwNzAwMTI4NSwxMjEw
+MTA1ODM3LDY0NjY0MjY4OCwxNjQxMjA2NTkzLDE0NjYzMTU4ND
+csLTE2NjY0MzcxOTEsLTIzMjc2NzA1MCw4NDU0MDk3NDYsNDcw
+NzIxMTFdfQ==
 -->
