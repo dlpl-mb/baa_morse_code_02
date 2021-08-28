@@ -206,7 +206,7 @@ anz_bst = liste_buchstaben.length - 1
 
 
 
-[Test mit neulinkx](https://makecode.microbit.org/_buWXjXMYkKop){:target="_blank"}
+[Test mit neulink](https://makecode.microbit.org/_buWXjXMYkKop){:target="_blank"}
 
 [Test mit neulink2](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM){target="_blank"}
 
@@ -216,11 +216,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzIxNTU4MjksLTIwMzU4NTg0OSwtMT
-I4NDkxNjkyMywtMTc2NDk1NzQ3Myw4OTM3MTU4ODIsLTE3NTA5
-MjExMjEsLTE1NTY2NjA3ODcsLTIxMTIzNDk2NTYsLTUxNzIxMj
-A1NSwtMTg3MzQ3MjQ0MSwxNDE0MjIzNjkyLC0xNDUyMzIzMDI2
-LC02MTk1OTQ0MDMsLTE1MDkzMDEyMzMsMTI3NDU3ODE1NSwxOT
-UxMjM4ODUxLC02NTg3MzQ4MDUsMjEzMDEzMDkwNyw0MzEzMjg2
-NTYsNTQ2NTU4OTVdfQ==
+eyJoaXN0b3J5IjpbLTIwMzU4NTg0OSwtMjAzNTg1ODQ5LC0xMj
+g0OTE2OTIzLC0xNzY0OTU3NDczLDg5MzcxNTg4MiwtMTc1MDky
+MTEyMSwtMTU1NjY2MDc4NywtMjExMjM0OTY1NiwtNTE3MjEyMD
+U1LC0xODczNDcyNDQxLDE0MTQyMjM2OTIsLTE0NTIzMjMwMjYs
+LTYxOTU5NDQwMywtMTUwOTMwMTIzMywxMjc0NTc4MTU1LDE5NT
+EyMzg4NTEsLTY1ODczNDgwNSwyMTMwMTMwOTA3LDQzMTMyODY1
+Niw1NDY1NTg5NV19
 -->
