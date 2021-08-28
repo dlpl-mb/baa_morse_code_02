@@ -41,11 +41,11 @@ Um Daten senden zu können, müssen zwei micro:bit mit einigen Programmzeilen ve
 * **Der erster Test:** 
 * Wir werden mit `|Taste A|` senden und mit `|Taste B|` immer antworten
 * Was senden wir? 
-	* Wir senden einmal den Buchstaben A und den dazugehörigen Morsecode.
+	* Wir senden einmal den Buchstaben A und den dazugehörigen Morsecode
 	* Der Empfänger bekommt den Morsecode angezeigt und muss den empfangenen Morsecode in den Buchstaben übersetzen.
-	* Der Empfänger 
+	* Der Empfänger darf die Papierliste zum Entschlüsseln verwenden
 
-* Folgendes Programm soll nun auf beiden micro:bit programmiert werden, damit könnt ihr schon einmal einige Texts machen. Tauscht 
+* Folgendes Programm soll nun auf beiden micro:bit programmiert werden, damit könnt ihr schon einmal einige Texts machen. 
 ```blocks
 	input.onButtonPressed(Button.A, function () {
 		basic.showString("A") //damit siehst du als Sender den Buchstaben auch auf deinem Display
@@ -59,6 +59,7 @@ Um Daten senden zu können, müssen zwei micro:bit mit einigen Programmzeilen ve
 <!-- Wenn du ein zweites Browserfenster öffnest, kannst du den Code dort öffnen: -->
 
 * Ladet das Programm auf eure beiden micro:bit und macht erste Tests
+* Tausch die Rollen des Senders und Empfängers
 * Schreibt auf, was noch nicht gut funktioniert
 
 **Verbesserungswünsche:**
@@ -236,7 +237,7 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MDM3OTMzNCwtMTY2NjQzNzE5MSwtMj
+eyJoaXN0b3J5IjpbMTQ2NjMxNTg0NywtMTY2NjQzNzE5MSwtMj
 MyNzY3MDUwLDg0NTQwOTc0Niw0NzA3MjExMSwxOTAyMTAwNzI0
 LC0yMDM1ODU4NDksLTEyODQ5MTY5MjMsLTE3NjQ5NTc0NzMsOD
 kzNzE1ODgyLC0xNzUwOTIxMTIxLC0xNTU2NjYwNzg3LC0yMTEy
