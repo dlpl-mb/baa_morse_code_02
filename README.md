@@ -78,6 +78,7 @@ Es wäre gut, könnte man den Buchstaben auswählen:
 
 Programm: Ein Auswahl eines Buchstabens per Zufall
 Probiere folgende Zufallsfunktion aus 
+Damit die 
 ```blocks
 
 
@@ -225,11 +226,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzQ2NTA1NzcsMTkwMjEwMDcyNCwtMj
-AzNTg1ODQ5LC0xMjg0OTE2OTIzLC0xNzY0OTU3NDczLDg5Mzcx
-NTg4MiwtMTc1MDkyMTEyMSwtMTU1NjY2MDc4NywtMjExMjM0OT
-Y1NiwtNTE3MjEyMDU1LC0xODczNDcyNDQxLDE0MTQyMjM2OTIs
-LTE0NTIzMjMwMjYsLTYxOTU5NDQwMywtMTUwOTMwMTIzMywxMj
-c0NTc4MTU1LDE5NTEyMzg4NTEsLTY1ODczNDgwNSwyMTMwMTMw
-OTA3LDQzMTMyODY1Nl19
+eyJoaXN0b3J5IjpbLTc2MTAwNjIxNiwxOTAyMTAwNzI0LC0yMD
+M1ODU4NDksLTEyODQ5MTY5MjMsLTE3NjQ5NTc0NzMsODkzNzE1
+ODgyLC0xNzUwOTIxMTIxLC0xNTU2NjYwNzg3LC0yMTEyMzQ5Nj
+U2LC01MTcyMTIwNTUsLTE4NzM0NzI0NDEsMTQxNDIyMzY5Miwt
+MTQ1MjMyMzAyNiwtNjE5NTk0NDAzLC0xNTA5MzAxMjMzLDEyNz
+Q1NzgxNTUsMTk1MTIzODg1MSwtNjU4NzM0ODA1LDIxMzAxMzA5
+MDcsNDMxMzI4NjU2XX0=
 -->
