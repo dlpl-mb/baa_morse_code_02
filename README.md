@@ -139,8 +139,7 @@ Eingebaut in das Übertragungsprogramm:
 		basic.showNumber(input.acceleration(Dimension.X))
 	})
 ```
-* Beobachte dabei die x-Werte - wir wollen dies
-* 
+* Beobachte dabei die x-Werte - wir wollen diese Neigung ausnutzen, um in den Buchstaben zu `blättern`. 
 * Experimentiere mit der  Zufallsfunktion: 
 
 ```blocks
@@ -324,7 +323,7 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNzAyMTAzOSwtNTc5MjY3NDQyLC05Nj
+eyJoaXN0b3J5IjpbLTc3NDE2OTUwNSwtNTc5MjY3NDQyLC05Nj
 Y4MzU1OTcsNTQ2Mzk4NDkxLC04NjgzNjgxMjEsMTQ1NjM1NDAy
 OSwxNTE2NDI3MjI3LC0xNjIyNjAyMjYwLDE2NDAwMzc2NjIsNT
 UwODE5NDYwLDEwNjE5NTU3MTQsLTcyNzU2NjMxOSwtMTY5MjQz
