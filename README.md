@@ -36,7 +36,7 @@ let morse = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",
 
 Um Daten senden zu können müssen zwei micro:bit mit einigen Programmzeilen verbunden werden.
 Grundregeln dazu sind:
- * Beide micro.bit müssen über denselben Funkkanal verfügen
+ * Beide micro.bit müssen über denselben Funkkanal verfügen - siehe ``||radio: setGroup(1)||``
  ```blocks
 radio.setGroup(99)
  ```
@@ -139,8 +139,8 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4OTA5NDM5NywxNzM1MTMzOTAsNTY5ND
-M1MTk0LDIyNzIwNTkxNCwxMjUwNjU2MDU5LDE0MjM0NjgyNzAs
-OTAxNDA4OTE4LDEyNzk0OTg3ODAsMTg0NTk3Mjk4NCwxODc5Mz
-I2NTgxXX0=
+eyJoaXN0b3J5IjpbMjEwNDgxMDQwNiwxNDg5MDk0Mzk3LDE3Mz
+UxMzM5MCw1Njk0MzUxOTQsMjI3MjA1OTE0LDEyNTA2NTYwNTks
+MTQyMzQ2ODI3MCw5MDE0MDg5MTgsMTI3OTQ5ODc4MCwxODQ1OT
+cyOTg0LDE4NzkzMjY1ODFdfQ==
 -->
