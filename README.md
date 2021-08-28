@@ -125,7 +125,7 @@ Eingebaut in das Übertragungsprogramm:
 	liste_morsecodes = [".-","-...","-.-.","-..",".","..-.","--.","...","---"]
 	anz_bst = liste_buchstaben.length - 1
 ```
-[Programmcode](https://makecode.microbit.org/#pub:_DVe8TrKz3cRU "(target|_blank)")
+[Programmcode](https://makecode.microbit.org/---codeembed#pub:_VE2dfFHrwDi9 "(target|_blank)")
 
 
 
@@ -259,11 +259,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ2Mzk4NDkxLC04NjgzNjgxMjEsMTQ1Nj
-M1NDAyOSwxNTE2NDI3MjI3LC0xNjIyNjAyMjYwLDE2NDAwMzc2
-NjIsNTUwODE5NDYwLDEwNjE5NTU3MTQsLTcyNzU2NjMxOSwtMT
-Y5MjQzMjM0NiwtMjcwNTc3Mjc4LC0xODkxNjc2ODEsLTY3NTA4
-MTkxNywtMTkwNzAwMTI4NSwxMjEwMTA1ODM3LDY0NjY0MjY4OC
-wxNjQxMjA2NTkzLDE0NjYzMTU4NDcsLTE2NjY0MzcxOTEsLTIz
-Mjc2NzA1MF19
+eyJoaXN0b3J5IjpbMTMxODUxNTcwOSw1NDYzOTg0OTEsLTg2OD
+M2ODEyMSwxNDU2MzU0MDI5LDE1MTY0MjcyMjcsLTE2MjI2MDIy
+NjAsMTY0MDAzNzY2Miw1NTA4MTk0NjAsMTA2MTk1NTcxNCwtNz
+I3NTY2MzE5LC0xNjkyNDMyMzQ2LC0yNzA1NzcyNzgsLTE4OTE2
+NzY4MSwtNjc1MDgxOTE3LC0xOTA3MDAxMjg1LDEyMTAxMDU4Mz
+csNjQ2NjQyNjg4LDE2NDEyMDY1OTMsMTQ2NjMxNTg0NywtMTY2
+NjQzNzE5MV19
 -->
