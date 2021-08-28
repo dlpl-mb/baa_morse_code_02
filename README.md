@@ -23,7 +23,7 @@ Drucke Dir die Tabelle aller Morsecodes aus (Rechte Maustaste - Bild kopieren un
 
 ```block
 let liste_buchstaben = ["A","B","C","D","E","F","G"]
-let liste_morsezeichen = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--..",".----","..---","...--","....-",".....","-....","--...","---..","----.","-----"]
+let liste_morsezeichen = [".-","-...","-.-.","-..",".","..-.","--."]
 ```
 
 * Eines der wichtigsten Symbole solltest du die in Zukunft merken - es ist für Notfälle gedacht: 
@@ -236,7 +236,7 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNjk1NjMxNywtMjMyNzY3MDUwLDg0NT
+eyJoaXN0b3J5IjpbMTc2ODUyMjI5MCwtMjMyNzY3MDUwLDg0NT
 QwOTc0Niw0NzA3MjExMSwxOTAyMTAwNzI0LC0yMDM1ODU4NDks
 LTEyODQ5MTY5MjMsLTE3NjQ5NTc0NzMsODkzNzE1ODgyLC0xNz
 UwOTIxMTIxLC0xNTU2NjYwNzg3LC0yMTEyMzQ5NjU2LC01MTcy
