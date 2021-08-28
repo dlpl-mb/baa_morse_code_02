@@ -30,12 +30,11 @@ let morse = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",
 * Eines der wichtigsten Symbole solltest du die in Zukunft merken - es ist für Notfälle gedacht: 
 * SOS (save our ship): drei kurz, drei lang, drei kurz - ... --- ... 
 * Beachte dabei, dass nach **drei kurz** ein kurze Pause ist, ebenso nach den nächsten Buchstaben.
-* Versuche nun das Wort ANNA mit Hilfe der Tabelle zu bauen:  
-* <img src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/anna.png?raw=1">
+* Versuche nun das Wort **???** mit Hilfe der Tabelle zu bauen:  <img src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/anna.png?raw=1">
 
-## Programm 1: Codes anzeigen 
+## Programm 1: Verbinden von 2 micro:bit
 
-Du baust nun für dem BBC micro:bit ein erstes Programm zum Zeigen der Morse-Codes für A bis G. 
+Um Daten senden zu können müssen zwei micro:bit mit einigen P
 
 **Die Aufgaben lautet:**
 
@@ -129,7 +128,7 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NTA0NDAzLDE3MzUxMzM5MCw1Njk0Mz
+eyJoaXN0b3J5IjpbNzIyODUyNjk3LDE3MzUxMzM5MCw1Njk0Mz
 UxOTQsMjI3MjA1OTE0LDEyNTA2NTYwNTksMTQyMzQ2ODI3MCw5
 MDE0MDg5MTgsMTI3OTQ5ODc4MCwxODQ1OTcyOTg0LDE4NzkzMj
 Y1ODFdfQ==
