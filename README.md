@@ -79,7 +79,25 @@ Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit d
 * Experimentiere mit der  Zufallsfunktion: 
 
 ```blocks
+input.onButtonPressed(Button.A, function () {
 
+basic.showLeds(`
+
+. . . . .
+
+. . . . .
+
+. . . . .
+
+. . . . .
+
+. . . . .
+
+`)
+
+basic.showNumber(randint(0, 10))
+
+})
 
 
 ```
@@ -261,7 +279,7 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjI2MDIyNjAsMTY0MDAzNzY2Miw1NT
+eyJoaXN0b3J5IjpbLTEwMTEwOTY4NjMsMTY0MDAzNzY2Miw1NT
 A4MTk0NjAsMTA2MTk1NTcxNCwtNzI3NTY2MzE5LC0xNjkyNDMy
 MzQ2LC0yNzA1NzcyNzgsLTE4OTE2NzY4MSwtNjc1MDgxOTE3LC
 0xOTA3MDAxMjg1LDEyMTAxMDU4MzcsNjQ2NjQyNjg4LDE2NDEy
