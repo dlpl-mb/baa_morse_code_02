@@ -73,6 +73,7 @@ Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit d
  - Wie könnte man aus den Buchstaben auswählen?
 	- a) Entweder durch Zufallsgenerator oder 
 	- b) mit einer virtuellen (=gedachten) Tastatur
+<hr>
 
 **Lösung a:** Ein Auswahl eines Buchstabens per Zufall
 * Eine Zufallszahl kann man im Bereich `Mathematik` erzeugen - der Befehl heißt `Wähle eine zufällige Zahl von 0 bis 10`
@@ -90,8 +91,8 @@ Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit d
 	    basic.showNumber(randint(0, 10))
 	})
 ```
-* Überlege auch warum ein leeres Feld eingebaut wurdeHi
-[Programmcode](https://makecode.microbit.org/#pub:_DVe8TrKz3cRU "(target|_blank)")
+* Überlege auch warum ein leeres Feld eingebaut wurde
+* [Der Programmcode](https://makecode.microbit.org/#pub:_DVe8TrKz3cRU "(target|_blank)")
 
 Eingebaut in das Übertragungsprogramm:
 * Nun wird der Zufallsgenerator in der `Taste A-Funktion` eingebaut:
@@ -126,9 +127,9 @@ Eingebaut in das Übertragungsprogramm:
 	liste_morsecodes = [".-","-...","-.-.","-..",".","..-.","--.","...","---"]
 	anz_bst = liste_buchstaben.length - 1
 ```
-[Programmcode](https://makecode.microbit.org/---codeembed#pub:_VE2dfFHrwDi9 "(target|_blank)")
+* [der Programmcode](https://makecode.microbit.org/---codeembed#pub:_VE2dfFHrwDi9 "(target|_blank)")
 
-
+<hr>
 
 **Lösung b:** Wir bauen eine Auswahltastatur
 * Bei dieser Lösung arbeiten wir mit dem Neigungswinkel in Richtung x - eine sehr leistungsfähige Funktion, mit der man viele Spiele gestalten kann.
@@ -331,11 +332,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU1OTg4NDM5LC01NzkyNjc0NDIsLTk2Nj
-gzNTU5Nyw1NDYzOTg0OTEsLTg2ODM2ODEyMSwxNDU2MzU0MDI5
-LDE1MTY0MjcyMjcsLTE2MjI2MDIyNjAsMTY0MDAzNzY2Miw1NT
-A4MTk0NjAsMTA2MTk1NTcxNCwtNzI3NTY2MzE5LC0xNjkyNDMy
-MzQ2LC0yNzA1NzcyNzgsLTE4OTE2NzY4MSwtNjc1MDgxOTE3LC
-0xOTA3MDAxMjg1LDEyMTAxMDU4MzcsNjQ2NjQyNjg4LDE2NDEy
-MDY1OTNdfQ==
+eyJoaXN0b3J5IjpbLTE3Nzc2MTk3MzYsLTU3OTI2NzQ0MiwtOT
+Y2ODM1NTk3LDU0NjM5ODQ5MSwtODY4MzY4MTIxLDE0NTYzNTQw
+MjksMTUxNjQyNzIyNywtMTYyMjYwMjI2MCwxNjQwMDM3NjYyLD
+U1MDgxOTQ2MCwxMDYxOTU1NzE0LC03Mjc1NjYzMTksLTE2OTI0
+MzIzNDYsLTI3MDU3NzI3OCwtMTg5MTY3NjgxLC02NzUwODE5MT
+csLTE5MDcwMDEyODUsMTIxMDEwNTgzNyw2NDY2NDI2ODgsMTY0
+MTIwNjU5M119
 -->
