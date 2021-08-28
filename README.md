@@ -21,7 +21,7 @@ Wir werden nun bereits alle Morsezeichen verwenden, damit ihr auch gut kommunizi
 
 **Hier ist der Code mit allen Zeichen:**
 ```blocks
-let alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0"]
+let alphabet = ["A","B","C","D","E","F","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0"]
 
 let morse = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--..",".----","..---","...--","....-",".....","-....","--...","---..","----.","-----"]
 ```
@@ -29,8 +29,8 @@ let morse = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",
 * Einige Zeichen hast du ja im ersten Teil schon verwendet - hier nun alle Zeichen.  Beachte, dass genau jene Zeichen, die in unserer Sprache oft verwendet werden, sehr kurze Morsekombinationen haben und andere, seltene Zeichen längere Morsesymbole.
 * Eines der wichtigsten Symbole solltest du die in Zukunft merken - es ist für Notfälle gedacht: 
 * SOS (save our ship): drei kurz, drei lang, drei kurz - ... --- ... 
-* Beachte dabei, dass nach **drie k ein kurze Pause ist, ebenso nach den nächsten Buchstaben.
-* 
+* Beachte dabei, dass nach **drei kurz** ein kurze Pause ist, ebenso nach den nächsten Buchstaben.
+* Versuche nun das Wort ANNA mit Hilfe der Tabelle zu bauen:  
 
 ## Programm 1: Codes anzeigen 
 
@@ -128,7 +128,7 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYxNjc0Mjc5LDIyNzIwNTkxNCwxMjUwNj
-U2MDU5LDE0MjM0NjgyNzAsOTAxNDA4OTE4LDEyNzk0OTg3ODAs
-MTg0NTk3Mjk4NCwxODc5MzI2NTgxXX0=
+eyJoaXN0b3J5IjpbMTMzNzQ3MzA1NiwyMjcyMDU5MTQsMTI1MD
+Y1NjA1OSwxNDIzNDY4MjcwLDkwMTQwODkxOCwxMjc5NDk4Nzgw
+LDE4NDU5NzI5ODQsMTg3OTMyNjU4MV19
 -->
