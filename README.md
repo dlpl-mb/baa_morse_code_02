@@ -60,7 +60,7 @@ Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit d
 	})
 	radio.setGroup(99)
 ```
-[Programmcode](){:target:_blank}
+[Programmcode](https://makecode.microbit.org/_3dh6h5JKqHkJ){:target=_blank}
 <!-- Wenn du ein zweites Browserfenster öffnest, kannst du den Code dort öffnen: -->
 
 * Ladet das Programm auf eure beiden Micro:bit und macht erste Tests
@@ -242,11 +242,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTI0MzIzNDYsLTI3MDU3NzI3OCwtMT
-g5MTY3NjgxLC02NzUwODE5MTcsLTE5MDcwMDEyODUsMTIxMDEw
-NTgzNyw2NDY2NDI2ODgsMTY0MTIwNjU5MywxNDY2MzE1ODQ3LC
-0xNjY2NDM3MTkxLC0yMzI3NjcwNTAsODQ1NDA5NzQ2LDQ3MDcy
-MTExLDE5MDIxMDA3MjQsLTIwMzU4NTg0OSwtMTI4NDkxNjkyMy
-wtMTc2NDk1NzQ3Myw4OTM3MTU4ODIsLTE3NTA5MjExMjEsLTE1
-NTY2NjA3ODddfQ==
+eyJoaXN0b3J5IjpbLTE1NjkyNzE0NTEsLTE2OTI0MzIzNDYsLT
+I3MDU3NzI3OCwtMTg5MTY3NjgxLC02NzUwODE5MTcsLTE5MDcw
+MDEyODUsMTIxMDEwNTgzNyw2NDY2NDI2ODgsMTY0MTIwNjU5My
+wxNDY2MzE1ODQ3LC0xNjY2NDM3MTkxLC0yMzI3NjcwNTAsODQ1
+NDA5NzQ2LDQ3MDcyMTExLDE5MDIxMDA3MjQsLTIwMzU4NTg0OS
+wtMTI4NDkxNjkyMywtMTc2NDk1NzQ3Myw4OTM3MTU4ODIsLTE3
+NTA5MjExMjFdfQ==
 -->
