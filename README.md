@@ -69,7 +69,7 @@ Um Daten senden zu können, müssen zwei micro:bit mit einigen Programmzeilen ve
 * Schreibt auf, was noch nicht gut funktioniert
 
 <br>
-**Die Aufgaben lautet:**
+**Verbesserungen:**
 
 * Taste A des micro:bit zeigt die Buchstaben A bis G (Später nehmen wir alle anderen Buchstaben dazu.)
 * Taste B zeigt die Morse-Codes für diese Zeichen an 
@@ -174,10 +174,10 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ0MjQ0MzgzLDEyNzQ1NzgxNTUsMTk1MT
-IzODg1MSwtNjU4NzM0ODA1LDIxMzAxMzA5MDcsNDMxMzI4NjU2
-LDU0NjU1ODk1LC0xOTk4MDIyMjIxLDIxMDQ4MTA0MDYsMTQ4OT
-A5NDM5NywxNzM1MTMzOTAsNTY5NDM1MTk0LDIyNzIwNTkxNCwx
-MjUwNjU2MDU5LDE0MjM0NjgyNzAsOTAxNDA4OTE4LDEyNzk0OT
-g3ODAsMTg0NTk3Mjk4NCwxODc5MzI2NTgxXX0=
+eyJoaXN0b3J5IjpbLTE1MDkzMDEyMzMsMTI3NDU3ODE1NSwxOT
+UxMjM4ODUxLC02NTg3MzQ4MDUsMjEzMDEzMDkwNyw0MzEzMjg2
+NTYsNTQ2NTU4OTUsLTE5OTgwMjIyMjEsMjEwNDgxMDQwNiwxND
+g5MDk0Mzk3LDE3MzUxMzM5MCw1Njk0MzUxOTQsMjI3MjA1OTE0
+LDEyNTA2NTYwNTksMTQyMzQ2ODI3MCw5MDE0MDg5MTgsMTI3OT
+Q5ODc4MCwxODQ1OTcyOTg0LDE4NzkzMjY1ODFdfQ==
 -->
