@@ -1,4 +1,4 @@
-<!-- <style>.page-header {font-size:1rem;height:10vh;padding-top:1.5rem}</style> -->
+<!-- <style >.page-header {font-size:1rem;height:10vh;padding-top:1.5rem}</style> -->
 ## Geheimzeichenx: Das Morse-Alphabet II
 **Hallo, ich bin Robi01 und werde dich beim Programmieren mit Micro:bit begleiten. Wir werden bei diesem Projekt nun Morsezeichen zu meiner Freundin Robi02 übertragen.**
 
@@ -242,11 +242,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NTA4MTkxNywtMTkwNzAwMTI4NSwxMj
-EwMTA1ODM3LDY0NjY0MjY4OCwxNjQxMjA2NTkzLDE0NjYzMTU4
-NDcsLTE2NjY0MzcxOTEsLTIzMjc2NzA1MCw4NDU0MDk3NDYsND
-cwNzIxMTEsMTkwMjEwMDcyNCwtMjAzNTg1ODQ5LC0xMjg0OTE2
-OTIzLC0xNzY0OTU3NDczLDg5MzcxNTg4MiwtMTc1MDkyMTEyMS
-wtMTU1NjY2MDc4NywtMjExMjM0OTY1NiwtNTE3MjEyMDU1LC0x
-ODczNDcyNDQxXX0=
+eyJoaXN0b3J5IjpbLTE4OTE2NzY4MSwtNjc1MDgxOTE3LC0xOT
+A3MDAxMjg1LDEyMTAxMDU4MzcsNjQ2NjQyNjg4LDE2NDEyMDY1
+OTMsMTQ2NjMxNTg0NywtMTY2NjQzNzE5MSwtMjMyNzY3MDUwLD
+g0NTQwOTc0Niw0NzA3MjExMSwxOTAyMTAwNzI0LC0yMDM1ODU4
+NDksLTEyODQ5MTY5MjMsLTE3NjQ5NTc0NzMsODkzNzE1ODgyLC
+0xNzUwOTIxMTIxLC0xNTU2NjYwNzg3LC0yMTEyMzQ5NjU2LC01
+MTcyMTIwNTVdfQ==
 -->
