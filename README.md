@@ -25,7 +25,7 @@ let liste_morsezeichen = [".-","-...","-.-.","-..",".","..-.","--.","...","---"]
 * Eines der wichtigsten Morse-Worte solltest du  merken - es ist für Notfälle gedacht: 
 * SOS ("save our ship"): drei kurz, drei lang, drei kurz - ... --- ... 
 * Beachte dabei, dass nach jdem Bustaben **"dreimal kurz"** (=S) ein kurze Pause gemacht wird und erst dann **"dreimal lang"** (=O) gesendet wird. Später wird noch wichtig, dass nach einem gesamten Wort ebenso eine längere Pause (etwa 1 Sekunde) gemacht wird.
-* Schreibt auf Papier, wir nun das folgende Wort **???** heißt:  <img src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/anna.png?raw=1">
+* Schreibt auf Papier, wir nun das folgende Wort heißt:  <img src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/anna.png?raw=1">
 
 ## Programmteil 1: Verbinden von 2 micro:bit
 
@@ -236,11 +236,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NjQ1NTg2NSwxNDY2MzE1ODQ3LC0xNj
-Y2NDM3MTkxLC0yMzI3NjcwNTAsODQ1NDA5NzQ2LDQ3MDcyMTEx
-LDE5MDIxMDA3MjQsLTIwMzU4NTg0OSwtMTI4NDkxNjkyMywtMT
-c2NDk1NzQ3Myw4OTM3MTU4ODIsLTE3NTA5MjExMjEsLTE1NTY2
-NjA3ODcsLTIxMTIzNDk2NTYsLTUxNzIxMjA1NSwtMTg3MzQ3Mj
-Q0MSwxNDE0MjIzNjkyLC0xNDUyMzIzMDI2LC02MTk1OTQ0MDMs
-LTE1MDkzMDEyMzNdfQ==
+eyJoaXN0b3J5IjpbNTY3MzA2NjgyLDE0NjYzMTU4NDcsLTE2Nj
+Y0MzcxOTEsLTIzMjc2NzA1MCw4NDU0MDk3NDYsNDcwNzIxMTEs
+MTkwMjEwMDcyNCwtMjAzNTg1ODQ5LC0xMjg0OTE2OTIzLC0xNz
+Y0OTU3NDczLDg5MzcxNTg4MiwtMTc1MDkyMTEyMSwtMTU1NjY2
+MDc4NywtMjExMjM0OTY1NiwtNTE3MjEyMDU1LC0xODczNDcyND
+QxLDE0MTQyMjM2OTIsLTE0NTIzMjMwMjYsLTYxOTU5NDQwMywt
+MTUwOTMwMTIzM119
 -->
