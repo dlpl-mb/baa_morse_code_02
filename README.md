@@ -1,6 +1,4 @@
-<style>
-.page-header {font-size:1rem;height:10vh;padding-top:1.5rem}
- </style>
+<style>.page-header {font-size:1rem;height:10vh;padding-top:1.5rem}</style>
 
 ## Geheimzeichen: Das Morse-Alphabet II
 **Halllo, ich bin Robi01 und werde dich beim Programmieren mit micro:bit begleiten. Wir werden bei diesem Projekt nun Morsezeichen zu meiner Freundin Robi02 übertragen.**
@@ -131,7 +129,7 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MDY1NjA1OSwxNDIzNDY4MjcwLDkwMT
-QwODkxOCwxMjc5NDk4NzgwLDE4NDU5NzI5ODQsMTg3OTMyNjU4
-MV19
+eyJoaXN0b3J5IjpbODM5MTg5NDAwLDEyNTA2NTYwNTksMTQyMz
+Q2ODI3MCw5MDE0MDg5MTgsMTI3OTQ5ODc4MCwxODQ1OTcyOTg0
+LDE4NzkzMjY1ODFdfQ==
 -->
