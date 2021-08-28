@@ -205,15 +205,15 @@ anz_bst = liste_buchstaben.length - 1
 <a href="https://makecode.microbit.org/#pub:_Ux2V81PmkYMM" target="_blank">Hello, world!</a>
 
 
-```xml
-[link](url){:target="_blank"}
-```
+
+[Test mit neulink](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM){:target="_blank"}
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3ODEwMDg4MSw4OTM3MTU4ODIsLTE3NT
-A5MjExMjEsLTE1NTY2NjA3ODcsLTIxMTIzNDk2NTYsLTUxNzIx
-MjA1NSwtMTg3MzQ3MjQ0MSwxNDE0MjIzNjkyLC0xNDUyMzIzMD
-I2LC02MTk1OTQ0MDMsLTE1MDkzMDEyMzMsMTI3NDU3ODE1NSwx
-OTUxMjM4ODUxLC02NTg3MzQ4MDUsMjEzMDEzMDkwNyw0MzEzMj
-g2NTYsNTQ2NTU4OTUsLTE5OTgwMjIyMjEsMjEwNDgxMDQwNiwx
-NDg5MDk0Mzk3XX0=
+eyJoaXN0b3J5IjpbLTE3NjQ5NTc0NzMsODkzNzE1ODgyLC0xNz
+UwOTIxMTIxLC0xNTU2NjYwNzg3LC0yMTEyMzQ5NjU2LC01MTcy
+MTIwNTUsLTE4NzM0NzI0NDEsMTQxNDIyMzY5MiwtMTQ1MjMyMz
+AyNiwtNjE5NTk0NDAzLC0xNTA5MzAxMjMzLDEyNzQ1NzgxNTUs
+MTk1MTIzODg1MSwtNjU4NzM0ODA1LDIxMzAxMzA5MDcsNDMxMz
+I4NjU2LDU0NjU1ODk1LC0xOTk4MDIyMjIxLDIxMDQ4MTA0MDYs
+MTQ4OTA5NDM5N119
 -->
