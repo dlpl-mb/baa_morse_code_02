@@ -81,10 +81,15 @@ Probiere folgende Zufallsfunktion aus
 Damit die lange Liste der Buchstaben und Morsezeichen nicht immer so viel Platz auf dem 
 ```blocks
 input.onButtonPressed(Button.A, function () {
-    for (let index = 0; index <= anz_bst; index++) {
-        basic.showString("" + (liste_buchstaben[index]))
-        basic.pause(500)
-    }
+    index = randint(0, anz_bst)
+    auswahl_buchstabe = liste_buchstaben[index]
+    // damit siehst du als Sender den Buchstaben auch auf deinem Display
+    basic.showString("" + (auswahl_buchstabe))
+    radio.sendString("" + (liste_morsecodes[index]))
+})
+radio.onReceivedString(function (receivedString) {
+    // Beim Emfänger werden die empfangenen Daten angezeigt
+    basic.showString(receivedString)
 })
 input.onButtonPressed(Button.B, function () {
     for (let index2 = 0; index2 <= anz_bst; index2++) {
@@ -94,10 +99,12 @@ input.onButtonPressed(Button.B, function () {
         basic.clearScreen()
     }
 })
+let auswahl_buchstabe = ""
+let index = 0
 let anz_bst = 0
 let liste_morsecodes: string[] = []
 let liste_buchstaben: string[] = []
-basic.showIcon(IconNames.Yes)
+radio.setGroup(99)
 liste_buchstaben = [
 "A",
 "B",
@@ -117,6 +124,7 @@ liste_morsecodes = [
 "--."
 ]
 anz_bst = liste_buchstaben.length - 1
+
 ```
 
 
@@ -252,11 +260,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMjc2NzA1MCw4NDU0MDk3NDYsNDcwNz
-IxMTEsMTkwMjEwMDcyNCwtMjAzNTg1ODQ5LC0xMjg0OTE2OTIz
-LC0xNzY0OTU3NDczLDg5MzcxNTg4MiwtMTc1MDkyMTEyMSwtMT
-U1NjY2MDc4NywtMjExMjM0OTY1NiwtNTE3MjEyMDU1LC0xODcz
-NDcyNDQxLDE0MTQyMjM2OTIsLTE0NTIzMjMwMjYsLTYxOTU5ND
-QwMywtMTUwOTMwMTIzMywxMjc0NTc4MTU1LDE5NTEyMzg4NTEs
-LTY1ODczNDgwNV19
+eyJoaXN0b3J5IjpbLTE3ODk0ODcxODMsLTIzMjc2NzA1MCw4ND
+U0MDk3NDYsNDcwNzIxMTEsMTkwMjEwMDcyNCwtMjAzNTg1ODQ5
+LC0xMjg0OTE2OTIzLC0xNzY0OTU3NDczLDg5MzcxNTg4MiwtMT
+c1MDkyMTEyMSwtMTU1NjY2MDc4NywtMjExMjM0OTY1NiwtNTE3
+MjEyMDU1LC0xODczNDcyNDQxLDE0MTQyMjM2OTIsLTE0NTIzMj
+MwMjYsLTYxOTU5NDQwMywtMTUwOTMwMTIzMywxMjc0NTc4MTU1
+LDE5NTEyMzg4NTFdfQ==
 -->
