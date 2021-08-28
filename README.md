@@ -30,7 +30,7 @@ let morse = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",
 * Eines der wichtigsten Symbole solltest du die in Zukunft merken - es ist für Notfälle gedacht: 
 * SOS (save our ship): drei kurz, drei lang, drei kurz - ... --- ... 
 * Beachte dabei, dass nach **drei kurz** ein kurze Pause ist, ebenso nach den nächsten Buchstaben.
-* Versuche nun das Wort ANNA mit Hilfe der Tabelle zu bauen:  ._ -. _.
+* Versuche nun das Wort ANNA mit Hilfe der Tabelle zu bauen:  . _   _ .
 
 ## Programm 1: Codes anzeigen 
 
@@ -128,7 +128,7 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5OTExMjYzOSwyMjcyMDU5MTQsMTI1MD
-Y1NjA1OSwxNDIzNDY4MjcwLDkwMTQwODkxOCwxMjc5NDk4Nzgw
-LDE4NDU5NzI5ODQsMTg3OTMyNjU4MV19
+eyJoaXN0b3J5IjpbNTY5NDM1MTk0LDIyNzIwNTkxNCwxMjUwNj
+U2MDU5LDE0MjM0NjgyNzAsOTAxNDA4OTE4LDEyNzk0OTg3ODAs
+MTg0NTk3Mjk4NCwxODc5MzI2NTgxXX0=
 -->
