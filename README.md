@@ -1,11 +1,11 @@
 <style>.page-header {font-size:1rem;height:10vh;padding-top:1.5rem}</style>
 
 ## Geheimzeichen: Das Morse-Alphabet II
-**Hallo, ich bin Robi01 und werde dich beim Programmieren mit micro:bit begleiten. Wir werden bei diesem Projekt nun Morsezeichen zu meiner Freundin Robi02 übertragen.**
+**Hallo, ich bin Robi01 und werde dich beim Programmieren mit Micro:bit begleiten. Wir werden bei diesem Projekt nun Morsezeichen zu meiner Freundin Robi02 übertragen.**
 
 <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/SOS.svg.png?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">
 
-Wusstest du, dass ein micro:bit mit anderen micro:bit über Funkwellen kommunizieren kann. In diesem Morse-Code-Projekt II werden wir nun den Morsecode zwischen 2 micro:bits versenden. Dazu müssen wir einige Vereinbarungen treffen, damit die Kommunikation auch funktioniert, wenn ich Robi02 nicht sehen und hören kann - etwa, wenn sie sich in einem anderen Raum befindet. Die Vereinbarungen sind:
+Wusstest du, dass ein Micro:bit mit anderen Micro:bit über Funkwellen kommunizieren kann. In diesem Morse-Code-Projekt II werden wir nun den Morsecode zwischen 2 micro:bits versenden. Dazu müssen wir einige Vereinbarungen treffen, damit die Kommunikation auch funktioniert, wenn ich Robi02 nicht sehen und hören kann - etwa, wenn sie sich in einem anderen Raum befindet. Die Vereinbarungen sind:
  * Die Taste A sendet den Morse-Code
  * Die Taste B dient zum Bestätigen der Nachricht 
  * Ein Symbol Herz dient als OK! Dann kann der Sender die nächste Nachricht senden.
@@ -120,7 +120,7 @@ Probiere folgende Zufallsfunktion aus
 <br>
 **Verbesserungen:**
 
-* Taste A des micro:bit zeigt die Buchstaben A bis G (Später nehmen wir alle anderen Buchstaben dazu.)
+* Taste A des Micro:bit zeigt die Buchstaben A bis G (Später nehmen wir alle anderen Buchstaben dazu.)
 * Taste B zeigt die Morse-Codes für diese Zeichen an 
 * Später wirst du dein Programm so ausgebauen, dass du Codes zu anderen micro:bits übertragen und somit Anderen senden kann.
 * Probiere das gleich mit dem Button "Dreieck" aus:
@@ -237,7 +237,7 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3OTE3NDY5MywxNDY2MzE1ODQ3LC0xNj
+eyJoaXN0b3J5IjpbLTI2MDM1MjM0NywxNDY2MzE1ODQ3LC0xNj
 Y2NDM3MTkxLC0yMzI3NjcwNTAsODQ1NDA5NzQ2LDQ3MDcyMTEx
 LDE5MDIxMDA3MjQsLTIwMzU4NTg0OSwtMTI4NDkxNjkyMywtMT
 c2NDk1NzQ3Myw4OTM3MTU4ODIsLTE3NTA5MjExMjEsLTE1NTY2
