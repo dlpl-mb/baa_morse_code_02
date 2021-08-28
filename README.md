@@ -69,9 +69,10 @@ Um Daten senden zu können, müssen zwei micro:bit mit einigen Programmzeilen ve
 * Schreibt auf, was noch nicht gut funktioniert
 
 **Verbesserungswünsche:**
-Wenn ich einen neuen Buchstaben senden will, muss ich das Sender-Programm umschreiben - es wäre gut, könnte man den Buchstaben auswählen:
+Wenn du einen neuen Buchstaben senden will, musst du das Sender-Programm immer umschreiben.
+Es wäre gut, könnte man den Buchstaben auswählen:
 + Es fehlt eine Tastatur zum Eingeben des Buchstabens
-+ Wie könnte man aus den Buchstaben
++ Wie könnte man aus den Buchstaben auswählen
 
 
 
@@ -216,11 +217,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMjEwMDcyNCwtMjAzNTg1ODQ5LC0xMj
-g0OTE2OTIzLC0xNzY0OTU3NDczLDg5MzcxNTg4MiwtMTc1MDky
-MTEyMSwtMTU1NjY2MDc4NywtMjExMjM0OTY1NiwtNTE3MjEyMD
-U1LC0xODczNDcyNDQxLDE0MTQyMjM2OTIsLTE0NTIzMjMwMjYs
-LTYxOTU5NDQwMywtMTUwOTMwMTIzMywxMjc0NTc4MTU1LDE5NT
-EyMzg4NTEsLTY1ODczNDgwNSwyMTMwMTMwOTA3LDQzMTMyODY1
-Niw1NDY1NTg5NV19
+eyJoaXN0b3J5IjpbMTIzNjMxNjY2MiwxOTAyMTAwNzI0LC0yMD
+M1ODU4NDksLTEyODQ5MTY5MjMsLTE3NjQ5NTc0NzMsODkzNzE1
+ODgyLC0xNzUwOTIxMTIxLC0xNTU2NjYwNzg3LC0yMTEyMzQ5Nj
+U2LC01MTcyMTIwNTUsLTE4NzM0NzI0NDEsMTQxNDIyMzY5Miwt
+MTQ1MjMyMzAyNiwtNjE5NTk0NDAzLC0xNTA5MzAxMjMzLDEyNz
+Q1NzgxNTUsMTk1MTIzODg1MSwtNjU4NzM0ODA1LDIxMzAxMzA5
+MDcsNDMxMzI4NjU2XX0=
 -->
