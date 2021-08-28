@@ -69,8 +69,9 @@ Um Daten senden zu können, müssen zwei micro:bit mit einigen Programmzeilen ve
 * Schreibt auf, was noch nicht gut funktioniert
 
 **Verbesserungswünsche:**
-* Wenn ich einen neuen Buchstaben senden will, muss ich das Sender-Programm umschreiben - es wäre gut, könnte man den Buchstaben auswählen:
-* + Es fehlt eine Tastatur 
+Wenn ich einen neuen Buchstaben senden will, muss ich das Sender-Programm umschreiben - es wäre gut, könnte man den Buchstaben auswählen:
++ Es fehlt eine Tastatur zum Eingeben des Buchstabens
++ Wie könnte man aus den Buchstaben
 
 
 
@@ -200,7 +201,7 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MTYyODg5NiwtMTQ1MjMyMzAyNiwtNj
+eyJoaXN0b3J5IjpbMTQxNDIyMzY5MiwtMTQ1MjMyMzAyNiwtNj
 E5NTk0NDAzLC0xNTA5MzAxMjMzLDEyNzQ1NzgxNTUsMTk1MTIz
 ODg1MSwtNjU4NzM0ODA1LDIxMzAxMzA5MDcsNDMxMzI4NjU2LD
 U0NjU1ODk1LC0xOTk4MDIyMjIxLDIxMDQ4MTA0MDYsMTQ4OTA5
