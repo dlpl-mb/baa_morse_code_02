@@ -43,10 +43,18 @@ radio.setGroup(99)
 * Wähle mit deinem/r Kommunikationspartner/in eine Funkkanal von 1 bis 255 aus - niemand anderer im Raum darf denselben verwenden, sonst gibt es Kommunkationssalat - in unserem Beispiel 99
 * **Abmachung:** Wir werden mit `|Taste A|` senden und mit Taste B antworten
 * Folgendes Programm soll nun auf beide micro:bit
-* 
 
+```blocks
+input.onButtonPressed(Button.A, function () {
+radio.sendString(".- -. -. .-")
+})
 
+radio.onReceivedString(function (receivedString) {
+basic.showString(receivedString)
+})
 
+radio.setGroup(99)
+```
 
 
 
@@ -142,9 +150,9 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkwMDI2MDE4LDU0NjU1ODk1LC0xOTk4MD
-IyMjIxLDIxMDQ4MTA0MDYsMTQ4OTA5NDM5NywxNzM1MTMzOTAs
-NTY5NDM1MTk0LDIyNzIwNTkxNCwxMjUwNjU2MDU5LDE0MjM0Nj
-gyNzAsOTAxNDA4OTE4LDEyNzk0OTg3ODAsMTg0NTk3Mjk4NCwx
-ODc5MzI2NTgxXX0=
+eyJoaXN0b3J5IjpbMTMxOTg4NTE0Nyw1NDY1NTg5NSwtMTk5OD
+AyMjIyMSwyMTA0ODEwNDA2LDE0ODkwOTQzOTcsMTczNTEzMzkw
+LDU2OTQzNTE5NCwyMjcyMDU5MTQsMTI1MDY1NjA1OSwxNDIzND
+Y4MjcwLDkwMTQwODkxOCwxMjc5NDk4NzgwLDE4NDU5NzI5ODQs
+MTg3OTMyNjU4MV19
 -->
