@@ -40,7 +40,8 @@ Grundregeln dazu sind:
  ```blocks
 radio.setGroup(99)
  ```
-* Wähle mit deinem/r Kommunikationspartner/in eine Funkkanal von 1 bis 255 aus - niemand anderer im Raum darf denselben verwenden, sonst gibt es Kommunkationssalat
+* Wähle mit deinem/r Kommunikationspartner/in eine Funkkanal von 1 bis 255 aus - niemand anderer im Raum darf denselben verwenden, sonst gibt es Kommunkationssalat - in unserem Beispiel 99
+* wir we
 
 
 
@@ -139,8 +140,9 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTgwMjIyMjEsMjEwNDgxMDQwNiwxND
-g5MDk0Mzk3LDE3MzUxMzM5MCw1Njk0MzUxOTQsMjI3MjA1OTE0
-LDEyNTA2NTYwNTksMTQyMzQ2ODI3MCw5MDE0MDg5MTgsMTI3OT
-Q5ODc4MCwxODQ1OTcyOTg0LDE4NzkzMjY1ODFdfQ==
+eyJoaXN0b3J5IjpbLTE5NDM1NDg2MTcsLTE5OTgwMjIyMjEsMj
+EwNDgxMDQwNiwxNDg5MDk0Mzk3LDE3MzUxMzM5MCw1Njk0MzUx
+OTQsMjI3MjA1OTE0LDEyNTA2NTYwNTksMTQyMzQ2ODI3MCw5MD
+E0MDg5MTgsMTI3OTQ5ODc4MCwxODQ1OTcyOTg0LDE4NzkzMjY1
+ODFdfQ==
 -->
