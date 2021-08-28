@@ -1,7 +1,7 @@
 <style>.page-header {font-size:1rem;height:10vh;padding-top:1.5rem}</style>
 
 ## Geheimzeichen: Das Morse-Alphabet II
-**Halllo, ich bin Robi01 und werde dich beim Programmieren mit micro:bit begleiten. Wir werden bei diesem Projekt nun Morsezeichen zu meiner Freundin Robi02 übertragen.**
+**Hallo, ich bin Robi01 und werde dich beim Programmieren mit micro:bit begleiten. Wir werden bei diesem Projekt nun Morsezeichen zu meiner Freundin Robi02 übertragen.**
 
 <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/SOS.svg.png?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">
 
@@ -30,7 +30,9 @@ let morse = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",
 * Eines der wichtigsten Symbole solltest du die in Zukunft merken - es ist für Notfälle gedacht: 
 * SOS (save our ship): drei kurz, drei lang, drei kurz - ... --- ... 
 * Beachte dabei, dass nach **drei kurz** ein kurze Pause ist, ebenso nach den nächsten Buchstaben.
-* Versuche nun das Wort ANNA mit Hilfe der Tabelle zu bauen:  . _   _ .
+* Versuche nun das Wort ANNA mit Hilfe der Tabelle zu bauen:  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/punkt.png?raw=1">
+<img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/strich.png?raw=1">
+<img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/leer.png?raw=1">
 
 ## Programm 1: Codes anzeigen 
 
@@ -128,7 +130,7 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY5NDM1MTk0LDIyNzIwNTkxNCwxMjUwNj
-U2MDU5LDE0MjM0NjgyNzAsOTAxNDA4OTE4LDEyNzk0OTg3ODAs
-MTg0NTk3Mjk4NCwxODc5MzI2NTgxXX0=
+eyJoaXN0b3J5IjpbMTczNTEzMzkwLDU2OTQzNTE5NCwyMjcyMD
+U5MTQsMTI1MDY1NjA1OSwxNDIzNDY4MjcwLDkwMTQwODkxOCwx
+Mjc5NDk4NzgwLDE4NDU5NzI5ODQsMTg3OTMyNjU4MV19
 -->
