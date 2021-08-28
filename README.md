@@ -63,7 +63,7 @@ Um Daten senden zu können, müssen zwei micro:bit mit einigen Programmzeilen ve
 	})
 	radio.setGroup(99)
 ```
-* Wenn du ein zweites Browserfenster öffnest, kannst du den Code dort öffnen: 
+// Wenn du ein zweites Browserfenster öffnest, kannst du den Code dort öffnen: 
 
 * Ladet das Programm auf eure beiden micro:bit und macht erste Tests
 * Schreibt auf, was noch nicht gut funktioniert
@@ -174,7 +174,7 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MzM2MDk4NiwxMjc0NTc4MTU1LDE5NT
+eyJoaXN0b3J5IjpbLTkzMDk2MzE3NCwxMjc0NTc4MTU1LDE5NT
 EyMzg4NTEsLTY1ODczNDgwNSwyMTMwMTMwOTA3LDQzMTMyODY1
 Niw1NDY1NTg5NSwtMTk5ODAyMjIyMSwyMTA0ODEwNDA2LDE0OD
 kwOTQzOTcsMTczNTEzMzkwLDU2OTQzNTE5NCwyMjcyMDU5MTQs
