@@ -51,7 +51,7 @@ Um Daten senden zu können, müssen zwei micro:bit mit einigen Programmzeilen ve
 * **Abmachung:** 
 * Wir werden mit `|Taste A|` senden und mit Taste B immer antworten
 
-* Folgendes Programm soll nun auf beide micro:bit
+* Folgendes Programm soll nun auf beiden micro:bit programmiert werden:
 
 ```blocks
 	input.onButtonPressed(Button.A, function () {
@@ -63,7 +63,8 @@ Um Daten senden zu können, müssen zwei micro:bit mit einigen Programmzeilen ve
 	})
 	radio.setGroup(99)
 ```
-* 
+* Ladet das Programm auf euren micro:bit und macht erste Tests
+* Schreibt auf, was noch nicht gut funktioniert
 **Die Aufgaben lautet:**
 
 * Taste A des micro:bit zeigt die Buchstaben A bis G (Später nehmen wir alle anderen Buchstaben dazu.)
@@ -169,10 +170,10 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTg5NDUzMjAsMTk1MTIzODg1MSwtNj
-U4NzM0ODA1LDIxMzAxMzA5MDcsNDMxMzI4NjU2LDU0NjU1ODk1
-LC0xOTk4MDIyMjIxLDIxMDQ4MTA0MDYsMTQ4OTA5NDM5NywxNz
-M1MTMzOTAsNTY5NDM1MTk0LDIyNzIwNTkxNCwxMjUwNjU2MDU5
-LDE0MjM0NjgyNzAsOTAxNDA4OTE4LDEyNzk0OTg3ODAsMTg0NT
-k3Mjk4NCwxODc5MzI2NTgxXX0=
+eyJoaXN0b3J5IjpbNDI4ODA3MzYsMTk1MTIzODg1MSwtNjU4Nz
+M0ODA1LDIxMzAxMzA5MDcsNDMxMzI4NjU2LDU0NjU1ODk1LC0x
+OTk4MDIyMjIxLDIxMDQ4MTA0MDYsMTQ4OTA5NDM5NywxNzM1MT
+MzOTAsNTY5NDM1MTk0LDIyNzIwNTkxNCwxMjUwNjU2MDU5LDE0
+MjM0NjgyNzAsOTAxNDA4OTE4LDEyNzk0OTg3ODAsMTg0NTk3Mj
+k4NCwxODc5MzI2NTgxXX0=
 -->
