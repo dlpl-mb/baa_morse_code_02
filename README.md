@@ -26,7 +26,9 @@ let alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p",
 let morse = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--..",".----","..---","...--","....-",".....","-....","--...","---..","----.","-----"]
 ```
 
-* Einige Zeichen hast du ja im ersten Teil schon verwendet - hier nun alle Zeichen.  Beachte, dass genau jene Zeichen, die in unserer Sprache oft verwendet 
+* Einige Zeichen hast du ja im ersten Teil schon verwendet - hier nun alle Zeichen.  Beachte, dass genau jene Zeichen, die in unserer Sprache oft verwendet werden, sehr kurze Morsekombinationen haben und andere, seltene Zeichen längere Morsesymbole.
+* eines der wichtigst
+* 
 
 ## Programm 1: Codes anzeigen 
 
@@ -124,7 +126,7 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MjI5ODA2LDEyNTA2NTYwNTksMTQyMz
-Q2ODI3MCw5MDE0MDg5MTgsMTI3OTQ5ODc4MCwxODQ1OTcyOTg0
-LDE4NzkzMjY1ODFdfQ==
+eyJoaXN0b3J5IjpbMTU4MzMxODY1NywxMjUwNjU2MDU5LDE0Mj
+M0NjgyNzAsOTAxNDA4OTE4LDEyNzk0OTg3ODAsMTg0NTk3Mjk4
+NCwxODc5MzI2NTgxXX0=
 -->
