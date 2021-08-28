@@ -30,7 +30,7 @@ let liste_morsezeichen = [".-","-...","-.-.","-..",".","..-.","--.","...","---"]
 
 ## Programmteil 1: Verbinden von 2 micro:bit
 
-Um Daten senden zu können, müssen zwei micro:bit mit einigen Programmzeilen verbunden werden.
+Um Daten senden zu können, müssen zwei micro:bit mit einigen Programmzeilen verbunden werden - suche dir also eine zweite Person zum Kontakspiel.
 **Grundregeln dazu sind:**
 * Wähle mit deinem/r Kommunikationspartner/in eine Funkkanal von 1 bis 255 aus - niemand anderer im Raum darf denselben verwenden, sonst gibt es Kommunkationssalat - in unserem Beispiel ist das 99.
 * Es muss genau definiert werden, wer ist **Sender** und wer ist **Empfänger**: Es muss auch genau vereinbart werden, wann soll gesendet werden, wann meldet sich der Empfänger.
@@ -41,7 +41,7 @@ Um Daten senden zu können, müssen zwei micro:bit mit einigen Programmzeilen ve
 * **Erster Test:** 
 * Wir werden mit `|Taste A|` senden und mit `|Taste B|` immer antworten
 
-* Folgendes Programm soll nun auf beiden micro:bit programmiert werden, damit könnt ihr schon einmal einige Texts machen:
+* Folgendes Programm soll nun auf beiden micro:bit programmiert werden, damit könnt ihr schon einmal einige Texts machen. Tauscht 
 ```blocks
 	input.onButtonPressed(Button.A, function () {
 		basic.showString("A") //damit siehst du als Sender den Buchstaben auch auf deinem Display
@@ -232,7 +232,7 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5ODI3MDU2NywtMjMyNzY3MDUwLDg0NT
+eyJoaXN0b3J5IjpbMTQxMzM4MzgyNywtMjMyNzY3MDUwLDg0NT
 QwOTc0Niw0NzA3MjExMSwxOTAyMTAwNzI0LC0yMDM1ODU4NDks
 LTEyODQ5MTY5MjMsLTE3NjQ5NTc0NzMsODkzNzE1ODgyLC0xNz
 UwOTIxMTIxLC0xNTU2NjYwNzg3LC0yMTEyMzQ5NjU2LC01MTcy
