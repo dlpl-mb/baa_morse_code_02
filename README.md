@@ -79,19 +79,16 @@ Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit d
 * Experimentiere mit der  Zufallsfunktion: 
 
 ```blocks
-input.onButtonPressed(Button.A, function () {
-    basic.showLeds(`
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        `)
-    basic.showNumber(randint(0, 10))
-})
-
-
-
+	input.onButtonPressed(Button.A, function () {
+	    basic.showLeds(`
+	        . . . . .
+	        . . . . .
+	        . . . . .
+	        . . . . .
+	        . . . . .
+	        `)
+	    basic.showNumber(randint(0, 10))
+	})
 ```
 
 
@@ -271,11 +268,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTIyNTQxMTEsLTE2MjI2MDIyNjAsMT
-Y0MDAzNzY2Miw1NTA4MTk0NjAsMTA2MTk1NTcxNCwtNzI3NTY2
-MzE5LC0xNjkyNDMyMzQ2LC0yNzA1NzcyNzgsLTE4OTE2NzY4MS
-wtNjc1MDgxOTE3LC0xOTA3MDAxMjg1LDEyMTAxMDU4MzcsNjQ2
-NjQyNjg4LDE2NDEyMDY1OTMsMTQ2NjMxNTg0NywtMTY2NjQzNz
-E5MSwtMjMyNzY3MDUwLDg0NTQwOTc0Niw0NzA3MjExMSwxOTAy
-MTAwNzI0XX0=
+eyJoaXN0b3J5IjpbMTUxNjQyNzIyNywtMTYyMjYwMjI2MCwxNj
+QwMDM3NjYyLDU1MDgxOTQ2MCwxMDYxOTU1NzE0LC03Mjc1NjYz
+MTksLTE2OTI0MzIzNDYsLTI3MDU3NzI3OCwtMTg5MTY3NjgxLC
+02NzUwODE5MTcsLTE5MDcwMDEyODUsMTIxMDEwNTgzNyw2NDY2
+NDI2ODgsMTY0MTIwNjU5MywxNDY2MzE1ODQ3LC0xNjY2NDM3MT
+kxLC0yMzI3NjcwNTAsODQ1NDA5NzQ2LDQ3MDcyMTExLDE5MDIx
+MDA3MjRdfQ==
 -->
