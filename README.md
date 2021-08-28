@@ -40,9 +40,11 @@ Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit d
  ```
 * **Der erster Test zur Übertragung:** 
 * Wir werden mit `|Taste A|` senden und mit `|Taste B|` immer antworten.
-* Was senden wir? 
-	* Wir senden einmal den Buchstaben A und den dazugehörigen Morsecode
+* Was heißt die Aufgabenstellung? 
+	* Der Sender sendet einmal den Buchstaben A und den dazugehörigen Morsecode
 	* Der Empfänger bekommt den Morsecode angezeigt und muss den empfangenen Morsecode in den Buchstaben übersetzen.
+	* Programmtechnik: wir benötigen aus dem Menü `|Funk|` zwei Befehle:
+	* 
 	* Der Empfänger darf die Papierliste zum Entschlüsseln verwenden
 
 * Folgendes Programm soll nun auf beiden Micro:bitprogrammiert werden, damit könnt ihr schon einmal einige Texts machen. 
@@ -237,7 +239,7 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1ODQyMTQyNSwxNDY2MzE1ODQ3LC0xNj
+eyJoaXN0b3J5IjpbMTczNTI0NDA0MiwxNDY2MzE1ODQ3LC0xNj
 Y2NDM3MTkxLC0yMzI3NjcwNTAsODQ1NDA5NzQ2LDQ3MDcyMTEx
 LDE5MDIxMDA3MjQsLTIwMzU4NTg0OSwtMTI4NDkxNjkyMywtMT
 c2NDk1NzQ3Myw4OTM3MTU4ODIsLTE3NTA5MjExMjEsLTE1NTY2
