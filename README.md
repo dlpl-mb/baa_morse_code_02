@@ -83,7 +83,6 @@ Damit die lange Liste der Buchstaben und Morsezeichen nicht immer so viel Platz 
 function morseliste_erzeugen () {
 
 liste_morsecodes = [
-
 ".-",
 
 "-...",
@@ -386,11 +385,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcwNzIxMTEsMTkwMjEwMDcyNCwtMjAzNT
-g1ODQ5LC0xMjg0OTE2OTIzLC0xNzY0OTU3NDczLDg5MzcxNTg4
-MiwtMTc1MDkyMTEyMSwtMTU1NjY2MDc4NywtMjExMjM0OTY1Ni
-wtNTE3MjEyMDU1LC0xODczNDcyNDQxLDE0MTQyMjM2OTIsLTE0
-NTIzMjMwMjYsLTYxOTU5NDQwMywtMTUwOTMwMTIzMywxMjc0NT
-c4MTU1LDE5NTEyMzg4NTEsLTY1ODczNDgwNSwyMTMwMTMwOTA3
-LDQzMTMyODY1Nl19
+eyJoaXN0b3J5IjpbODM1NTUyNjA1LDQ3MDcyMTExLDE5MDIxMD
+A3MjQsLTIwMzU4NTg0OSwtMTI4NDkxNjkyMywtMTc2NDk1NzQ3
+Myw4OTM3MTU4ODIsLTE3NTA5MjExMjEsLTE1NTY2NjA3ODcsLT
+IxMTIzNDk2NTYsLTUxNzIxMjA1NSwtMTg3MzQ3MjQ0MSwxNDE0
+MjIzNjkyLC0xNDUyMzIzMDI2LC02MTk1OTQ0MDMsLTE1MDkzMD
+EyMzMsMTI3NDU3ODE1NSwxOTUxMjM4ODUxLC02NTg3MzQ4MDUs
+MjEzMDEzMDkwN119
 -->
