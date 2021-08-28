@@ -23,13 +23,12 @@ Drucke Dir die Tabelle aller Morsecodes aus (Rechte Maustaste - Bild kopieren un
 let liste_buchstaben = ["A","B","C","D","E","F","G","S","O"]
 let liste_morsezeichen = [".-","-...","-.-.","-..",".","..-.","--.","...","---"]
 ```
-
-* Eines der wichtigsten Symbole solltest du die in Zukunft merken - es ist für Notfälle gedacht: 
-* SOS (save our ship): drei kurz, drei lang, drei kurz - ... --- ... 
+* Eines der wichtigsten Morse-Worte solltest du  merken - es ist für Notfälle gedacht: 
+* SOS ("save our ship"): drei kurz, drei lang, drei kurz - ... --- ... 
 * Beachte dabei, dass nach **drei kurz** ein kurze Pause ist, ebenso nach den nächsten Buchstaben.
 * Versuche nun das Wort **???** mit Hilfe der Tabelle zu bauen:  <img src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/anna.png?raw=1">
 
-## Programm 1: Verbinden von 2 micro:bit
+## Programmteil 1: Verbinden von 2 micro:bit
 
 Um Daten senden zu können, müssen zwei micro:bit mit einigen Programmzeilen verbunden werden.
 **Grundregeln dazu sind:**
@@ -234,11 +233,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMyMzExMjg2LC0yMzI3NjcwNTAsODQ1ND
-A5NzQ2LDQ3MDcyMTExLDE5MDIxMDA3MjQsLTIwMzU4NTg0OSwt
-MTI4NDkxNjkyMywtMTc2NDk1NzQ3Myw4OTM3MTU4ODIsLTE3NT
-A5MjExMjEsLTE1NTY2NjA3ODcsLTIxMTIzNDk2NTYsLTUxNzIx
-MjA1NSwtMTg3MzQ3MjQ0MSwxNDE0MjIzNjkyLC0xNDUyMzIzMD
-I2LC02MTk1OTQ0MDMsLTE1MDkzMDEyMzMsMTI3NDU3ODE1NSwx
-OTUxMjM4ODUxXX0=
+eyJoaXN0b3J5IjpbMTAyMTQxNDExNSwtMjMyNzY3MDUwLDg0NT
+QwOTc0Niw0NzA3MjExMSwxOTAyMTAwNzI0LC0yMDM1ODU4NDks
+LTEyODQ5MTY5MjMsLTE3NjQ5NTc0NzMsODkzNzE1ODgyLC0xNz
+UwOTIxMTIxLC0xNTU2NjYwNzg3LC0yMTEyMzQ5NjU2LC01MTcy
+MTIwNTUsLTE4NzM0NzI0NDEsMTQxNDIyMzY5MiwtMTQ1MjMyMz
+AyNiwtNjE5NTk0NDAzLC0xNTA5MzAxMjMzLDEyNzQ1NzgxNTUs
+MTk1MTIzODg1MV19
 -->
