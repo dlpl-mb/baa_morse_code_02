@@ -131,6 +131,7 @@ Eingebaut in das Übertragungsprogramm:
 
 **Lösung b:** Wir bauen eine Auswahltastatur
 * Bei dieser Lösung arbeiten wir mit dem Neigungswinkel in Richtung x 
+* Verwenden 
 * 
 * Experimentiere mit der  Zufallsfunktion: 
 
@@ -315,11 +316,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDA1NDgxMDEsNTQ2Mzk4NDkxLC04Nj
-gzNjgxMjEsMTQ1NjM1NDAyOSwxNTE2NDI3MjI3LC0xNjIyNjAy
-MjYwLDE2NDAwMzc2NjIsNTUwODE5NDYwLDEwNjE5NTU3MTQsLT
-cyNzU2NjMxOSwtMTY5MjQzMjM0NiwtMjcwNTc3Mjc4LC0xODkx
-Njc2ODEsLTY3NTA4MTkxNywtMTkwNzAwMTI4NSwxMjEwMTA1OD
-M3LDY0NjY0MjY4OCwxNjQxMjA2NTkzLDE0NjYzMTU4NDcsLTE2
-NjY0MzcxOTFdfQ==
+eyJoaXN0b3J5IjpbLTk2NjgzNTU5Nyw1NDYzOTg0OTEsLTg2OD
+M2ODEyMSwxNDU2MzU0MDI5LDE1MTY0MjcyMjcsLTE2MjI2MDIy
+NjAsMTY0MDAzNzY2Miw1NTA4MTk0NjAsMTA2MTk1NTcxNCwtNz
+I3NTY2MzE5LC0xNjkyNDMyMzQ2LC0yNzA1NzcyNzgsLTE4OTE2
+NzY4MSwtNjc1MDgxOTE3LC0xOTA3MDAxMjg1LDEyMTAxMDU4Mz
+csNjQ2NjQyNjg4LDE2NDEyMDY1OTMsMTQ2NjMxNTg0NywtMTY2
+NjQzNzE5MV19
 -->
