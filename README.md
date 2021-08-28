@@ -75,7 +75,7 @@ Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit d
 	- b) mit einer virtuellen (=gedachten) Tastatur
 
 **Lösung a:** Ein Auswahl eines Buchstabens per Zufall
-* Eine Zufallszahl kann man im Bereich `Mathematik` erzeugen - der Befehl heißt 
+* Eine Zufallszahl kann man im Bereich `Mathematik` erzeugen - der Befehl heißt basic.showNumber(randint(0, 10))
 * Probiere folgende Zufallsfunktion aus 
 
 ```blocks
@@ -242,11 +242,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUwODE5NDYwLDEwNjE5NTU3MTQsLTcyNz
-U2NjMxOSwtMTY5MjQzMjM0NiwtMjcwNTc3Mjc4LC0xODkxNjc2
-ODEsLTY3NTA4MTkxNywtMTkwNzAwMTI4NSwxMjEwMTA1ODM3LD
-Y0NjY0MjY4OCwxNjQxMjA2NTkzLDE0NjYzMTU4NDcsLTE2NjY0
-MzcxOTEsLTIzMjc2NzA1MCw4NDU0MDk3NDYsNDcwNzIxMTEsMT
-kwMjEwMDcyNCwtMjAzNTg1ODQ5LC0xMjg0OTE2OTIzLC0xNzY0
-OTU3NDczXX0=
+eyJoaXN0b3J5IjpbLTEzNDY3NDM0MjMsNTUwODE5NDYwLDEwNj
+E5NTU3MTQsLTcyNzU2NjMxOSwtMTY5MjQzMjM0NiwtMjcwNTc3
+Mjc4LC0xODkxNjc2ODEsLTY3NTA4MTkxNywtMTkwNzAwMTI4NS
+wxMjEwMTA1ODM3LDY0NjY0MjY4OCwxNjQxMjA2NTkzLDE0NjYz
+MTU4NDcsLTE2NjY0MzcxOTEsLTIzMjc2NzA1MCw4NDU0MDk3ND
+YsNDcwNzIxMTEsMTkwMjEwMDcyNCwtMjAzNTg1ODQ5LC0xMjg0
+OTE2OTIzXX0=
 -->
