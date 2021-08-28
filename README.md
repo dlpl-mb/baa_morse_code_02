@@ -1,5 +1,5 @@
 <style>
-.page-header {font-size:1rem;height:10vh;padding-top:1rem}
+.page-header {font-size:1rem;height:10vh;padding-top:1.5rem}
  </style>
 
 ## Geheimzeichen: Das Morse-Alphabet II
