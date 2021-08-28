@@ -58,7 +58,7 @@ Um Daten senden zu können, müssen zwei micro:bit mit einigen Programmzeilen ve
 		radio.sendString(".-")
 	})
 	radio.onReceivedString(function (receivedString) {
-		basic.showString(receivedString) 
+		basic.showString(receivedString) // Beim Emfänger werden die empfangenen Date
 	})
 	radio.setGroup(99)
 ```
@@ -168,10 +168,10 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MTIzODg1MSwtNjU4NzM0ODA1LDIxMz
-AxMzA5MDcsNDMxMzI4NjU2LDU0NjU1ODk1LC0xOTk4MDIyMjIx
-LDIxMDQ4MTA0MDYsMTQ4OTA5NDM5NywxNzM1MTMzOTAsNTY5ND
-M1MTk0LDIyNzIwNTkxNCwxMjUwNjU2MDU5LDE0MjM0NjgyNzAs
-OTAxNDA4OTE4LDEyNzk0OTg3ODAsMTg0NTk3Mjk4NCwxODc5Mz
-I2NTgxXX0=
+eyJoaXN0b3J5IjpbNjQ3Njc2MDYzLDE5NTEyMzg4NTEsLTY1OD
+czNDgwNSwyMTMwMTMwOTA3LDQzMTMyODY1Niw1NDY1NTg5NSwt
+MTk5ODAyMjIyMSwyMTA0ODEwNDA2LDE0ODkwOTQzOTcsMTczNT
+EzMzkwLDU2OTQzNTE5NCwyMjcyMDU5MTQsMTI1MDY1NjA1OSwx
+NDIzNDY4MjcwLDkwMTQwODkxOCwxMjc5NDk4NzgwLDE4NDU5Nz
+I5ODQsMTg3OTMyNjU4MV19
 -->
