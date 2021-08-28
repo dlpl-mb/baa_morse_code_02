@@ -21,9 +21,10 @@ Wir werden nun bereits alle Morsezeichen verwenden, damit ihr auch gut kommunizi
 
 **Hier ist der Code mit allen Zeichen:**
 ```blocks
+let alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0"]
+
 let morse = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--..",".----","..---","...--","....-",".....","-....","--...","---..","----.","-----"]
 
-let alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0"]
 ```
 
 * Wie du aus der Tabelle siehst haben Morsezeichen nur den **Punkte** und den **Striche**. Jeder Buchstabe hat einen bestimmte Kombination von Punkten und Strichen.
@@ -127,7 +128,7 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzAxMTMwMzYsMTI1MDY1NjA1OSwxND
+eyJoaXN0b3J5IjpbLTE2MzU4NTQxMjQsMTI1MDY1NjA1OSwxND
 IzNDY4MjcwLDkwMTQwODkxOCwxMjc5NDk4NzgwLDE4NDU5NzI5
 ODQsMTg3OTMyNjU4MV19
 -->
