@@ -29,11 +29,12 @@ let liste_morsezeichen = [".-","-...","-.-.","-..",".","..-.","--.","...","---"]
 
 ## Programmteil 1: Verbindung von 2 micro:bit
 
-Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei micro:bit durch ein kurzes Programm verbunden werden - suche dir also eine zweite Person als Kontaktpartner. Arbeitet zu zweit weiter.
+Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit durch ein kurzes Programm verbunden werden - suche dir also eine zweite Person als Kontaktpartner. Arbeitet zu zweit weiter.
 **Grundregeln dazu sind:**
 * Wähle mit deinem/r Kommunikationspartner/in einen Funkkanal von 1 bis 255 aus - niemand anderer im Raum darf denselben verwenden, sonst gibt es Kommunikationssalat - in unserem Beispiel wählen wir **99**.
 * Es muss genau definiert werden, wer ist **Sender** und wer ist **Empfänger**: Es muss auch genau vereinbart werden, wann soll gesendet werden, wann meldet sich der Empfänger.
 * Beide micro.bit müssen über denselben Funkkanal verfügen - siehe ``||radio: radio.setGroup(1)||``
+* Beide können in unserem Fall auch dasselbe Programm auf den Micro:bit spielen.
  ```blocks
 	radio.setGroup(99)
  ```
@@ -44,7 +45,7 @@ Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei micro:bit d
 	* Der Empfänger bekommt den Morsecode angezeigt und muss den empfangenen Morsecode in den Buchstaben übersetzen.
 	* Der Empfänger darf die Papierliste zum Entschlüsseln verwenden
 
-* Folgendes Programm soll nun auf beiden micro:bit programmiert werden, damit könnt ihr schon einmal einige Texts machen. 
+* Folgendes Programm soll nun auf beiden Micro:bitprogrammiert werden, damit könnt ihr schon einmal einige Texts machen. 
 ```blocks
 	input.onButtonPressed(Button.A, function () {
 		basic.showString("A") //damit siehst du als Sender den Buchstaben auch auf deinem Display
@@ -57,7 +58,7 @@ Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei micro:bit d
 ```
 <!-- Wenn du ein zweites Browserfenster öffnest, kannst du den Code dort öffnen: -->
 
-* Ladet das Programm auf eure beiden micro:bit und macht erste Tests
+* Ladet das Programm auf eure beiden Micro:bit und macht erste Tests
 * Tausch die Rollen des Senders und Empfängers
 * Schreibt auf, was noch nicht gut funktioniert
 
@@ -236,7 +237,7 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MDU3MzQzNCwxNDY2MzE1ODQ3LC0xNj
+eyJoaXN0b3J5IjpbMTg3OTE3NDY5MywxNDY2MzE1ODQ3LC0xNj
 Y2NDM3MTkxLC0yMzI3NjcwNTAsODQ1NDA5NzQ2LDQ3MDcyMTEx
 LDE5MDIxMDA3MjQsLTIwMzU4NTg0OSwtMTI4NDkxNjkyMywtMT
 c2NDk1NzQ3Myw4OTM3MTU4ODIsLTE3NTA5MjExMjEsLTE1NTY2
