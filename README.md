@@ -92,7 +92,8 @@ Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit d
 ```
 [Programmcode](https://makecode.microbit.org/#pub:_DVe8TrKz3cRU "(target|_blank)")
 
-Eingebaut
+Eingebaut in das Übertragungsprogramm:
+* 
 
 ```blocks
 	input.onButtonPressed(Button.A, function () {
@@ -258,11 +259,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2ODM2ODEyMSwxNDU2MzU0MDI5LDE1MT
-Y0MjcyMjcsLTE2MjI2MDIyNjAsMTY0MDAzNzY2Miw1NTA4MTk0
-NjAsMTA2MTk1NTcxNCwtNzI3NTY2MzE5LC0xNjkyNDMyMzQ2LC
-0yNzA1NzcyNzgsLTE4OTE2NzY4MSwtNjc1MDgxOTE3LC0xOTA3
-MDAxMjg1LDEyMTAxMDU4MzcsNjQ2NjQyNjg4LDE2NDEyMDY1OT
-MsMTQ2NjMxNTg0NywtMTY2NjQzNzE5MSwtMjMyNzY3MDUwLDg0
-NTQwOTc0Nl19
+eyJoaXN0b3J5IjpbLTEyMDk1NzMzMjcsLTg2ODM2ODEyMSwxND
+U2MzU0MDI5LDE1MTY0MjcyMjcsLTE2MjI2MDIyNjAsMTY0MDAz
+NzY2Miw1NTA4MTk0NjAsMTA2MTk1NTcxNCwtNzI3NTY2MzE5LC
+0xNjkyNDMyMzQ2LC0yNzA1NzcyNzgsLTE4OTE2NzY4MSwtNjc1
+MDgxOTE3LC0xOTA3MDAxMjg1LDEyMTAxMDU4MzcsNjQ2NjQyNj
+g4LDE2NDEyMDY1OTMsMTQ2NjMxNTg0NywtMTY2NjQzNzE5MSwt
+MjMyNzY3MDUwXX0=
 -->
