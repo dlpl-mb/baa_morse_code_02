@@ -63,8 +63,10 @@ Um Daten senden zu können, müssen zwei micro:bit mit einigen Programmzeilen ve
 	})
 	radio.setGroup(99)
 ```
-* Ladet das Programm auf euren micro:bit und macht erste Tests
+* Ladet das Programm auf eure beiden micro:bit und macht erste Tests
 * Schreibt auf, was noch nicht gut funktioniert
+
+
 **Die Aufgaben lautet:**
 
 * Taste A des micro:bit zeigt die Buchstaben A bis G (Später nehmen wir alle anderen Buchstaben dazu.)
@@ -170,10 +172,10 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI4ODA3MzYsMTk1MTIzODg1MSwtNjU4Nz
-M0ODA1LDIxMzAxMzA5MDcsNDMxMzI4NjU2LDU0NjU1ODk1LC0x
-OTk4MDIyMjIxLDIxMDQ4MTA0MDYsMTQ4OTA5NDM5NywxNzM1MT
-MzOTAsNTY5NDM1MTk0LDIyNzIwNTkxNCwxMjUwNjU2MDU5LDE0
-MjM0NjgyNzAsOTAxNDA4OTE4LDEyNzk0OTg3ODAsMTg0NTk3Mj
-k4NCwxODc5MzI2NTgxXX0=
+eyJoaXN0b3J5IjpbMTI3NDU3ODE1NSwxOTUxMjM4ODUxLC02NT
+g3MzQ4MDUsMjEzMDEzMDkwNyw0MzEzMjg2NTYsNTQ2NTU4OTUs
+LTE5OTgwMjIyMjEsMjEwNDgxMDQwNiwxNDg5MDk0Mzk3LDE3Mz
+UxMzM5MCw1Njk0MzUxOTQsMjI3MjA1OTE0LDEyNTA2NTYwNTks
+MTQyMzQ2ODI3MCw5MDE0MDg5MTgsMTI3OTQ5ODc4MCwxODQ1OT
+cyOTg0LDE4NzkzMjY1ODFdfQ==
 -->
