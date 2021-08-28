@@ -54,11 +54,11 @@ Um Daten senden zu können, müssen zwei micro:bit mit einigen Programmzeilen ve
 
 ```blocks
 	input.onButtonPressed(Button.A, function () {
-		basic.showString(".-")
+		basic.showString("A") //damit siehst du als Sender den Buchstaben auch auf deinem Display
 		radio.sendString(".-")
 	})
 	radio.onReceivedString(function (receivedString) {
-		basic.showString(receivedString)
+		basic.showString(receivedString) 
 	})
 	radio.setGroup(99)
 ```
@@ -168,9 +168,10 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1ODczNDgwNSwyMTMwMTMwOTA3LDQzMT
-MyODY1Niw1NDY1NTg5NSwtMTk5ODAyMjIyMSwyMTA0ODEwNDA2
-LDE0ODkwOTQzOTcsMTczNTEzMzkwLDU2OTQzNTE5NCwyMjcyMD
-U5MTQsMTI1MDY1NjA1OSwxNDIzNDY4MjcwLDkwMTQwODkxOCwx
-Mjc5NDk4NzgwLDE4NDU5NzI5ODQsMTg3OTMyNjU4MV19
+eyJoaXN0b3J5IjpbMTk1MTIzODg1MSwtNjU4NzM0ODA1LDIxMz
+AxMzA5MDcsNDMxMzI4NjU2LDU0NjU1ODk1LC0xOTk4MDIyMjIx
+LDIxMDQ4MTA0MDYsMTQ4OTA5NDM5NywxNzM1MTMzOTAsNTY5ND
+M1MTk0LDIyNzIwNTkxNCwxMjUwNjU2MDU5LDE0MjM0NjgyNzAs
+OTAxNDA4OTE4LDEyNzk0OTg3ODAsMTg0NTk3Mjk4NCwxODc5Mz
+I2NTgxXX0=
 -->
