@@ -20,6 +20,7 @@ Drucke Dir die Tabelle aller Morsecodes aus (Rechte Maustaste - Bild kopieren un
 Wir werden nun bereits alle Morsezeichen verwenden, damit ihr auch gut kommunizieren könnt. Diese sind bereits im Programm eingespielt und ihr könnt damit weiterarbeiten.
 
 **Hier ist der Code mit allen Zeichen:**
+
 let liste_buchstaben = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","1","2","3","4","5","6","7","8","9","0"]
 
 let liste_morsezeichen = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--..",".----","..---","...--","....-",".....","-....","--...","---..","----.","-----"]
@@ -154,9 +155,9 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMxMzI4NjU2LDU0NjU1ODk1LC0xOTk4MD
-IyMjIxLDIxMDQ4MTA0MDYsMTQ4OTA5NDM5NywxNzM1MTMzOTAs
-NTY5NDM1MTk0LDIyNzIwNTkxNCwxMjUwNjU2MDU5LDE0MjM0Nj
-gyNzAsOTAxNDA4OTE4LDEyNzk0OTg3ODAsMTg0NTk3Mjk4NCwx
-ODc5MzI2NTgxXX0=
+eyJoaXN0b3J5IjpbMTYyNDMyNTk1MCw0MzEzMjg2NTYsNTQ2NT
+U4OTUsLTE5OTgwMjIyMjEsMjEwNDgxMDQwNiwxNDg5MDk0Mzk3
+LDE3MzUxMzM5MCw1Njk0MzUxOTQsMjI3MjA1OTE0LDEyNTA2NT
+YwNTksMTQyMzQ2ODI3MCw5MDE0MDg5MTgsMTI3OTQ5ODc4MCwx
+ODQ1OTcyOTg0LDE4NzkzMjY1ODFdfQ==
 -->
