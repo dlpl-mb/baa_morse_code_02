@@ -131,7 +131,10 @@ Eingebaut in das Übertragungsprogramm:
 
 **Lösung b:** Wir bauen eine Auswahltastatur
 * Bei dieser Lösung arbeiten wir mit dem Neigungswinkel in Richtung x - eine sehr leistungsfähige Funktion, mit der man viele Spiele gestalten kann.
-* Probiere  
+* Probiere folgende Funktion als Übung:
+```blocks
+
+```
 * 
 * 
 * Experimentiere mit der  Zufallsfunktion: 
@@ -317,11 +320,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc0NzEzMjk3LC05NjY4MzU1OTcsNTQ2Mz
-k4NDkxLC04NjgzNjgxMjEsMTQ1NjM1NDAyOSwxNTE2NDI3MjI3
-LC0xNjIyNjAyMjYwLDE2NDAwMzc2NjIsNTUwODE5NDYwLDEwNj
-E5NTU3MTQsLTcyNzU2NjMxOSwtMTY5MjQzMjM0NiwtMjcwNTc3
-Mjc4LC0xODkxNjc2ODEsLTY3NTA4MTkxNywtMTkwNzAwMTI4NS
-wxMjEwMTA1ODM3LDY0NjY0MjY4OCwxNjQxMjA2NTkzLDE0NjYz
-MTU4NDddfQ==
+eyJoaXN0b3J5IjpbMTE0NjA4MjE2NSwtOTY2ODM1NTk3LDU0Nj
+M5ODQ5MSwtODY4MzY4MTIxLDE0NTYzNTQwMjksMTUxNjQyNzIy
+NywtMTYyMjYwMjI2MCwxNjQwMDM3NjYyLDU1MDgxOTQ2MCwxMD
+YxOTU1NzE0LC03Mjc1NjYzMTksLTE2OTI0MzIzNDYsLTI3MDU3
+NzI3OCwtMTg5MTY3NjgxLC02NzUwODE5MTcsLTE5MDcwMDEyOD
+UsMTIxMDEwNTgzNyw2NDY2NDI2ODgsMTY0MTIwNjU5MywxNDY2
+MzE1ODQ3XX0=
 -->
