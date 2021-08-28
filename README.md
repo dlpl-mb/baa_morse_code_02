@@ -200,13 +200,13 @@ anz_bst = liste_buchstaben.length - 1
 
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
-[https://makecode.microbit.org/#pub:_Ux2V81PmkYMM]
+* Öffne das Teilprogramm [https://makecode.microbit.org/#pub:_Ux2V81PmkYMM]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NjIzMDM4MiwtMTU1NjY2MDc4NywtMj
-ExMjM0OTY1NiwtNTE3MjEyMDU1LC0xODczNDcyNDQxLDE0MTQy
-MjM2OTIsLTE0NTIzMjMwMjYsLTYxOTU5NDQwMywtMTUwOTMwMT
-IzMywxMjc0NTc4MTU1LDE5NTEyMzg4NTEsLTY1ODczNDgwNSwy
-MTMwMTMwOTA3LDQzMTMyODY1Niw1NDY1NTg5NSwtMTk5ODAyMj
-IyMSwyMTA0ODEwNDA2LDE0ODkwOTQzOTcsMTczNTEzMzkwLDU2
-OTQzNTE5NF19
+eyJoaXN0b3J5IjpbLTY0OTA2NDM0LC0xNTU2NjYwNzg3LC0yMT
+EyMzQ5NjU2LC01MTcyMTIwNTUsLTE4NzM0NzI0NDEsMTQxNDIy
+MzY5MiwtMTQ1MjMyMzAyNiwtNjE5NTk0NDAzLC0xNTA5MzAxMj
+MzLDEyNzQ1NzgxNTUsMTk1MTIzODg1MSwtNjU4NzM0ODA1LDIx
+MzAxMzA5MDcsNDMxMzI4NjU2LDU0NjU1ODk1LC0xOTk4MDIyMj
+IxLDIxMDQ4MTA0MDYsMTQ4OTA5NDM5NywxNzM1MTMzOTAsNTY5
+NDM1MTk0XX0=
 -->
