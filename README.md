@@ -24,13 +24,9 @@ Wir werden nun bereits alle Morsezeichen verwenden, damit ihr auch gut kommunizi
 let alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0"]
 
 let morse = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--..",".----","..---","...--","....-",".....","-....","--...","---..","----.","-----"]
-
 ```
 
-* Wie du aus der Tabelle siehst haben Morsezeichen nur den **Punkte** und den **Striche**. Jeder Buchstabe hat einen bestimmte Kombination von Punkten und Strichen.
-* Schreib dir die Buchsstaben ersten ** A bis G ** auf ein Blatt Papier heraus: **Buchstabe** und **Code**
-* Beim Übertragen werden zwischen den Buchstaben immer eine kurze Pausenm gemacht, damit der Empfänger weiß, dass nun ein neues Zeichen beginnt.
-* Meine Frage an dich: Welcher Buchstabe ist das? -.. oder dieser Buchstabe . 
+* Einige Zeichen hast du ja im ersten Teil schon verwendet - hier nun alle Zeichen.  Beachte, dass genau jene Zeichen, die in unserer Sprache oft verwendet 
 
 ## Programm 1: Codes anzeigen 
 
@@ -128,7 +124,7 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzU4NTQxMjQsMTI1MDY1NjA1OSwxND
-IzNDY4MjcwLDkwMTQwODkxOCwxMjc5NDk4NzgwLDE4NDU5NzI5
-ODQsMTg3OTMyNjU4MV19
+eyJoaXN0b3J5IjpbMTg5MjI5ODA2LDEyNTA2NTYwNTksMTQyMz
+Q2ODI3MCw5MDE0MDg5MTgsMTI3OTQ5ODc4MCwxODQ1OTcyOTg0
+LDE4NzkzMjY1ODFdfQ==
 -->
