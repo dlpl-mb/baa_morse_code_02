@@ -71,11 +71,12 @@ Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit d
 * Wenn du einen neuen Buchstaben senden will, musst du das Sender-Programm immer umschreiben.
 * Es wäre gut, könnte man den Buchstaben auswählen (es fehlt leider eine Tastatur auf dem Micro:bit zum Eingeben eines neuen Buchstabens).
  - Wie könnte man aus den Buchstaben auswählen?
-	- Entweder durch Zufallgenerator oder 
-	- mit einer virtuellen (=gedachten) Tastatur
+	- a) Entweder durch Zufallgenerator oder 
+	- b) mit einer virtuellen (=gedachten) Tastatur
 
-Programm: Ein Auswahl eines Buchstabens per Zufall
-Probiere folgende Zufallsfunktion aus 
+Problem a): Ein Auswahl eines Buchstabens per Zufall
+* Eine Zufallszahl kann man im Bereich `Mathematik` erzeugen 
+* Probiere folgende Zufallsfunktion aus 
 
 ```blocks
 	input.onButtonPressed(Button.A, function () {
@@ -241,7 +242,7 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNTU2Njk4NywtMTY5MjQzMjM0NiwtMj
+eyJoaXN0b3J5IjpbLTcyNzU2NjMxOSwtMTY5MjQzMjM0NiwtMj
 cwNTc3Mjc4LC0xODkxNjc2ODEsLTY3NTA4MTkxNywtMTkwNzAw
 MTI4NSwxMjEwMTA1ODM3LDY0NjY0MjY4OCwxNjQxMjA2NTkzLD
 E0NjYzMTU4NDcsLTE2NjY0MzcxOTEsLTIzMjc2NzA1MCw4NDU0
