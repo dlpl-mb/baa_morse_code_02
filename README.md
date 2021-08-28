@@ -32,8 +32,8 @@ let liste_morsezeichen = [".-","-...","-.-.","-..",".","..-.","--.","...","---"]
 
 Um Daten senden zu können, müssen zwei micro:bit mit einigen Programmzeilen verbunden werden.
 **Grundregeln dazu sind:**
-* Wähle mit deinem/r Kommunikationspartner/in eine Funkkanal von 1 bis 255 aus - niemand anderer im Raum darf denselben verwenden, sonst gibt es Kommunkationssalat - in unserem Beispiel 99
-* Es muss genau definiert werden, wer ist Sender und wer ist Empfänger: Es muss ausgemacht werden, wann soll der Empfänger sich melden - wie soll er sich melden.
+* Wähle mit deinem/r Kommunikationspartner/in eine Funkkanal von 1 bis 255 aus - niemand anderer im Raum darf denselben verwenden, sonst gibt es Kommunkationssalat - in unserem Beispiel ist das 99.
+* Es muss genau definiert werden, wer ist **Sender** und wer ist **Empfänger**: Es muss auch genau vereinbart werden, wann soll gesendet werden, wann meldet sich der Empfänger.
 * Beide micro.bit müssen über denselben Funkkanal verfügen - siehe ``||radio: radio.setGroup(1)||``
  ```blocks
 	radio.setGroup(99)
@@ -233,11 +233,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMTQxNDExNSwtMjMyNzY3MDUwLDg0NT
-QwOTc0Niw0NzA3MjExMSwxOTAyMTAwNzI0LC0yMDM1ODU4NDks
-LTEyODQ5MTY5MjMsLTE3NjQ5NTc0NzMsODkzNzE1ODgyLC0xNz
-UwOTIxMTIxLC0xNTU2NjYwNzg3LC0yMTEyMzQ5NjU2LC01MTcy
-MTIwNTUsLTE4NzM0NzI0NDEsMTQxNDIyMzY5MiwtMTQ1MjMyMz
-AyNiwtNjE5NTk0NDAzLC0xNTA5MzAxMjMzLDEyNzQ1NzgxNTUs
-MTk1MTIzODg1MV19
+eyJoaXN0b3J5IjpbLTE3NDc2MTM3NDMsLTIzMjc2NzA1MCw4ND
+U0MDk3NDYsNDcwNzIxMTEsMTkwMjEwMDcyNCwtMjAzNTg1ODQ5
+LC0xMjg0OTE2OTIzLC0xNzY0OTU3NDczLDg5MzcxNTg4MiwtMT
+c1MDkyMTEyMSwtMTU1NjY2MDc4NywtMjExMjM0OTY1NiwtNTE3
+MjEyMDU1LC0xODczNDcyNDQxLDE0MTQyMjM2OTIsLTE0NTIzMj
+MwMjYsLTYxOTU5NDQwMywtMTUwOTMwMTIzMywxMjc0NTc4MTU1
+LDE5NTEyMzg4NTFdfQ==
 -->
