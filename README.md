@@ -34,7 +34,9 @@ let morse = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",
 
 ## Programm 1: Verbinden von 2 micro:bit
 
-Um Daten senden zu können müssen zwei micro:bit mit einigen P
+Um Daten senden zu können müssen zwei micro:bit mit einigen Programmzeilen verbunden werden.
+Grundregeln dazu sind:
+* Beide 
 
 **Die Aufgaben lautet:**
 
@@ -128,8 +130,8 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIyODUyNjk3LDE3MzUxMzM5MCw1Njk0Mz
-UxOTQsMjI3MjA1OTE0LDEyNTA2NTYwNTksMTQyMzQ2ODI3MCw5
-MDE0MDg5MTgsMTI3OTQ5ODc4MCwxODQ1OTcyOTg0LDE4NzkzMj
-Y1ODFdfQ==
+eyJoaXN0b3J5IjpbLTExNzA0MTUwMzUsMTczNTEzMzkwLDU2OT
+QzNTE5NCwyMjcyMDU5MTQsMTI1MDY1NjA1OSwxNDIzNDY4Mjcw
+LDkwMTQwODkxOCwxMjc5NDk4NzgwLDE4NDU5NzI5ODQsMTg3OT
+MyNjU4MV19
 -->
