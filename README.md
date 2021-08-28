@@ -29,7 +29,7 @@ let liste_morsezeichen = [".-","-...","-.-.","-..",".","..-.","--.","...","---"]
 
 ## Programmteil 1: Verbindung von 2 micro:bit
 
-Um Daten senden zu können, müssen zwei micro:bit durch ein kurzes Programm verbunden werden - suche dir also eine zweite Person zum Kontakspiel.
+Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei micro:bit durch ein kurzes Programm verbunden werden - suche dir also eine zweite Person zum Kontakspiel.
 **Grundregeln dazu sind:**
 * Wähle mit deinem/r Kommunikationspartner/in eine Funkkanal von 1 bis 255 aus - niemand anderer im Raum darf denselben verwenden, sonst gibt es Kommunkationssalat - in unserem Beispiel ist das 99.
 * Es muss genau definiert werden, wer ist **Sender** und wer ist **Empfänger**: Es muss auch genau vereinbart werden, wann soll gesendet werden, wann meldet sich der Empfänger.
@@ -236,11 +236,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjEwMDg1OTcsMTQ2NjMxNTg0NywtMT
-Y2NjQzNzE5MSwtMjMyNzY3MDUwLDg0NTQwOTc0Niw0NzA3MjEx
-MSwxOTAyMTAwNzI0LC0yMDM1ODU4NDksLTEyODQ5MTY5MjMsLT
-E3NjQ5NTc0NzMsODkzNzE1ODgyLC0xNzUwOTIxMTIxLC0xNTU2
-NjYwNzg3LC0yMTEyMzQ5NjU2LC01MTcyMTIwNTUsLTE4NzM0Nz
-I0NDEsMTQxNDIyMzY5MiwtMTQ1MjMyMzAyNiwtNjE5NTk0NDAz
-LC0xNTA5MzAxMjMzXX0=
+eyJoaXN0b3J5IjpbLTI2OTc5MDQwNCwxNDY2MzE1ODQ3LC0xNj
+Y2NDM3MTkxLC0yMzI3NjcwNTAsODQ1NDA5NzQ2LDQ3MDcyMTEx
+LDE5MDIxMDA3MjQsLTIwMzU4NTg0OSwtMTI4NDkxNjkyMywtMT
+c2NDk1NzQ3Myw4OTM3MTU4ODIsLTE3NTA5MjExMjEsLTE1NTY2
+NjA3ODcsLTIxMTIzNDk2NTYsLTUxNzIxMjA1NSwtMTg3MzQ3Mj
+Q0MSwxNDE0MjIzNjkyLC0xNDUyMzIzMDI2LC02MTk1OTQ0MDMs
+LTE1MDkzMDEyMzNdfQ==
 -->
