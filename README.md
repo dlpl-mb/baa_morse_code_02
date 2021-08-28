@@ -40,7 +40,13 @@ Grundregeln dazu sind:
  ```blocks
 radio.setGroup(99)
  ```
- Wähle mit 
+* Wähle mit deinem/r Kommunikationspartner/in eine Funkkanal von 1 bis 255 aus - niemand anderer im Raum darf denselben verwenden, sonst gibt es Kommunkationssalat
+
+
+
+
+
+
 **Die Aufgaben lautet:**
 
 * Taste A des micro:bit zeigt die Buchstaben A bis G (Später nehmen wir alle anderen Buchstaben dazu.)
@@ -133,8 +139,8 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTIyNjY1MjQsMTczNTEzMzkwLDU2OT
-QzNTE5NCwyMjcyMDU5MTQsMTI1MDY1NjA1OSwxNDIzNDY4Mjcw
-LDkwMTQwODkxOCwxMjc5NDk4NzgwLDE4NDU5NzI5ODQsMTg3OT
-MyNjU4MV19
+eyJoaXN0b3J5IjpbMTQ4OTA5NDM5NywxNzM1MTMzOTAsNTY5ND
+M1MTk0LDIyNzIwNTkxNCwxMjUwNjU2MDU5LDE0MjM0NjgyNzAs
+OTAxNDA4OTE4LDEyNzk0OTg3ODAsMTg0NTk3Mjk4NCwxODc5Mz
+I2NTgxXX0=
 -->
