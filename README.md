@@ -132,13 +132,14 @@ Eingebaut in das Übertragungsprogramm:
 **Lösung b:** Wir bauen eine Auswahltastatur
 * Bei dieser Lösung arbeiten wir mit dem Neigungswinkel in Richtung x - eine sehr leistungsfähige Funktion, mit der man viele Spiele gestalten kann.
 * Probiere folgende Funktion als Übung und notiere dir einige Werte
-* Wichtig ist hier, den Micro:bit nach links und Recht zu kippen
+* Wichtig ist hier, den Micro:bit nach links und Recht zu kippen:
+ <img src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/mbit_li_re_x.png?raw=1">
 ```blocks
 	input.onButtonPressed(Button.A, function () {
 		basic.showNumber(input.acceleration(Dimension.X))
 	})
 ```
-* 
+* Beoachte dabei die x-Werte
 * 
 * Experimentiere mit der  Zufallsfunktion: 
 
@@ -323,11 +324,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3OTI2NzQ0MiwtOTY2ODM1NTk3LDU0Nj
-M5ODQ5MSwtODY4MzY4MTIxLDE0NTYzNTQwMjksMTUxNjQyNzIy
-NywtMTYyMjYwMjI2MCwxNjQwMDM3NjYyLDU1MDgxOTQ2MCwxMD
-YxOTU1NzE0LC03Mjc1NjYzMTksLTE2OTI0MzIzNDYsLTI3MDU3
-NzI3OCwtMTg5MTY3NjgxLC02NzUwODE5MTcsLTE5MDcwMDEyOD
-UsMTIxMDEwNTgzNyw2NDY2NDI2ODgsMTY0MTIwNjU5MywxNDY2
-MzE1ODQ3XX0=
+eyJoaXN0b3J5IjpbLTIwMTYxMTE2NDQsLTU3OTI2NzQ0MiwtOT
+Y2ODM1NTk3LDU0NjM5ODQ5MSwtODY4MzY4MTIxLDE0NTYzNTQw
+MjksMTUxNjQyNzIyNywtMTYyMjYwMjI2MCwxNjQwMDM3NjYyLD
+U1MDgxOTQ2MCwxMDYxOTU1NzE0LC03Mjc1NjYzMTksLTE2OTI0
+MzIzNDYsLTI3MDU3NzI3OCwtMTg5MTY3NjgxLC02NzUwODE5MT
+csLTE5MDcwMDEyODUsMTIxMDEwNTgzNyw2NDY2NDI2ODgsMTY0
+MTIwNjU5M119
 -->
