@@ -19,8 +19,9 @@ Drucke Dir die Tabelle aller Morsecodes aus (Rechte Maustaste - Bild kopieren un
 
 Wir werden nun bereits alle Morsezeichen verwenden, damit ihr auch gut kommunizieren könnt. Diese sind bereits im Programm eingespielt und ihr könnt damit weiterarbeiten.
 
-**Hier ist der Code mit allen Zeichen:**
+**Wir arbeHier ist der Code mit allen Zeichen:**
 * Einige Zeichen hast du ja im ersten Teil diese Projektes schon verwendet - hier nun alle Zeichen.  Untersuche, dass genau jene Zeichen, die in unserer Sprache oft verwendet werden, sehr kurze Morsekombinationen haben und andere, seltene Zeichen längere Morsesymbole.
+Damit die lange Liste der Buchstaben und Morsezeichen nicht immer so viel Platz auf dem 
 
 let liste_buchstaben = 
 ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T", "U","V","W","X","Y","Z","1","2","3","4","5","6","7","8","9","0"]
@@ -78,53 +79,36 @@ Es wäre gut, könnte man den Buchstaben auswählen:
 
 Programm: Ein Auswahl eines Buchstabens per Zufall
 Probiere folgende Zufallsfunktion aus 
-Damit die lange Liste der Buchstaben und Morsezeichen nicht immer so viel Platz auf dem 
-```blocks
-input.onButtonPressed(Button.A, function () {
-    index = randint(0, anz_bst)
-    auswahl_buchstabe = liste_buchstaben[index]
-    // damit siehst du als Sender den Buchstaben auch auf deinem Display
-    basic.showString("" + (auswahl_buchstabe))
-    radio.sendString("" + (liste_morsecodes[index]))
-})
-radio.onReceivedString(function (receivedString) {
-    // Beim Emfänger werden die empfangenen Daten angezeigt
-    basic.showString(receivedString)
-})
-input.onButtonPressed(Button.B, function () {
-    for (let index2 = 0; index2 <= anz_bst; index2++) {
-        basic.showString("" + (liste_buchstaben[index2]))
-        basic.showString("" + (liste_morsecodes[index2]))
-        basic.pause(2000)
-        basic.clearScreen()
-    }
-})
-let auswahl_buchstabe = ""
-let index = 0
-let anz_bst = 0
-let liste_morsecodes: string[] = []
-let liste_buchstaben: string[] = []
-radio.setGroup(99)
-liste_buchstaben = [
-"A",
-"B",
-"C",
-"D",
-"E",
-"F",
-"G"
-]
-liste_morsecodes = [
-".-",
-"-...",
-"-.-.",
-"-..",
-".",
-"..-.",
-"--."
-]
-anz_bst = liste_buchstaben.length - 1
 
+```blocks
+	input.onButtonPressed(Button.A, function () {
+	    index = randint(0, anz_bst)
+	    auswahl_buchstabe = liste_buchstaben[index]
+	    // damit siehst du als Sender den Buchstaben auch auf deinem Display
+	    basic.showString("" + (auswahl_buchstabe))
+	    radio.sendString("" + (liste_morsecodes[index]))
+	})
+	radio.onReceivedString(function (receivedString) {
+	    // Beim Emfänger werden die empfangenen Daten angezeigt
+	    basic.showString(receivedString)
+	})
+	input.onButtonPressed(Button.B, function () {
+	    for (let index2 = 0; index2 <= anz_bst; index2++) {
+	        basic.showString("" + (liste_buchstaben[index2]))
+	        basic.showString("" + (liste_morsecodes[index2]))
+	        basic.pause(2000)
+	        basic.clearScreen()
+	    }
+	})
+	let auswahl_buchstabe = ""
+	let index = 0
+	let anz_bst = 0
+	let liste_morsecodes: string[] = []
+	let liste_buchstaben: string[] = []
+	radio.setGroup(99)
+	liste_buchstaben = ["A","B","C","D","E","F","G"]
+	liste_morsecodes = [".-","-...","-.-.","-..",".","..-.","--."]
+	anz_bst = liste_buchstaben.length - 1
 ```
 
 
@@ -260,7 +244,7 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODk0ODcxODMsLTIzMjc2NzA1MCw4ND
+eyJoaXN0b3J5IjpbLTE4MDMyOTAzMDMsLTIzMjc2NzA1MCw4ND
 U0MDk3NDYsNDcwNzIxMTEsMTkwMjEwMDcyNCwtMjAzNTg1ODQ5
 LC0xMjg0OTE2OTIzLC0xNzY0OTU3NDczLDg5MzcxNTg4MiwtMT
 c1MDkyMTEyMSwtMTU1NjY2MDc4NywtMjExMjM0OTY1NiwtNTE3
