@@ -21,7 +21,8 @@ Wir werden nun bereits alle Morsezeichen verwenden, damit ihr auch gut kommunizi
 
 **Hier ist der Code mit allen Zeichen:**
 
-let liste_buchstaben = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","1","2","3","4","5","6","7","8","9","0"]
+let liste_buchstaben = 
+["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T", "U","V","W","X","Y","Z","1","2","3","4","5","6","7","8","9","0"]
 
 let liste_morsezeichen = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--..",".----","..---","...--","....-",".....","-....","--...","---..","----.","-----"]
 
@@ -155,9 +156,9 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNDMyNTk1MCw0MzEzMjg2NTYsNTQ2NT
-U4OTUsLTE5OTgwMjIyMjEsMjEwNDgxMDQwNiwxNDg5MDk0Mzk3
-LDE3MzUxMzM5MCw1Njk0MzUxOTQsMjI3MjA1OTE0LDEyNTA2NT
-YwNTksMTQyMzQ2ODI3MCw5MDE0MDg5MTgsMTI3OTQ5ODc4MCwx
-ODQ1OTcyOTg0LDE4NzkzMjY1ODFdfQ==
+eyJoaXN0b3J5IjpbLTk1NDM0NDM2LDQzMTMyODY1Niw1NDY1NT
+g5NSwtMTk5ODAyMjIyMSwyMTA0ODEwNDA2LDE0ODkwOTQzOTcs
+MTczNTEzMzkwLDU2OTQzNTE5NCwyMjcyMDU5MTQsMTI1MDY1Nj
+A1OSwxNDIzNDY4MjcwLDkwMTQwODkxOCwxMjc5NDk4NzgwLDE4
+NDU5NzI5ODQsMTg3OTMyNjU4MV19
 -->
