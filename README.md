@@ -39,7 +39,7 @@ Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit d
 	radio.setGroup(99)
  ```
 * **Der erster Test zur Übertragung:** 
-* Wir werden mit ``|Taste A|`` senden und mit `|Taste B|` immer antworten.
+* Wir werden mit ``|Taste A|`` senden und mit `|Taste B|` immer antworten. ``||basic:Zeige LEDs||``
 * Was heißt die Aufgabenstellung? 
 	* Der Sender sendet einmal den Buchstaben A und den dazugehörigen Morsecode
 	* Der Empfänger bekommt den Morsecode angezeigt und muss den empfangenen Morsecode in den Buchstaben übersetzen.
@@ -240,11 +240,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ2NjQyNjg4LDE2NDEyMDY1OTMsMTQ2Nj
-MxNTg0NywtMTY2NjQzNzE5MSwtMjMyNzY3MDUwLDg0NTQwOTc0
-Niw0NzA3MjExMSwxOTAyMTAwNzI0LC0yMDM1ODU4NDksLTEyOD
-Q5MTY5MjMsLTE3NjQ5NTc0NzMsODkzNzE1ODgyLC0xNzUwOTIx
-MTIxLC0xNTU2NjYwNzg3LC0yMTEyMzQ5NjU2LC01MTcyMTIwNT
-UsLTE4NzM0NzI0NDEsMTQxNDIyMzY5MiwtMTQ1MjMyMzAyNiwt
-NjE5NTk0NDAzXX0=
+eyJoaXN0b3J5IjpbLTE0MzIxMzg5OTQsNjQ2NjQyNjg4LDE2ND
+EyMDY1OTMsMTQ2NjMxNTg0NywtMTY2NjQzNzE5MSwtMjMyNzY3
+MDUwLDg0NTQwOTc0Niw0NzA3MjExMSwxOTAyMTAwNzI0LC0yMD
+M1ODU4NDksLTEyODQ5MTY5MjMsLTE3NjQ5NTc0NzMsODkzNzE1
+ODgyLC0xNzUwOTIxMTIxLC0xNTU2NjYwNzg3LC0yMTEyMzQ5Nj
+U2LC01MTcyMTIwNTUsLTE4NzM0NzI0NDEsMTQxNDIyMzY5Miwt
+MTQ1MjMyMzAyNl19
 -->
