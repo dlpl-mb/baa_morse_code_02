@@ -80,9 +80,44 @@ Programm: Ein Auswahl eines Buchstabens per Zufall
 Probiere folgende Zufallsfunktion aus 
 Damit die lange Liste der Buchstaben und Morsezeichen nicht immer so viel Platz auf dem 
 ```blocks
-
+input.onButtonPressed(Button.A, function () {
+    for (let index = 0; index <= anz_bst; index++) {
+        basic.showString("" + (liste_buchstaben[index]))
+        basic.pause(500)
+    }
+})
+input.onButtonPressed(Button.B, function () {
+    for (let index2 = 0; index2 <= anz_bst; index2++) {
+        basic.showString("" + (liste_buchstaben[index2]))
+        basic.showString("" + (liste_morsecodes[index2]))
+        basic.pause(2000)
+        basic.clearScreen()
+    }
+})
+let anz_bst = 0
+let liste_morsecodes: string[] = []
+let liste_buchstaben: string[] = []
+basic.showIcon(IconNames.Yes)
+liste_buchstaben = [
+"A",
+"B",
+"C",
+"D",
+"E",
+"F",
+"G"
+]
+liste_morsecodes = [
+".-",
+"-...",
+"-.-.",
+"-..",
+".",
+"..-.",
+"--."
+]
+anz_bst = liste_buchstaben.length - 1
 ```
-
 
 
 
@@ -217,11 +252,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ1NDA5NzQ2LDQ3MDcyMTExLDE5MDIxMD
-A3MjQsLTIwMzU4NTg0OSwtMTI4NDkxNjkyMywtMTc2NDk1NzQ3
-Myw4OTM3MTU4ODIsLTE3NTA5MjExMjEsLTE1NTY2NjA3ODcsLT
-IxMTIzNDk2NTYsLTUxNzIxMjA1NSwtMTg3MzQ3MjQ0MSwxNDE0
-MjIzNjkyLC0xNDUyMzIzMDI2LC02MTk1OTQ0MDMsLTE1MDkzMD
-EyMzMsMTI3NDU3ODE1NSwxOTUxMjM4ODUxLC02NTg3MzQ4MDUs
-MjEzMDEzMDkwN119
+eyJoaXN0b3J5IjpbLTIzMjc2NzA1MCw4NDU0MDk3NDYsNDcwNz
+IxMTEsMTkwMjEwMDcyNCwtMjAzNTg1ODQ5LC0xMjg0OTE2OTIz
+LC0xNzY0OTU3NDczLDg5MzcxNTg4MiwtMTc1MDkyMTEyMSwtMT
+U1NjY2MDc4NywtMjExMjM0OTY1NiwtNTE3MjEyMDU1LC0xODcz
+NDcyNDQxLDE0MTQyMjM2OTIsLTE0NTIzMjMwMjYsLTYxOTU5ND
+QwMywtMTUwOTMwMTIzMywxMjc0NTc4MTU1LDE5NTEyMzg4NTEs
+LTY1ODczNDgwNV19
 -->
