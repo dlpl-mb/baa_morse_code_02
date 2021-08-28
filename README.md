@@ -45,10 +45,10 @@ Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit d
 * Was heißt die Aufgabenstellung? 
 	* Der Sender sendet einmal den Buchstaben A und den dazugehörigen Morsecode
 	* Der Empfänger bekommt den Morsecode angezeigt und muss den empfangenen Morsecode in den Buchstaben übersetzen.
-	* Programmtechnik: wir benötigen aus dem Menü `|Funk|` zwei Befehle:
-		* Daten senden: ``||radio: radio.sendString("A")||``
-		* Daten empfangen: ``||radio: radio.onReceivedString(function (receivedString) ) ||``
-	* Der Empfänger darf die Papierliste zum Entschlüsseln verwenden
+	* Programmtechnik: wir benötigen aus dem Menü `Funk` zwei Befehle:
+		* Daten senden: `radio: radio.sendString("A")`
+		* Daten empfangen: `radio: radio.onReceivedString(function (receivedString))`
+	* Der Empfänger sollte die Papierliste zum Entschlüsseln verwenden
 
 * Folgendes Programm soll nun auf beiden Micro:bitprogrammiert werden, damit könnt ihr schon einmal einige Texts machen. 
 ```blocks
@@ -242,11 +242,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTU5MzI5MjAsMTIxMDEwNTgzNyw2ND
-Y2NDI2ODgsMTY0MTIwNjU5MywxNDY2MzE1ODQ3LC0xNjY2NDM3
-MTkxLC0yMzI3NjcwNTAsODQ1NDA5NzQ2LDQ3MDcyMTExLDE5MD
-IxMDA3MjQsLTIwMzU4NTg0OSwtMTI4NDkxNjkyMywtMTc2NDk1
-NzQ3Myw4OTM3MTU4ODIsLTE3NTA5MjExMjEsLTE1NTY2NjA3OD
-csLTIxMTIzNDk2NTYsLTUxNzIxMjA1NSwtMTg3MzQ3MjQ0MSwx
-NDE0MjIzNjkyXX0=
+eyJoaXN0b3J5IjpbOTkxNzMwNzU4LDEyMTAxMDU4MzcsNjQ2Nj
+QyNjg4LDE2NDEyMDY1OTMsMTQ2NjMxNTg0NywtMTY2NjQzNzE5
+MSwtMjMyNzY3MDUwLDg0NTQwOTc0Niw0NzA3MjExMSwxOTAyMT
+AwNzI0LC0yMDM1ODU4NDksLTEyODQ5MTY5MjMsLTE3NjQ5NTc0
+NzMsODkzNzE1ODgyLC0xNzUwOTIxMTIxLC0xNTU2NjYwNzg3LC
+0yMTEyMzQ5NjU2LC01MTcyMTIwNTUsLTE4NzM0NzI0NDEsMTQx
+NDIyMzY5Ml19
 -->
