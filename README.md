@@ -42,9 +42,9 @@ let liste_morsezeichen = [".-","-...","-.-.","-..",".","..-.","--.","....","..",
 
 Um Daten senden zu können, müssen zwei micro:bit mit einigen Programmzeilen verbunden werden.
 **Grundregeln dazu sind:**
-* Es muss genau
-* Beide micro.bit müssen über denselben Funkkanal verfügen - siehe ``||radio: radio.setGroup(1)||``
 * Wähle mit deinem/r Kommunikationspartner/in eine Funkkanal von 1 bis 255 aus - niemand anderer im Raum darf denselben verwenden, sonst gibt es Kommunkationssalat - in unserem Beispiel 99
+* Es muss genau definiert werden, wer ist Sender und wer ist Empfänger: Es muss ausgemacht werden, wann so
+* Beide micro.bit müssen über denselben Funkkanal verfügen - siehe ``||radio: radio.setGroup(1)||``
  ```blocks
 radio.setGroup(99)
  ```
@@ -155,9 +155,9 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjg5MjcwNjcsMjEzMDEzMDkwNyw0Mz
-EzMjg2NTYsNTQ2NTU4OTUsLTE5OTgwMjIyMjEsMjEwNDgxMDQw
-NiwxNDg5MDk0Mzk3LDE3MzUxMzM5MCw1Njk0MzUxOTQsMjI3Mj
-A1OTE0LDEyNTA2NTYwNTksMTQyMzQ2ODI3MCw5MDE0MDg5MTgs
-MTI3OTQ5ODc4MCwxODQ1OTcyOTg0LDE4NzkzMjY1ODFdfQ==
+eyJoaXN0b3J5IjpbMTIzNzY3NDA2OSwyMTMwMTMwOTA3LDQzMT
+MyODY1Niw1NDY1NTg5NSwtMTk5ODAyMjIyMSwyMTA0ODEwNDA2
+LDE0ODkwOTQzOTcsMTczNTEzMzkwLDU2OTQzNTE5NCwyMjcyMD
+U5MTQsMTI1MDY1NjA1OSwxNDIzNDY4MjcwLDkwMTQwODkxOCwx
+Mjc5NDk4NzgwLDE4NDU5NzI5ODQsMTg3OTMyNjU4MV19
 -->
