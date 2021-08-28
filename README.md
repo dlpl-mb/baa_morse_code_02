@@ -19,7 +19,6 @@ Drucke Dir die Tabelle aller Morsecodes aus (Rechte Maustaste - Bild kopieren un
 
 **Wir arbeiten aus Gründen der Übersichtlichkeit weiter mit der Trainingsliste von 9 Buchstaben, später, wenn das Programm fertig ist, werden wir alle Zeichen verwenden**
 
-```block
 let liste_buchstaben = ["A","B","C","D","E","F","G","S","O"]
 let liste_morsezeichen = [".-","-...","-.-.","-..",".","..-.","--.","...","---"]
 ```
@@ -237,11 +236,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NjMxNTg0NywtMTY2NjQzNzE5MSwtMj
-MyNzY3MDUwLDg0NTQwOTc0Niw0NzA3MjExMSwxOTAyMTAwNzI0
-LC0yMDM1ODU4NDksLTEyODQ5MTY5MjMsLTE3NjQ5NTc0NzMsOD
-kzNzE1ODgyLC0xNzUwOTIxMTIxLC0xNTU2NjYwNzg3LC0yMTEy
-MzQ5NjU2LC01MTcyMTIwNTUsLTE4NzM0NzI0NDEsMTQxNDIyMz
-Y5MiwtMTQ1MjMyMzAyNiwtNjE5NTk0NDAzLC0xNTA5MzAxMjMz
-LDEyNzQ1NzgxNTVdfQ==
+eyJoaXN0b3J5IjpbLTc2MzkwMjkzOCwxNDY2MzE1ODQ3LC0xNj
+Y2NDM3MTkxLC0yMzI3NjcwNTAsODQ1NDA5NzQ2LDQ3MDcyMTEx
+LDE5MDIxMDA3MjQsLTIwMzU4NTg0OSwtMTI4NDkxNjkyMywtMT
+c2NDk1NzQ3Myw4OTM3MTU4ODIsLTE3NTA5MjExMjEsLTE1NTY2
+NjA3ODcsLTIxMTIzNDk2NTYsLTUxNzIxMjA1NSwtMTg3MzQ3Mj
+Q0MSwxNDE0MjIzNjkyLC0xNDUyMzIzMDI2LC02MTk1OTQ0MDMs
+LTE1MDkzMDEyMzNdfQ==
 -->
