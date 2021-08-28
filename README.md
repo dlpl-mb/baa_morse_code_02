@@ -88,7 +88,11 @@ basic.showString(receivedString)
 radio.setGroup(99)
 ```
 
-
+|                |ASCII                          |HTML                         |
+|----------------|-------------------------------|-----------------------------|
+|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
+|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
+|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
 
 ```blocks
 input.onButtonPressed(Button.A, () => { 
@@ -174,10 +178,11 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDkzMDEyMzMsMTI3NDU3ODE1NSwxOT
-UxMjM4ODUxLC02NTg3MzQ4MDUsMjEzMDEzMDkwNyw0MzEzMjg2
-NTYsNTQ2NTU4OTUsLTE5OTgwMjIyMjEsMjEwNDgxMDQwNiwxND
-g5MDk0Mzk3LDE3MzUxMzM5MCw1Njk0MzUxOTQsMjI3MjA1OTE0
-LDEyNTA2NTYwNTksMTQyMzQ2ODI3MCw5MDE0MDg5MTgsMTI3OT
-Q5ODc4MCwxODQ1OTcyOTg0LDE4NzkzMjY1ODFdfQ==
+eyJoaXN0b3J5IjpbLTYxOTU5NDQwMywtMTUwOTMwMTIzMywxMj
+c0NTc4MTU1LDE5NTEyMzg4NTEsLTY1ODczNDgwNSwyMTMwMTMw
+OTA3LDQzMTMyODY1Niw1NDY1NTg5NSwtMTk5ODAyMjIyMSwyMT
+A0ODEwNDA2LDE0ODkwOTQzOTcsMTczNTEzMzkwLDU2OTQzNTE5
+NCwyMjcyMDU5MTQsMTI1MDY1NjA1OSwxNDIzNDY4MjcwLDkwMT
+QwODkxOCwxMjc5NDk4NzgwLDE4NDU5NzI5ODQsMTg3OTMyNjU4
+MV19
 -->
