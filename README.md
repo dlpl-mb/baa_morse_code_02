@@ -68,6 +68,31 @@ Um Daten senden zu können, müssen zwei micro:bit mit einigen Programmzeilen ve
 * Ladet das Programm auf eure beiden micro:bit und macht erste Tests
 * Schreibt auf, was noch nicht gut funktioniert
 
+Verbesseru
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br>
 **Verbesserungen:**
 
@@ -88,14 +113,7 @@ basic.showString(receivedString)
 radio.setGroup(99)
 ```
 
-|                |ASCII                          |HTML                         |
-|----------------|-------------------------------|-----------------------------|
-|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
-|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
-|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-$$
-\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
-$$
+
 ```blocks
 input.onButtonPressed(Button.A, () => { 
     basic.showString("A");
@@ -180,11 +198,11 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTIzMjMwMjYsLTYxOTU5NDQwMywtMT
-UwOTMwMTIzMywxMjc0NTc4MTU1LDE5NTEyMzg4NTEsLTY1ODcz
-NDgwNSwyMTMwMTMwOTA3LDQzMTMyODY1Niw1NDY1NTg5NSwtMT
-k5ODAyMjIyMSwyMTA0ODEwNDA2LDE0ODkwOTQzOTcsMTczNTEz
-MzkwLDU2OTQzNTE5NCwyMjcyMDU5MTQsMTI1MDY1NjA1OSwxND
-IzNDY4MjcwLDkwMTQwODkxOCwxMjc5NDk4NzgwLDE4NDU5NzI5
-ODRdfQ==
+eyJoaXN0b3J5IjpbODIyNDMwNDI5LC0xNDUyMzIzMDI2LC02MT
+k1OTQ0MDMsLTE1MDkzMDEyMzMsMTI3NDU3ODE1NSwxOTUxMjM4
+ODUxLC02NTg3MzQ4MDUsMjEzMDEzMDkwNyw0MzEzMjg2NTYsNT
+Q2NTU4OTUsLTE5OTgwMjIyMjEsMjEwNDgxMDQwNiwxNDg5MDk0
+Mzk3LDE3MzUxMzM5MCw1Njk0MzUxOTQsMjI3MjA1OTE0LDEyNT
+A2NTYwNTksMTQyMzQ2ODI3MCw5MDE0MDg5MTgsMTI3OTQ5ODc4
+MF19
 -->
