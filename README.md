@@ -39,7 +39,7 @@ Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit d
 	radio.setGroup(99)
  ```
 * **Der erster Test zur Übertragung:** 
-* Wir werden mit `|Taste A|` senden und mit `|Taste B|` immer antworten.
+* Wir werden mit ``|Taste A|`` senden und mit `|Taste B|` immer antworten.
 * Was heißt die Aufgabenstellung? 
 	* Der Sender sendet einmal den Buchstaben A und den dazugehörigen Morsecode
 	* Der Empfänger bekommt den Morsecode angezeigt und muss den empfangenen Morsecode in den Buchstaben übersetzen.
@@ -240,7 +240,7 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MTI1NjI1NSwxNDY2MzE1ODQ3LC0xNj
+eyJoaXN0b3J5IjpbMTY0MTIwNjU5MywxNDY2MzE1ODQ3LC0xNj
 Y2NDM3MTkxLC0yMzI3NjcwNTAsODQ1NDA5NzQ2LDQ3MDcyMTEx
 LDE5MDIxMDA3MjQsLTIwMzU4NTg0OSwtMTI4NDkxNjkyMywtMT
 c2NDk1NzQ3Myw4OTM3MTU4ODIsLTE3NTA5MjExMjEsLTE1NTY2
