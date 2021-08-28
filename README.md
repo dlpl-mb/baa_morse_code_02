@@ -139,7 +139,7 @@ Eingebaut in das Übertragungsprogramm:
 		basic.showNumber(input.acceleration(Dimension.X))
 	})
 ```
-* Beoachte dabei die x-Werte
+* Beobachte dabei die x-Werte - wir wollen dies
 * 
 * Experimentiere mit der  Zufallsfunktion: 
 
@@ -324,11 +324,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTYxMTE2NDQsLTU3OTI2NzQ0MiwtOT
-Y2ODM1NTk3LDU0NjM5ODQ5MSwtODY4MzY4MTIxLDE0NTYzNTQw
-MjksMTUxNjQyNzIyNywtMTYyMjYwMjI2MCwxNjQwMDM3NjYyLD
-U1MDgxOTQ2MCwxMDYxOTU1NzE0LC03Mjc1NjYzMTksLTE2OTI0
-MzIzNDYsLTI3MDU3NzI3OCwtMTg5MTY3NjgxLC02NzUwODE5MT
-csLTE5MDcwMDEyODUsMTIxMDEwNTgzNyw2NDY2NDI2ODgsMTY0
-MTIwNjU5M119
+eyJoaXN0b3J5IjpbMTIwNzAyMTAzOSwtNTc5MjY3NDQyLC05Nj
+Y4MzU1OTcsNTQ2Mzk4NDkxLC04NjgzNjgxMjEsMTQ1NjM1NDAy
+OSwxNTE2NDI3MjI3LC0xNjIyNjAyMjYwLDE2NDAwMzc2NjIsNT
+UwODE5NDYwLDEwNjE5NTU3MTQsLTcyNzU2NjMxOSwtMTY5MjQz
+MjM0NiwtMjcwNTc3Mjc4LC0xODkxNjc2ODEsLTY3NTA4MTkxNy
+wtMTkwNzAwMTI4NSwxMjEwMTA1ODM3LDY0NjY0MjY4OCwxNjQx
+MjA2NTkzXX0=
 -->
