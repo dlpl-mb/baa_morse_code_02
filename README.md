@@ -61,7 +61,7 @@ Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit d
 	})
 	radio.setGroup(99)
 ```
-[Programmcode](){}
+[Programmcode](){:target:_blank}
 <!-- Wenn du ein zweites Browserfenster öffnest, kannst du den Code dort öffnen: -->
 
 * Ladet das Programm auf eure beiden Micro:bit und macht erste Tests
@@ -243,7 +243,7 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNTczMjkwMCwtMTkwNzAwMTI4NSwxMj
+eyJoaXN0b3J5IjpbMTg2ODgwMzcwNCwtMTkwNzAwMTI4NSwxMj
 EwMTA1ODM3LDY0NjY0MjY4OCwxNjQxMjA2NTkzLDE0NjYzMTU4
 NDcsLTE2NjY0MzcxOTEsLTIzMjc2NzA1MCw4NDU0MDk3NDYsND
 cwNzIxMTEsMTkwMjEwMDcyNCwtMjAzNTg1ODQ5LC0xMjg0OTE2
