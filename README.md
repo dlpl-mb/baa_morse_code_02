@@ -43,7 +43,7 @@ let liste_morsezeichen = [".-","-...","-.-.","-..",".","..-.","--.","....","..",
 Um Daten senden zu können, müssen zwei micro:bit mit einigen Programmzeilen verbunden werden.
 **Grundregeln dazu sind:**
 * Wähle mit deinem/r Kommunikationspartner/in eine Funkkanal von 1 bis 255 aus - niemand anderer im Raum darf denselben verwenden, sonst gibt es Kommunkationssalat - in unserem Beispiel 99
-* Es muss genau definiert werden, wer ist Sender und wer ist Empfänger: Es muss ausgemacht werden, wann so
+* Es muss genau definiert werden, wer ist Sender und wer ist Empfänger: Es muss ausgemacht werden, wann soll der Empfänger sich melden - wie soll er sich melden.
 * Beide micro.bit müssen über denselben Funkkanal verfügen - siehe ``||radio: radio.setGroup(1)||``
  ```blocks
 radio.setGroup(99)
@@ -70,6 +70,19 @@ radio.setGroup(99)
 * Später wirst du dein Programm so ausgebauen, dass du Codes zu anderen micro:bits übertragen und somit Anderen senden kann.
 * Probiere das gleich mit dem Button "Dreieck" aus:
 <img width="40%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/dreieck.png?raw=1">
+
+```blocks
+input.onButtonPressed(Button.A, function () {
+radio.sendString(".- -. -. .-")
+})
+
+radio.onReceivedString(function (receivedString) {
+basic.showString(receivedString)
+})
+radio.setGroup(99)
+```
+
+
 
 ```blocks
 input.onButtonPressed(Button.A, () => { 
@@ -155,9 +168,9 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNzY3NDA2OSwyMTMwMTMwOTA3LDQzMT
-MyODY1Niw1NDY1NTg5NSwtMTk5ODAyMjIyMSwyMTA0ODEwNDA2
-LDE0ODkwOTQzOTcsMTczNTEzMzkwLDU2OTQzNTE5NCwyMjcyMD
-U5MTQsMTI1MDY1NjA1OSwxNDIzNDY4MjcwLDkwMTQwODkxOCwx
-Mjc5NDk4NzgwLDE4NDU5NzI5ODQsMTg3OTMyNjU4MV19
+eyJoaXN0b3J5IjpbODg5MzczODIwLDIxMzAxMzA5MDcsNDMxMz
+I4NjU2LDU0NjU1ODk1LC0xOTk4MDIyMjIxLDIxMDQ4MTA0MDYs
+MTQ4OTA5NDM5NywxNzM1MTMzOTAsNTY5NDM1MTk0LDIyNzIwNT
+kxNCwxMjUwNjU2MDU5LDE0MjM0NjgyNzAsOTAxNDA4OTE4LDEy
+Nzk0OTg3ODAsMTg0NTk3Mjk4NCwxODc5MzI2NTgxXX0=
 -->
