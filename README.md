@@ -74,7 +74,7 @@ Es wäre gut, könnte man den Buchstaben auswählen:
  - Es fehlt eine Tastatur zum Eingeben des Buchstabens
  - Wie könnte man aus den Buchstaben auswählen?
 	- Entweder durch Zufall oder 
-	- mit einer programmierten Tastatur
+	- mit einer viruellen (gedachten) Tastatur
 
 
 
@@ -219,7 +219,7 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTIwMjk4MiwxOTAyMTAwNzI0LC0yMD
+eyJoaXN0b3J5IjpbLTM3NDMyMTE4OCwxOTAyMTAwNzI0LC0yMD
 M1ODU4NDksLTEyODQ5MTY5MjMsLTE3NjQ5NTc0NzMsODkzNzE1
 ODgyLC0xNzUwOTIxMTIxLC0xNTU2NjYwNzg3LC0yMTEyMzQ5Nj
 U2LC01MTcyMTIwNTUsLTE4NzM0NzI0NDEsMTQxNDIyMzY5Miwt
