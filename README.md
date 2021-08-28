@@ -1,3 +1,6 @@
+<style>
+ html,body {font-size:3em}
+ <style>
 
 ## Geheimzeichen: Das Morse-Alphabet II
 **Halllo, ich bin Robi01 und werde dich beim Programmieren mit micro:bit begleiten. Wir werden bei diesem Projekt nun Morsezeichen zu meiner Freundin Robi02 übertragen.**
