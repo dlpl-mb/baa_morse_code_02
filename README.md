@@ -42,7 +42,7 @@ Um Daten senden zu können, müssen zwei micro:bit mit einigen Programmzeilen ve
 * Wir werden mit `|Taste A|` senden und mit `|Taste B|` immer antworten
 * Was senden wir? 
 	* Wir senden einmal den Buchstaben A und den dazugehörigen Morsecode.
-	* Der Empfänger bekommt den Morsecode angezeigt und muss
+	* Der Empfänger bekommt den Morsecode angezeigt und muss den Buchstaben daraus in erfahrungen liste nachsehen
 
 * Folgendes Programm soll nun auf beiden micro:bit programmiert werden, damit könnt ihr schon einmal einige Texts machen. Tauscht 
 ```blocks
@@ -235,11 +235,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg3NjUyOTEzLC0yMzI3NjcwNTAsODQ1ND
-A5NzQ2LDQ3MDcyMTExLDE5MDIxMDA3MjQsLTIwMzU4NTg0OSwt
-MTI4NDkxNjkyMywtMTc2NDk1NzQ3Myw4OTM3MTU4ODIsLTE3NT
-A5MjExMjEsLTE1NTY2NjA3ODcsLTIxMTIzNDk2NTYsLTUxNzIx
-MjA1NSwtMTg3MzQ3MjQ0MSwxNDE0MjIzNjkyLC0xNDUyMzIzMD
-I2LC02MTk1OTQ0MDMsLTE1MDkzMDEyMzMsMTI3NDU3ODE1NSwx
-OTUxMjM4ODUxXX0=
+eyJoaXN0b3J5IjpbLTE2NjY0MzcxOTEsLTIzMjc2NzA1MCw4ND
+U0MDk3NDYsNDcwNzIxMTEsMTkwMjEwMDcyNCwtMjAzNTg1ODQ5
+LC0xMjg0OTE2OTIzLC0xNzY0OTU3NDczLDg5MzcxNTg4MiwtMT
+c1MDkyMTEyMSwtMTU1NjY2MDc4NywtMjExMjM0OTY1NiwtNTE3
+MjEyMDU1LC0xODczNDcyNDQxLDE0MTQyMjM2OTIsLTE0NTIzMj
+MwMjYsLTYxOTU5NDQwMywtMTUwOTMwMTIzMywxMjc0NTc4MTU1
+LDE5NTEyMzg4NTFdfQ==
 -->
