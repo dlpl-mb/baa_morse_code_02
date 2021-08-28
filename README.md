@@ -201,15 +201,13 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 
-```template
-basic.showString(".-");
-```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNzIxMjA1NSwtMTg3MzQ3MjQ0MSwxND
-E0MjIzNjkyLC0xNDUyMzIzMDI2LC02MTk1OTQ0MDMsLTE1MDkz
-MDEyMzMsMTI3NDU3ODE1NSwxOTUxMjM4ODUxLC02NTg3MzQ4MD
-UsMjEzMDEzMDkwNyw0MzEzMjg2NTYsNTQ2NTU4OTUsLTE5OTgw
-MjIyMjEsMjEwNDgxMDQwNiwxNDg5MDk0Mzk3LDE3MzUxMzM5MC
-w1Njk0MzUxOTQsMjI3MjA1OTE0LDEyNTA2NTYwNTksMTQyMzQ2
-ODI3MF19
+eyJoaXN0b3J5IjpbLTIxMTIzNDk2NTYsLTUxNzIxMjA1NSwtMT
+g3MzQ3MjQ0MSwxNDE0MjIzNjkyLC0xNDUyMzIzMDI2LC02MTk1
+OTQ0MDMsLTE1MDkzMDEyMzMsMTI3NDU3ODE1NSwxOTUxMjM4OD
+UxLC02NTg3MzQ4MDUsMjEzMDEzMDkwNyw0MzEzMjg2NTYsNTQ2
+NTU4OTUsLTE5OTgwMjIyMjEsMjEwNDgxMDQwNiwxNDg5MDk0Mz
+k3LDE3MzUxMzM5MCw1Njk0MzUxOTQsMjI3MjA1OTE0LDEyNTA2
+NTYwNTldfQ==
 -->
