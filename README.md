@@ -68,7 +68,9 @@ Um Daten senden zu können, müssen zwei micro:bit mit einigen Programmzeilen ve
 * Ladet das Programm auf eure beiden micro:bit und macht erste Tests
 * Schreibt auf, was noch nicht gut funktioniert
 
-Verbesseru
+**Verbesserungswünsche:**
+* Wenn ich einen neuen Buchstaben senden will, muss ich das Sender-Programm umschreiben - es wäre gut, könnte man den Buchstaben auswählen:
+* + Es fehlt eine Tastatur 
 
 
 
@@ -198,11 +200,11 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIyNDMwNDI5LC0xNDUyMzIzMDI2LC02MT
-k1OTQ0MDMsLTE1MDkzMDEyMzMsMTI3NDU3ODE1NSwxOTUxMjM4
-ODUxLC02NTg3MzQ4MDUsMjEzMDEzMDkwNyw0MzEzMjg2NTYsNT
-Q2NTU4OTUsLTE5OTgwMjIyMjEsMjEwNDgxMDQwNiwxNDg5MDk0
-Mzk3LDE3MzUxMzM5MCw1Njk0MzUxOTQsMjI3MjA1OTE0LDEyNT
-A2NTYwNTksMTQyMzQ2ODI3MCw5MDE0MDg5MTgsMTI3OTQ5ODc4
-MF19
+eyJoaXN0b3J5IjpbMTY4MTYyODg5NiwtMTQ1MjMyMzAyNiwtNj
+E5NTk0NDAzLC0xNTA5MzAxMjMzLDEyNzQ1NzgxNTUsMTk1MTIz
+ODg1MSwtNjU4NzM0ODA1LDIxMzAxMzA5MDcsNDMxMzI4NjU2LD
+U0NjU1ODk1LC0xOTk4MDIyMjIxLDIxMDQ4MTA0MDYsMTQ4OTA5
+NDM5NywxNzM1MTMzOTAsNTY5NDM1MTk0LDIyNzIwNTkxNCwxMj
+UwNjU2MDU5LDE0MjM0NjgyNzAsOTAxNDA4OTE4LDEyNzk0OTg3
+ODBdfQ==
 -->
