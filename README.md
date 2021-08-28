@@ -34,12 +34,12 @@ Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit d
 * Wähle mit deinem/r Kommunikationspartner/in einen Funkkanal von 1 bis 255 aus - niemand anderer im Raum darf denselben verwenden, sonst gibt es Kommunikationssalat - in unserem Beispiel wählen wir **99**.
 * Es muss genau definiert werden, wer ist **Sender** und wer ist **Empfänger**: Es muss auch genau vereinbart werden, wann soll gesendet werden, wann meldet sich der Empfänger.
 * Beide micro.bit müssen über denselben Funkkanal verfügen - siehe ``||radio: radio.setGroup(1)||``
-* Beide können in unserem Fall auch dasselbe Programm auf den Micro:bit spielen.
+* Beide Partner können in unserem Beispiel auch dasselbe Programm auf den Micro:bit spielen.
  ```blocks
 	radio.setGroup(99)
  ```
-* **Der erster Test:** 
-* Wir werden mit `|Taste A|` senden und mit `|Taste B|` immer antworten
+* **Der erster Test zur Übertragung:** 
+* Wir werden mit `|Taste A|` senden und mit `|Taste B|` immer antworten.
 * Was senden wir? 
 	* Wir senden einmal den Buchstaben A und den dazugehörigen Morsecode
 	* Der Empfänger bekommt den Morsecode angezeigt und muss den empfangenen Morsecode in den Buchstaben übersetzen.
@@ -237,7 +237,7 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDM1MjM0NywxNDY2MzE1ODQ3LC0xNj
+eyJoaXN0b3J5IjpbMTE1ODQyMTQyNSwxNDY2MzE1ODQ3LC0xNj
 Y2NDM3MTkxLC0yMzI3NjcwNTAsODQ1NDA5NzQ2LDQ3MDcyMTEx
 LDE5MDIxMDA3MjQsLTIwMzU4NTg0OSwtMTI4NDkxNjkyMywtMT
 c2NDk1NzQ3Myw4OTM3MTU4ODIsLTE3NTA5MjExMjEsLTE1NTY2
