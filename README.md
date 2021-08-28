@@ -17,13 +17,11 @@ Wusstest du, dass ein micro:bit mit anderen micro:bit über Funkwellen kommunizi
 <img width="100%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/morse-tab.png?raw=1"> 
 Drucke Dir die Tabelle aller Morsecodes aus (Rechte Maustaste - Bild kopieren und dann mit Word ausdrucken)
 
-
-
-**Wir arbeiten wegen des besseren überblicks Weiter mit der Trainingsliste von 7 Buchstaben, später, wenn das Programm fertig ist, werden wir alle Zeichen verwenden**
+**Wir arbeiten aus Gründen der Übersichtlichkeit weiter mit der Trainingsliste von 9 Buchstaben, später, wenn das Programm fertig ist, werden wir alle Zeichen verwenden**
 
 ```block
-let liste_buchstaben = ["A","B","C","D","E","F","G"]
-let liste_morsezeichen = [".-","-...","-.-.","-..",".","..-.","--."]
+let liste_buchstaben = ["A","B","C","D","E","F","G","S","O"]
+let liste_morsezeichen = [".-","-...","-.-.","-..",".","..-.","--.","...","---"]
 ```
 
 * Eines der wichtigsten Symbole solltest du die in Zukunft merken - es ist für Notfälle gedacht: 
@@ -236,11 +234,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2ODUyMjI5MCwtMjMyNzY3MDUwLDg0NT
-QwOTc0Niw0NzA3MjExMSwxOTAyMTAwNzI0LC0yMDM1ODU4NDks
-LTEyODQ5MTY5MjMsLTE3NjQ5NTc0NzMsODkzNzE1ODgyLC0xNz
-UwOTIxMTIxLC0xNTU2NjYwNzg3LC0yMTEyMzQ5NjU2LC01MTcy
-MTIwNTUsLTE4NzM0NzI0NDEsMTQxNDIyMzY5MiwtMTQ1MjMyMz
-AyNiwtNjE5NTk0NDAzLC0xNTA5MzAxMjMzLDEyNzQ1NzgxNTUs
-MTk1MTIzODg1MV19
+eyJoaXN0b3J5IjpbNTMyMzExMjg2LC0yMzI3NjcwNTAsODQ1ND
+A5NzQ2LDQ3MDcyMTExLDE5MDIxMDA3MjQsLTIwMzU4NTg0OSwt
+MTI4NDkxNjkyMywtMTc2NDk1NzQ3Myw4OTM3MTU4ODIsLTE3NT
+A5MjExMjEsLTE1NTY2NjA3ODcsLTIxMTIzNDk2NTYsLTUxNzIx
+MjA1NSwtMTg3MzQ3MjQ0MSwxNDE0MjIzNjkyLC0xNDUyMzIzMD
+I2LC02MTk1OTQ0MDMsLTE1MDkzMDEyMzMsMTI3NDU3ODE1NSwx
+OTUxMjM4ODUxXX0=
 -->
