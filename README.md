@@ -206,7 +206,7 @@ anz_bst = liste_buchstaben.length - 1
 
 
 
-[Test mit neulink](https://makecode.microbit.org/_buWXjXMYkKop){:target="_blank"}
+[Test mit Blanklink funktionierend](https://makecode.microbit.org/_buWXjXMYkKop){:target="_blank"}
 
 [Test mit neulink2](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM){target="_blank"}
 
@@ -216,7 +216,7 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzU4NTg0OSwtMjAzNTg1ODQ5LC0xMj
+eyJoaXN0b3J5IjpbMTkwMjEwMDcyNCwtMjAzNTg1ODQ5LC0xMj
 g0OTE2OTIzLC0xNzY0OTU3NDczLDg5MzcxNTg4MiwtMTc1MDky
 MTEyMSwtMTU1NjY2MDc4NywtMjExMjM0OTY1NiwtNTE3MjEyMD
 U1LC0xODczNDcyNDQxLDE0MTQyMjM2OTIsLTE0NTIzMjMwMjYs
