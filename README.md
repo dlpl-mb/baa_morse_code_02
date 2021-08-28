@@ -19,7 +19,7 @@ Drucke Dir die Tabelle aller Morsecodes aus (Rechte Maustaste - Bild kopieren un
 
 Wir werden nun bereits alle Morsezeichen verwenden, damit ihr auch gut kommunizieren könnt. Diese sind bereits im Programm eingespielt und ihr könnt damit weiterarbeiten.
 
-**Wir arbeHier ist der Code mit allen Zeichen:**
+**Wir arbeiten wegen des besseren überblicks Weiter mit der Trainingsliste von 7 Buchstaben, später, wenn das Programm fertig ist, werden wir alle Zeichen verwenden**
 * Einige Zeichen hast du ja im ersten Teil diese Projektes schon verwendet - hier nun alle Zeichen.  Untersuche, dass genau jene Zeichen, die in unserer Sprache oft verwendet werden, sehr kurze Morsekombinationen haben und andere, seltene Zeichen längere Morsesymbole.
 Damit die lange Liste der Buchstaben und Morsezeichen nicht immer so viel Platz auf dem 
 
@@ -244,11 +244,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDMyOTAzMDMsLTIzMjc2NzA1MCw4ND
-U0MDk3NDYsNDcwNzIxMTEsMTkwMjEwMDcyNCwtMjAzNTg1ODQ5
-LC0xMjg0OTE2OTIzLC0xNzY0OTU3NDczLDg5MzcxNTg4MiwtMT
-c1MDkyMTEyMSwtMTU1NjY2MDc4NywtMjExMjM0OTY1NiwtNTE3
-MjEyMDU1LC0xODczNDcyNDQxLDE0MTQyMjM2OTIsLTE0NTIzMj
-MwMjYsLTYxOTU5NDQwMywtMTUwOTMwMTIzMywxMjc0NTc4MTU1
-LDE5NTEyMzg4NTFdfQ==
+eyJoaXN0b3J5IjpbLTYyNzY1NDUwNiwtMjMyNzY3MDUwLDg0NT
+QwOTc0Niw0NzA3MjExMSwxOTAyMTAwNzI0LC0yMDM1ODU4NDks
+LTEyODQ5MTY5MjMsLTE3NjQ5NTc0NzMsODkzNzE1ODgyLC0xNz
+UwOTIxMTIxLC0xNTU2NjYwNzg3LC0yMTEyMzQ5NjU2LC01MTcy
+MTIwNTUsLTE4NzM0NzI0NDEsMTQxNDIyMzY5MiwtMTQ1MjMyMz
+AyNiwtNjE5NTk0NDAzLC0xNTA5MzAxMjMzLDEyNzQ1NzgxNTUs
+MTk1MTIzODg1MV19
 -->
