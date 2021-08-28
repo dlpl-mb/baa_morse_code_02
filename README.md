@@ -50,7 +50,6 @@ Um Daten senden zu können, müssen zwei micro:bit mit einigen Programmzeilen ve
  ```
 * **Abmachung:** 
 * Wir werden mit `|Taste A|` senden und mit Taste B immer antworten
-* Der Sender darf erst dann wieder senden, wenn er
 
 * Folgendes Programm soll nun auf beide micro:bit
 
@@ -96,7 +95,7 @@ input.onButtonPressed(Button.B, () => {
 });
 ```
 * Schreib nun im Programmeditor (Button **Blöcke**) die kurzen Programme für die anderen Buchstaben B bis G.
-
+* Der Sender darf erst dann wieder senden, wenn er/sie vom Empfänger eine Bestätigungsantwort erhalten hat.
 ## Programm 2: Alle sechs Buchstaben in ein Programm
 
 Zugegeben: Das war ganz schön aufwändig, für jeden Buchstaben immer ein eigenes Programm zu schreiben.
@@ -170,7 +169,7 @@ anz_bst = liste_buchstaben.length - 1
 > Diese Seite bei [https://dlpl-mb.github.io/baa_morse_code_02/](https://dlpl-mb.github.io/baa_morse_code_02/) öffnen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDY5MzY0MDcsMTk1MTIzODg1MSwtNj
+eyJoaXN0b3J5IjpbLTE3MTg5NDUzMjAsMTk1MTIzODg1MSwtNj
 U4NzM0ODA1LDIxMzAxMzA5MDcsNDMxMzI4NjU2LDU0NjU1ODk1
 LC0xOTk4MDIyMjIxLDIxMDQ4MTA0MDYsMTQ4OTA5NDM5NywxNz
 M1MTMzOTAsNTY5NDM1MTk0LDIyNzIwNTkxNCwxMjUwNjU2MDU5
