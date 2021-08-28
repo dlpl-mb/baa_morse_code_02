@@ -90,6 +90,7 @@ Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit d
 	    basic.showNumber(randint(0, 10))
 	})
 ```
+* Überlege auch warum ein leeres Feld eingebaut wurdeHi
 [Programmcode](https://makecode.microbit.org/#pub:_DVe8TrKz3cRU "(target|_blank)")
 
 Eingebaut in das Übertragungsprogramm:
@@ -155,6 +156,13 @@ Eingebaut in das Übertragungsprogramm:
 	})
 ```
 [Programmcode](https://makecode.microbit.org/#pub:_DVe8TrKz3cRU "(target|_blank)")
+
+
+
+
+
+
+
 
 Eingebaut in das Übertragungsprogramm:
 * Nun wird der Zufallsgenerator in der `Taste A-Funktion` eingebaut:
@@ -323,11 +331,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NDE2OTUwNSwtNTc5MjY3NDQyLC05Nj
-Y4MzU1OTcsNTQ2Mzk4NDkxLC04NjgzNjgxMjEsMTQ1NjM1NDAy
-OSwxNTE2NDI3MjI3LC0xNjIyNjAyMjYwLDE2NDAwMzc2NjIsNT
-UwODE5NDYwLDEwNjE5NTU3MTQsLTcyNzU2NjMxOSwtMTY5MjQz
-MjM0NiwtMjcwNTc3Mjc4LC0xODkxNjc2ODEsLTY3NTA4MTkxNy
-wtMTkwNzAwMTI4NSwxMjEwMTA1ODM3LDY0NjY0MjY4OCwxNjQx
-MjA2NTkzXX0=
+eyJoaXN0b3J5IjpbOTU1OTg4NDM5LC01NzkyNjc0NDIsLTk2Nj
+gzNTU5Nyw1NDYzOTg0OTEsLTg2ODM2ODEyMSwxNDU2MzU0MDI5
+LDE1MTY0MjcyMjcsLTE2MjI2MDIyNjAsMTY0MDAzNzY2Miw1NT
+A4MTk0NjAsMTA2MTk1NTcxNCwtNzI3NTY2MzE5LC0xNjkyNDMy
+MzQ2LC0yNzA1NzcyNzgsLTE4OTE2NzY4MSwtNjc1MDgxOTE3LC
+0xOTA3MDAxMjg1LDEyMTAxMDU4MzcsNjQ2NjQyNjg4LDE2NDEy
+MDY1OTNdfQ==
 -->
