@@ -129,6 +129,62 @@ Eingebaut in das Übertragungsprogramm:
 
 
 
+**Lösung b:** Wir bauen eine Auswahltastatur
+* Bei dieser Lösung arbeiten wir mit dem Neigungswinkel in Richtung x 
+* 
+* Experimentiere mit der  Zufallsfunktion: 
+
+```blocks
+	input.onButtonPressed(Button.A, function () {
+	    basic.showLeds(`
+	        . . . . .
+	        . . . . .
+	        . . . . .
+	        . . . . .
+	        . . . . .
+	        `)
+	    basic.showNumber(randint(0, 10))
+	})
+```
+[Programmcode](https://makecode.microbit.org/#pub:_DVe8TrKz3cRU "(target|_blank)")
+
+Eingebaut in das Übertragungsprogramm:
+* Nun wird der Zufallsgenerator in der `Taste A-Funktion` eingebaut:
+
+```blocks
+	input.onButtonPressed(Button.A, function () {
+	    index = randint(0, anz_bst)
+	    auswahl_buchstabe = liste_buchstaben[index]
+	    // damit siehst du als Sender den Buchstaben auch auf deinem Display
+	    basic.showString("" + (auswahl_buchstabe))
+	    radio.sendString("" + (liste_morsecodes[index]))
+	})
+	radio.onReceivedString(function (receivedString) {
+	    // Beim Emfänger werden die empfangenen Daten angezeigt
+	    basic.showString(receivedString)
+	})
+	input.onButtonPressed(Button.B, function () {
+	    for (let index2 = 0; index2 <= anz_bst; index2++) {
+	        basic.showString("" + (liste_buchstaben[index2]))
+	        basic.showString("" + (liste_morsecodes[index2]))
+	        basic.pause(2000)
+	        basic.clearScreen()
+	    }
+	})
+	let auswahl_buchstabe = ""
+	let index = 0
+	let anz_bst = 0
+	let liste_morsecodes: string[] = []
+	let liste_buchstaben: string[] = []
+	radio.setGroup(99)
+	liste_buchstaben = ["A","B","C","D","E","F","G","S","O"]
+	liste_morsecodes = [".-","-...","-.-.","-..",".","..-.","--.","...","---"]
+	anz_bst = liste_buchstaben.length - 1
+```
+[Programmcode](https://makecode.microbit.org/---codeembed#pub:_VE2dfFHrwDi9 "(target|_blank)")
+
+
+
 
 
 
@@ -259,11 +315,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxODUxNTcwOSw1NDYzOTg0OTEsLTg2OD
-M2ODEyMSwxNDU2MzU0MDI5LDE1MTY0MjcyMjcsLTE2MjI2MDIy
-NjAsMTY0MDAzNzY2Miw1NTA4MTk0NjAsMTA2MTk1NTcxNCwtNz
-I3NTY2MzE5LC0xNjkyNDMyMzQ2LC0yNzA1NzcyNzgsLTE4OTE2
-NzY4MSwtNjc1MDgxOTE3LC0xOTA3MDAxMjg1LDEyMTAxMDU4Mz
-csNjQ2NjQyNjg4LDE2NDEyMDY1OTMsMTQ2NjMxNTg0NywtMTY2
-NjQzNzE5MV19
+eyJoaXN0b3J5IjpbLTE3MDA1NDgxMDEsNTQ2Mzk4NDkxLC04Nj
+gzNjgxMjEsMTQ1NjM1NDAyOSwxNTE2NDI3MjI3LC0xNjIyNjAy
+MjYwLDE2NDAwMzc2NjIsNTUwODE5NDYwLDEwNjE5NTU3MTQsLT
+cyNzU2NjMxOSwtMTY5MjQzMjM0NiwtMjcwNTc3Mjc4LC0xODkx
+Njc2ODEsLTY3NTA4MTkxNywtMTkwNzAwMTI4NSwxMjEwMTA1OD
+M3LDY0NjY0MjY4OCwxNjQxMjA2NTkzLDE0NjYzMTU4NDcsLTE2
+NjY0MzcxOTFdfQ==
 -->
