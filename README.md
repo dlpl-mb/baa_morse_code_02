@@ -264,13 +264,16 @@ In dritten Teil diese Projektes werden nun einzelne Erweiterungen  und Verbesser
 + Erweiterte Kommunikation zwischen Sender und Empfänger
 + Senden von ganzen Wörtern
 + Senden von akustischen Signalen
+|sss | ddd |
+|-ssss-|-ssss-|
+| dd | dd |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTkzOTUyNTksLTIwMDY1NDUxNjYsMT
-QzMjc5NjM2OSwtMTExNDU0MzI4MSw1NjA4NjkxMjAsLTE3MDU0
-NzI3NiwtNDA5MDYzNDk0LC01NzkyNjc0NDIsLTk2NjgzNTU5Ny
-w1NDYzOTg0OTEsLTg2ODM2ODEyMSwxNDU2MzU0MDI5LDE1MTY0
-MjcyMjcsLTE2MjI2MDIyNjAsMTY0MDAzNzY2Miw1NTA4MTk0Nj
-AsMTA2MTk1NTcxNCwtNzI3NTY2MzE5LC0xNjkyNDMyMzQ2LC0y
-NzA1NzcyNzhdfQ==
+eyJoaXN0b3J5IjpbMTI5NzQzNDg4LC0yMDA2NTQ1MTY2LDE0Mz
+I3OTYzNjksLTExMTQ1NDMyODEsNTYwODY5MTIwLC0xNzA1NDcy
+NzYsLTQwOTA2MzQ5NCwtNTc5MjY3NDQyLC05NjY4MzU1OTcsNT
+Q2Mzk4NDkxLC04NjgzNjgxMjEsMTQ1NjM1NDAyOSwxNTE2NDI3
+MjI3LC0xNjIyNjAyMjYwLDE2NDAwMzc2NjIsNTUwODE5NDYwLD
+EwNjE5NTU3MTQsLTcyNzU2NjMxOSwtMTY5MjQzMjM0NiwtMjcw
+NTc3Mjc4XX0=
 -->
