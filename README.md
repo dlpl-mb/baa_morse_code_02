@@ -174,33 +174,34 @@ Eingebaut in das Übertragungsprogramm:
  
 ```blocks
 	input.onButtonPressed(Button.A, function () {
-	    index = randint(0, anz_bst)
-	    auswahl_buchstabe = liste_buchstaben[index]
-	    // damit siehst du als Sender den Buchstaben auch auf deinem Display
-	    basic.showString("" + (auswahl_buchstabe))
-	    radio.sendString("" + (liste_morsecodes[index]))
-	})
-	radio.onReceivedString(function (receivedString) {
-	    // Beim Emfänger werden die empfangenen Daten angezeigt
-	    basic.showString(receivedString)
-	})
-	input.onButtonPressed(Button.B, function () {
-	    for (let index2 = 0; index2 <= anz_bst; index2++) {
-	        basic.showString("" + (liste_buchstaben[index2]))
-	        basic.showString("" + (liste_morsecodes[index2]))
-	        basic.pause(2000)
-	        basic.clearScreen()
-	    }
+	    radio.sendString("" + (auswahl_morsecode))
 	})
 	let auswahl_buchstabe = ""
 	let index = 0
-	let anz_bst = 0
-	let liste_morsecodes: string[] = []
-	let liste_buchstaben: string[] = []
-	radio.setGroup(99)
+	let neigung = 0
+	let auswahl_morsecode = ""
 	liste_buchstaben = ["A","B","C","D","E","F","G","S","O"]
 	liste_morsecodes = [".-","-...","-.-.","-..",".","..-.","--.","...","---"]
-	anz_bst = liste_buchstaben.length - 1
+	let anz_bst = liste_buchstaben.length - 1
+	basic.forever(function () {
+	    neigung = input.acceleration(Dimension.X)
+	    if (neigung > 300) {
+	        index += 1
+	    }
+	    if (neigung < -300) {
+	        index += -1
+	    }
+	    if (index > anz_bst) {
+	        index = 0
+	    }
+	    if (index < 0) {
+	        index = anz_bst
+	    }
+	    auswahl_buchstabe = liste_buchstaben[index]
+	    auswahl_morsecode = liste_morsecodes[index]
+	    basic.showString("" + (auswahl_buchstabe))
+	    basic.pause(500)
+	})
 ```
 [Programmcode](https://makecode.microbit.org/---codeembed#pub:_PHiaYDfFzD83 "(target|_blank)")
 
@@ -395,7 +396,7 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5OTk2ODgyNSwtMTExNDU0MzI4MSw1Nj
+eyJoaXN0b3J5IjpbMTQzMjc5NjM2OSwtMTExNDU0MzI4MSw1Nj
 A4NjkxMjAsLTE3MDU0NzI3NiwtNDA5MDYzNDk0LC01NzkyNjc0
 NDIsLTk2NjgzNTU5Nyw1NDYzOTg0OTEsLTg2ODM2ODEyMSwxND
 U2MzU0MDI5LDE1MTY0MjcyMjcsLTE2MjI2MDIyNjAsMTY0MDAz
