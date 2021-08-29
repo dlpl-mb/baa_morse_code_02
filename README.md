@@ -206,7 +206,7 @@ Eingebaut in das Übertragungsprogramm:
 + Erst wenn diese Funktionen "verdaut" sind - hat es Sinn das gesamte Programm anzusehen.
 
 ## Fertiges Programm: Das Morse-Alphabet II
-Das fertig Programmgerüst enthält jetzt die wichtigsten Funktionen, damit 
+Das fertig Programmgerüst enthält jetzt die wichtigsten Funktionen, damit du zu deinem Spielpartner alle Morsezeichen versenden kannst. Wenn dein Partner/deine Partner das Zeichen gelesen und verstanden hat,
 
 + Das fertig kleine Übertragungsprogramm für alle Morsezeichen
 ```blocks
@@ -279,7 +279,7 @@ Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer in
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzOTQ2NTc1OCw1NzUwNjg3NDEsMTQ1Mj
+eyJoaXN0b3J5IjpbMTcwMjg4MzIxMyw1NzUwNjg3NDEsMTQ1Mj
 g2NzAxMywtMjAwNjU0NTE2NiwxNDMyNzk2MzY5LC0xMTE0NTQz
 MjgxLDU2MDg2OTEyMCwtMTcwNTQ3Mjc2LC00MDkwNjM0OTQsLT
 U3OTI2NzQ0MiwtOTY2ODM1NTk3LDU0NjM5ODQ5MSwtODY4MzY4
