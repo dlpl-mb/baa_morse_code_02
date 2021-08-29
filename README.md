@@ -223,10 +223,10 @@ Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer un
 	let neigung = 0
 	let auswahl_morsecode = ""
 	basic.showIcon(IconNames.Yes)
-
+	
 	let liste_buchstaben = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P", "Q","R","S","T","U","V","W","X","Y","Z","1","2","3","4","5","6","7","8","9","0"]
 	let liste_morsecodes = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--..",".----","..---","...--","....-",".....","-....","--...","---..","----.","-----"]
-
+	
 	let anz_bst = liste_buchstaben.length - 1
 	radio.setGroup(99)
 	basic.forever(function () {
@@ -264,11 +264,11 @@ In dritten Teil diese Projektes werden nun einzelne Erweiterungen  und Verbesser
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1Mjg2NzAxMywtMjAwNjU0NTE2NiwxND
-MyNzk2MzY5LC0xMTE0NTQzMjgxLDU2MDg2OTEyMCwtMTcwNTQ3
-Mjc2LC00MDkwNjM0OTQsLTU3OTI2NzQ0MiwtOTY2ODM1NTk3LD
-U0NjM5ODQ5MSwtODY4MzY4MTIxLDE0NTYzNTQwMjksMTUxNjQy
-NzIyNywtMTYyMjYwMjI2MCwxNjQwMDM3NjYyLDU1MDgxOTQ2MC
-wxMDYxOTU1NzE0LC03Mjc1NjYzMTksLTE2OTI0MzIzNDYsLTI3
-MDU3NzI3OF19
+eyJoaXN0b3J5IjpbNTc1MDY4NzQxLDE0NTI4NjcwMTMsLTIwMD
+Y1NDUxNjYsMTQzMjc5NjM2OSwtMTExNDU0MzI4MSw1NjA4Njkx
+MjAsLTE3MDU0NzI3NiwtNDA5MDYzNDk0LC01NzkyNjc0NDIsLT
+k2NjgzNTU5Nyw1NDYzOTg0OTEsLTg2ODM2ODEyMSwxNDU2MzU0
+MDI5LDE1MTY0MjcyMjcsLTE2MjI2MDIyNjAsMTY0MDAzNzY2Mi
+w1NTA4MTk0NjAsMTA2MTk1NTcxNCwtNzI3NTY2MzE5LC0xNjky
+NDMyMzQ2XX0=
 -->
