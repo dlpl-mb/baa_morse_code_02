@@ -208,11 +208,13 @@ Eingebaut in das Übertragungsprogramm:
 + Erst wenn diese Funktionen "verdaut" sind - hat es Sinn das gesamte Programm anzusehen.
 
 ## Fertiges Programm: Das Morse-Alphabet II
-Der Autor dieses Beispielprogramms ist selbst seit Jahren Programmierer und hat für sich festgestellt, dass er meisten gelernt hat, wenn er fremde Programm verscuht hat, zu verstehen - dann einfache Änderungen durchgeführt hat und sich damit Programmieren beigebracht hat.
+Der Autor dieses Beispielprogramms ist selbst seit Jahren Programmierer und hat für sich festgestellt, dass er dann am meisten gelernt hat, wenn er fremde Programm versucht hat, zu verstehen. Danach und dabei einfache Änderungen durchgeführt hat und sich damit Programmieren selbst beigebracht hat.
++ Das fertig kleine Übertragungsprogramm für alle Morsezeichen
++ In 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NzUwNDU5NCwxNDMyNzk2MzY5LC0xMT
+eyJoaXN0b3J5IjpbMTY1OTc2MDEwMCwxNDMyNzk2MzY5LC0xMT
 E0NTQzMjgxLDU2MDg2OTEyMCwtMTcwNTQ3Mjc2LC00MDkwNjM0
 OTQsLTU3OTI2NzQ0MiwtOTY2ODM1NTk3LDU0NjM5ODQ5MSwtOD
 Y4MzY4MTIxLDE0NTYzNTQwMjksMTUxNjQyNzIyNywtMTYyMjYw
