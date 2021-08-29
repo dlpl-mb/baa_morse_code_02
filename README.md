@@ -225,82 +225,12 @@ let index = 0
 let neigung = 0
 let auswahl_morsecode = ""
 basic.showIcon(IconNames.Yes)
-let liste_morsecodes = [
-".-",
-"-...",
-"-.-.",
-"-..",
-".",
-"..-.",
-"--.",
-"....",
-"..",
-".---",
-"-.-",
-".-..",
-"--",
-"-.",
-"---",
-".--.",
-"--.-",
-".-.",
-"...",
-"-",
-"..-",
-"...-",
-".--",
-"-..-",
-"-.--",
-"--..",
-".----",
-"..---",
-"...--",
-"....-",
-".....",
-"-....",
-"--...",
-"---..",
-"----.",
-"-----"
-]
-let liste_buchstaben = [
-"A",
-"B",
-"C",
-"D",
-"E",
-"F",
-"G",
-"H",
-"I",
-"J",
-"K",
-"L",
-"M",
-"N",
-"O",
-"P",
-"Q",
-"R",
-"S",
-"T",
-"U",
-"V",
-"W",
-"X",
-"Y",
-"Z",
-"1",
-"2",
-"3",
-"4",
-"5",
-"6",
-"7",
-"8",
-"9",
-"0"
-]
+<![endif]-->
+
+let liste_buchstaben = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P", "Q","R","S","T","U","V","W","X","Y","Z","1","2","3","4","5","6","7","8","9","0"]
+
+let liste_morsecodes = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--..",".----","..---","...--","....-",".....","-....","--...","---..","----.","-----"]
+
 let anz_bst = liste_buchstaben.length - 1
 radio.setGroup(99)
 basic.forever(function () {
@@ -328,11 +258,11 @@ basic.forever(function () {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDY1NDUxNjYsMTQzMjc5NjM2OSwtMT
-ExNDU0MzI4MSw1NjA4NjkxMjAsLTE3MDU0NzI3NiwtNDA5MDYz
-NDk0LC01NzkyNjc0NDIsLTk2NjgzNTU5Nyw1NDYzOTg0OTEsLT
-g2ODM2ODEyMSwxNDU2MzU0MDI5LDE1MTY0MjcyMjcsLTE2MjI2
-MDIyNjAsMTY0MDAzNzY2Miw1NTA4MTk0NjAsMTA2MTk1NTcxNC
-wtNzI3NTY2MzE5LC0xNjkyNDMyMzQ2LC0yNzA1NzcyNzgsLTE4
-OTE2NzY4MV19
+eyJoaXN0b3J5IjpbLTQyOTEwMzA4MywtMjAwNjU0NTE2NiwxND
+MyNzk2MzY5LC0xMTE0NTQzMjgxLDU2MDg2OTEyMCwtMTcwNTQ3
+Mjc2LC00MDkwNjM0OTQsLTU3OTI2NzQ0MiwtOTY2ODM1NTk3LD
+U0NjM5ODQ5MSwtODY4MzY4MTIxLDE0NTYzNTQwMjksMTUxNjQy
+NzIyNywtMTYyMjYwMjI2MCwxNjQwMDM3NjYyLDU1MDgxOTQ2MC
+wxMDYxOTU1NzE0LC03Mjc1NjYzMTksLTE2OTI0MzIzNDYsLTI3
+MDU3NzI3OF19
 -->
