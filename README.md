@@ -143,10 +143,18 @@ Eingebaut in das Übertragungsprogramm:
 ```
 
 [Programmcode](https://makecode.microbit.org/#pub:_55zbeHhRTa2o "(target|_blank)")
-- Immer wenn `Taste A` gedrückt wird, zeigt es den augenblicklichen Kippwinkel an. Spiel das Programm auf den Micro:bit und teste.
-
+- Immer wenn `Taste A` gedrückt wird, zeigt es den augenblicklichen Kippwinkel (x) an. 
+- Spiele das Programm auf den Micro:bit und teste.
+- Auch dieses Sequenz zeigt dir den Kippwinkel x (links-Rechts) an
+```blocks
+	basic.forever(function () {
+		basic.showNumber(input.acceleration(Dimension.X))
+	})
+```
 * Beobachte dabei die x-Werte - wir wollen diese Neigung ausnutzen, um in den Buchstaben zu `blättern`. 
 * Experimentiere mit der folgenden Funktion zum Hinauf- und Herunterzählen einer Zahl (sehr schwierig): 
+
+
 
 ```blocks
 	let index = 5
@@ -357,11 +365,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk5MDc3MDU0LDU2MDg2OTEyMCwtMTcwNT
-Q3Mjc2LC00MDkwNjM0OTQsLTU3OTI2NzQ0MiwtOTY2ODM1NTk3
-LDU0NjM5ODQ5MSwtODY4MzY4MTIxLDE0NTYzNTQwMjksMTUxNj
-QyNzIyNywtMTYyMjYwMjI2MCwxNjQwMDM3NjYyLDU1MDgxOTQ2
-MCwxMDYxOTU1NzE0LC03Mjc1NjYzMTksLTE2OTI0MzIzNDYsLT
-I3MDU3NzI3OCwtMTg5MTY3NjgxLC02NzUwODE5MTcsLTE5MDcw
-MDEyODVdfQ==
+eyJoaXN0b3J5IjpbLTE4ODYwODg1MDgsNTYwODY5MTIwLC0xNz
+A1NDcyNzYsLTQwOTA2MzQ5NCwtNTc5MjY3NDQyLC05NjY4MzU1
+OTcsNTQ2Mzk4NDkxLC04NjgzNjgxMjEsMTQ1NjM1NDAyOSwxNT
+E2NDI3MjI3LC0xNjIyNjAyMjYwLDE2NDAwMzc2NjIsNTUwODE5
+NDYwLDEwNjE5NTU3MTQsLTcyNzU2NjMxOSwtMTY5MjQzMjM0Ni
+wtMjcwNTc3Mjc4LC0xODkxNjc2ODEsLTY3NTA4MTkxNywtMTkw
+NzAwMTI4NV19
 -->
