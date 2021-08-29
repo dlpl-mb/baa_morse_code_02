@@ -253,10 +253,12 @@ Der Autor dieses Beispielprogramms ist selbst seit Jahren Programmierer und hat 
 	})
 ```
 [Der fertige Programmcode](https://makecode.microbit.org/---codeembed#pub:_2DDXk49W3Aey "(target|_blank)")
++ Überlege, welche Erweiterungen 
 
-
+## Reflexion und Erweiterung
+In dritten Teil diese Projektes werden nun einzelne Erweiterungen  und Verbesserungen vorgenommen, die mit w
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNzIxOTY3NiwtMjAwNjU0NTE2NiwxND
+eyJoaXN0b3J5IjpbMTI1MzM5MTMwMCwtMjAwNjU0NTE2NiwxND
 MyNzk2MzY5LC0xMTE0NTQzMjgxLDU2MDg2OTEyMCwtMTcwNTQ3
 Mjc2LC00MDkwNjM0OTQsLTU3OTI2NzQ0MiwtOTY2ODM1NTk3LD
 U0NjM5ODQ5MSwtODY4MzY4MTIxLDE0NTYzNTQwMjksMTUxNjQy
