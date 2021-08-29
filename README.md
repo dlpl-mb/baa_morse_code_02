@@ -269,6 +269,8 @@ Eingebaut in das Übertragungsprogramm:
 In dritten Teil diese Projektes werden nun einzelne Erweiterungen  und Verbesserungen vorgenommen, die mit weiteren neuen Funktionen erreicht werden. Versuche nun selber Funktionen zu entdecken und zu testen - es werden im dritten Teil nur mehr wenige Kommentare gegeben.
 **Viel Erfolg auf dem Weg zur kompetenten Programmiererin/zum kompetenten Programmierer.**
 
+**Abschlussbemerkung:**
+Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer in einigen Programmiersprachen und kann feststellen, dass er dann am meisten gelernt hat, wenn er fremde Programme analysiert hat und versucht hat, sie zu verstehen und mit kleinen schrittweisen Änderungen alle Unbekannten . Danach hat er einfache Änderungen durchgeführt hat und sich so Programmieren selbst beigebracht.
 
 **Neue Funktionen werden sein:**
 + Erweiterte Kommunikation zwischen Sender und Empfänger
@@ -277,7 +279,7 @@ In dritten Teil diese Projektes werden nun einzelne Erweiterungen  und Verbesser
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxOTY0ODIzMSw1NzUwNjg3NDEsMTQ1Mj
+eyJoaXN0b3J5IjpbLTgwMDczNDc4NCw1NzUwNjg3NDEsMTQ1Mj
 g2NzAxMywtMjAwNjU0NTE2NiwxNDMyNzk2MzY5LC0xMTE0NTQz
 MjgxLDU2MDg2OTEyMCwtMTcwNTQ3Mjc2LC00MDkwNjM0OTQsLT
 U3OTI2NzQ0MiwtOTY2ODM1NTk3LDU0NjM5ODQ5MSwtODY4MzY4
