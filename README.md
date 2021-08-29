@@ -129,8 +129,6 @@ Eingebaut in das Übertragungsprogramm:
 ```
 * [Der Programmcode](https://makecode.microbit.org/---codeembed#pub:_VE2dfFHrwDi9 "(target|_blank)")
 
-<hr>
-
 **Lösung b:** Wir bauen eine Auswahltastatur
 * Bei dieser Lösung arbeiten wir mit dem Neigungswinkel in Richtung x - eine sehr leistungsfähige Funktion, mit der man viele Spiele gestalten kann.
 * Probiere folgende Funktion als Übung und notiere dir einige Werte
@@ -264,12 +262,10 @@ In dritten Teil diese Projektes werden nun einzelne Erweiterungen  und Verbesser
 + Erweiterte Kommunikation zwischen Sender und Empfänger
 + Senden von ganzen Wörtern
 + Senden von akustischen Signalen
-|sss | ddd |
-|-ssss-|-ssss-|
-| dd | dd |
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NzQzNDg4LC0yMDA2NTQ1MTY2LDE0Mz
+eyJoaXN0b3J5IjpbNzI4MDcyNDYzLC0yMDA2NTQ1MTY2LDE0Mz
 I3OTYzNjksLTExMTQ1NDMyODEsNTYwODY5MTIwLC0xNzA1NDcy
 NzYsLTQwOTA2MzQ5NCwtNTc5MjY3NDQyLC05NjY4MzU1OTcsNT
 Q2Mzk4NDkxLC04NjgzNjgxMjEsMTQ1NjM1NDAyOSwxNTE2NDI3
