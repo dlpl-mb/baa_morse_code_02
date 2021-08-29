@@ -208,15 +208,15 @@ Eingebaut in das Übertragungsprogramm:
 + Erst wenn diese Funktionen "verdaut" sind - hat es Sinn das gesamte Programm anzusehen.
 
 ## Fertiges Programm: Das Morse-Alphabet II
-Der Autor dieses Beispielprogramms ist selbst seit Jahren Programm
+Der Autor dieses Beispielprogramms ist selbst seit Jahren Programmierer und hat für sich festgestellt, dass er meisten gelernt hat, wenn er fremde Programm verscuht hat, zu verstehen - dann einfache Änderungen durchgeführt hat und sich damit Programmieren beigebracht hat.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkxMDE3NjQ0LDE0MzI3OTYzNjksLTExMT
-Q1NDMyODEsNTYwODY5MTIwLC0xNzA1NDcyNzYsLTQwOTA2MzQ5
-NCwtNTc5MjY3NDQyLC05NjY4MzU1OTcsNTQ2Mzk4NDkxLC04Nj
-gzNjgxMjEsMTQ1NjM1NDAyOSwxNTE2NDI3MjI3LC0xNjIyNjAy
-MjYwLDE2NDAwMzc2NjIsNTUwODE5NDYwLDEwNjE5NTU3MTQsLT
-cyNzU2NjMxOSwtMTY5MjQzMjM0NiwtMjcwNTc3Mjc4LC0xODkx
-Njc2ODFdfQ==
+eyJoaXN0b3J5IjpbMTg3NzUwNDU5NCwxNDMyNzk2MzY5LC0xMT
+E0NTQzMjgxLDU2MDg2OTEyMCwtMTcwNTQ3Mjc2LC00MDkwNjM0
+OTQsLTU3OTI2NzQ0MiwtOTY2ODM1NTk3LDU0NjM5ODQ5MSwtOD
+Y4MzY4MTIxLDE0NTYzNTQwMjksMTUxNjQyNzIyNywtMTYyMjYw
+MjI2MCwxNjQwMDM3NjYyLDU1MDgxOTQ2MCwxMDYxOTU1NzE0LC
+03Mjc1NjYzMTksLTE2OTI0MzIzNDYsLTI3MDU3NzI3OCwtMTg5
+MTY3NjgxXX0=
 -->
