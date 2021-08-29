@@ -208,7 +208,7 @@ Eingebaut in das Übertragungsprogramm:
 + Erst wenn diese Funktionen "verdaut" sind - hat es Sinn das gesamte Programm anzusehen.
 
 ## Fertiges Programm: Das Morse-Alphabet II
-Der Autor dieses Beispielprogramms ist selbst seit Jahren Programmierer und hat für sich festgestellt, dass er dann am meisten gelernt hat, wenn er fremde Programm versucht hat, zu verstehen. Danach und dabei einfache Änderungen durchgeführt hat und sich damit Programmieren selbst beigebracht hat.
+Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer und hat festgestellt, dass er dann am meisten gelernt hat, wenn er fremde Programm analysierversucht hat, zu verstehen. Danach und dabei einfache Änderungen durchgeführt hat und sich damit Programmieren selbst beigebracht hat.
 + Das fertig kleine Übertragungsprogramm für alle Morsezeichen
 ```blocks
 	input.onButtonPressed(Button.A, function () {
@@ -253,7 +253,7 @@ Der Autor dieses Beispielprogramms ist selbst seit Jahren Programmierer und hat 
 	})
 ```
 [Der fertige Programmcode](https://makecode.microbit.org/---codeembed#pub:_2DDXk49W3Aey "(target|_blank)")
-+ Überlege, welche Erweiterungen 
++ Überlege, welche Erweiterungen/Vereinfachung du hier noch machen möchtest.
 
 ## Reflexion und Erweiterung
 In dritten Teil diese Projektes werden nun einzelne Erweiterungen  und Verbesserungen vorgenommen, die mit weiteren neuen Funktionen erreicht werden. Versuche nun selber Funktionen zu entdecken und zu testen - es werden im dritten Teil nur mehr wenige Kommentare gegeben.
@@ -266,11 +266,11 @@ In dritten Teil diese Projektes werden nun einzelne Erweiterungen  und Verbesser
 + Senden von akustischen Signalen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2Mjg4MzU5NywtMjAwNjU0NTE2NiwxND
-MyNzk2MzY5LC0xMTE0NTQzMjgxLDU2MDg2OTEyMCwtMTcwNTQ3
-Mjc2LC00MDkwNjM0OTQsLTU3OTI2NzQ0MiwtOTY2ODM1NTk3LD
-U0NjM5ODQ5MSwtODY4MzY4MTIxLDE0NTYzNTQwMjksMTUxNjQy
-NzIyNywtMTYyMjYwMjI2MCwxNjQwMDM3NjYyLDU1MDgxOTQ2MC
-wxMDYxOTU1NzE0LC03Mjc1NjYzMTksLTE2OTI0MzIzNDYsLTI3
-MDU3NzI3OF19
+eyJoaXN0b3J5IjpbLTE3Njk0Mzg2NzYsLTIwMDY1NDUxNjYsMT
+QzMjc5NjM2OSwtMTExNDU0MzI4MSw1NjA4NjkxMjAsLTE3MDU0
+NzI3NiwtNDA5MDYzNDk0LC01NzkyNjc0NDIsLTk2NjgzNTU5Ny
+w1NDYzOTg0OTEsLTg2ODM2ODEyMSwxNDU2MzU0MDI5LDE1MTY0
+MjcyMjcsLTE2MjI2MDIyNjAsMTY0MDAzNzY2Miw1NTA4MTk0Nj
+AsMTA2MTk1NTcxNCwtNzI3NTY2MzE5LC0xNjkyNDMyMzQ2LC0y
+NzA1NzcyNzhdfQ==
 -->
