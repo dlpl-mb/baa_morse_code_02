@@ -212,12 +212,17 @@ Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer un
 	input.onButtonPressed(Button.A, function () {
 	    radio.sendString("" + (auswahl_morsecode))
 	})
+	input.onButtonPressed(Button.AB, function () {
+	    ich_bin_sender = 1
+	})
 	radio.onReceivedString(function (receivedString) {
 	    basic.showString(receivedString)
 	})
 	input.onButtonPressed(Button.B, function () {
 	    radio.sendString("+")
+	    ich_bin_sender = 0
 	})
+	let ich_bin_sender = 0
 	let auswahl_buchstabe = ""
 	let index = 0
 	let neigung = 0
@@ -264,11 +269,11 @@ In dritten Teil diese Projektes werden nun einzelne Erweiterungen  und Verbesser
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc1MDY4NzQxLDE0NTI4NjcwMTMsLTIwMD
-Y1NDUxNjYsMTQzMjc5NjM2OSwtMTExNDU0MzI4MSw1NjA4Njkx
-MjAsLTE3MDU0NzI3NiwtNDA5MDYzNDk0LC01NzkyNjc0NDIsLT
-k2NjgzNTU5Nyw1NDYzOTg0OTEsLTg2ODM2ODEyMSwxNDU2MzU0
-MDI5LDE1MTY0MjcyMjcsLTE2MjI2MDIyNjAsMTY0MDAzNzY2Mi
-w1NTA4MTk0NjAsMTA2MTk1NTcxNCwtNzI3NTY2MzE5LC0xNjky
-NDMyMzQ2XX0=
+eyJoaXN0b3J5IjpbLTE1OTM2MjgyMDAsNTc1MDY4NzQxLDE0NT
+I4NjcwMTMsLTIwMDY1NDUxNjYsMTQzMjc5NjM2OSwtMTExNDU0
+MzI4MSw1NjA4NjkxMjAsLTE3MDU0NzI3NiwtNDA5MDYzNDk0LC
+01NzkyNjc0NDIsLTk2NjgzNTU5Nyw1NDYzOTg0OTEsLTg2ODM2
+ODEyMSwxNDU2MzU0MDI5LDE1MTY0MjcyMjcsLTE2MjI2MDIyNj
+AsMTY0MDAzNzY2Miw1NTA4MTk0NjAsMTA2MTk1NTcxNCwtNzI3
+NTY2MzE5XX0=
 -->
