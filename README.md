@@ -127,7 +127,7 @@ Eingebaut in das Übertragungsprogramm:
 	liste_morsecodes = [".-","-...","-.-.","-..",".","..-.","--.","...","---"]
 	anz_bst = liste_buchstaben.length - 1
 ```
-* [Der Programmcode](https://makecode.microbit.org/---codeembed#pub:_VE2dfFHrwDi9 "(target|_blank)")
+* [Der Programmcode](https://makecode.microbit.org/---codeembed#pub:_VE2dfFHrwDi9 "(target|_blank)")<hr>
 
 **Lösung b:** Wir bauen eine Auswahltastatur
 * Bei dieser Lösung arbeiten wir mit dem Neigungswinkel in Richtung x - eine sehr leistungsfähige Funktion, mit der man viele Spiele gestalten kann.
@@ -225,7 +225,6 @@ Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer un
 	basic.showIcon(IconNames.Yes)
 
 	let liste_buchstaben = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P", "Q","R","S","T","U","V","W","X","Y","Z","1","2","3","4","5","6","7","8","9","0"]
-
 	let liste_morsecodes = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--..",".----","..---","...--","....-",".....","-....","--...","---..","----.","-----"]
 
 	let anz_bst = liste_buchstaben.length - 1
@@ -265,11 +264,11 @@ In dritten Teil diese Projektes werden nun einzelne Erweiterungen  und Verbesser
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI4MDcyNDYzLC0yMDA2NTQ1MTY2LDE0Mz
-I3OTYzNjksLTExMTQ1NDMyODEsNTYwODY5MTIwLC0xNzA1NDcy
-NzYsLTQwOTA2MzQ5NCwtNTc5MjY3NDQyLC05NjY4MzU1OTcsNT
-Q2Mzk4NDkxLC04NjgzNjgxMjEsMTQ1NjM1NDAyOSwxNTE2NDI3
-MjI3LC0xNjIyNjAyMjYwLDE2NDAwMzc2NjIsNTUwODE5NDYwLD
-EwNjE5NTU3MTQsLTcyNzU2NjMxOSwtMTY5MjQzMjM0NiwtMjcw
-NTc3Mjc4XX0=
+eyJoaXN0b3J5IjpbMTQ1Mjg2NzAxMywtMjAwNjU0NTE2NiwxND
+MyNzk2MzY5LC0xMTE0NTQzMjgxLDU2MDg2OTEyMCwtMTcwNTQ3
+Mjc2LC00MDkwNjM0OTQsLTU3OTI2NzQ0MiwtOTY2ODM1NTk3LD
+U0NjM5ODQ5MSwtODY4MzY4MTIxLDE0NTYzNTQwMjksMTUxNjQy
+NzIyNywtMTYyMjYwMjI2MCwxNjQwMDM3NjYyLDU1MDgxOTQ2MC
+wxMDYxOTU1NzE0LC03Mjc1NjYzMTksLTE2OTI0MzIzNDYsLTI3
+MDU3NzI3OF19
 -->
