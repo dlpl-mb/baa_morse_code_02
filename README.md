@@ -206,7 +206,7 @@ Eingebaut in das Übertragungsprogramm:
 + Erst wenn diese Funktionen "verdaut" sind - hat es Sinn das gesamte Programm anzusehen.
 
 ## Fertiges Programm: Das Morse-Alphabet II
-
+Das fertig Programmgerüst enthält jetzt die wichtigsten Funktionen, damit 
 
 + Das fertig kleine Übertragungsprogramm für alle Morsezeichen
 ```blocks
@@ -270,7 +270,7 @@ In dritten Teil diese Projektes werden nun einzelne Erweiterungen  und Verbesser
 **Viel Erfolg auf dem Weg zur kompetenten Programmiererin/zum kompetenten Programmierer.**
 
 **Abschlussbemerkung:**
-Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer in einigen Programmiersprachen und kann feststellen, dass er dann am meisten gelernt hat, wenn er fremde Programme analysiert hat und versucht hat, sie zu verstehen und mit kleinen schrittweisen Änderungen alle Unbekannten . Danach hat er einfache Änderungen durchgeführt hat und sich so Programmieren selbst beigebracht.
+Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer in einigen Programmiersprachen und kann feststellen, dass er dann am meisten gelernt hat, wenn er fremde Programme analysiert hat und versucht hat, sie zu verstehen und mit kleinen schrittweisen Änderungen alles Unbekannte zu verstehen.
 
 **Neue Funktionen werden sein:**
 + Erweiterte Kommunikation zwischen Sender und Empfänger
@@ -279,7 +279,7 @@ Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer in
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMDczNDc4NCw1NzUwNjg3NDEsMTQ1Mj
+eyJoaXN0b3J5IjpbMjEzOTQ2NTc1OCw1NzUwNjg3NDEsMTQ1Mj
 g2NzAxMywtMjAwNjU0NTE2NiwxNDMyNzk2MzY5LC0xMTE0NTQz
 MjgxLDU2MDg2OTEyMCwtMTcwNTQ3Mjc2LC00MDkwNjM0OTQsLT
 U3OTI2NzQ0MiwtOTY2ODM1NTk3LDU0NjM5ODQ5MSwtODY4MzY4
