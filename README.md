@@ -210,11 +210,42 @@ Eingebaut in das Übertragungsprogramm:
 ## Fertiges Programm: Das Morse-Alphabet II
 Der Autor dieses Beispielprogramms ist selbst seit Jahren Programmierer und hat für sich festgestellt, dass er dann am meisten gelernt hat, wenn er fremde Programm versucht hat, zu verstehen. Danach und dabei einfache Änderungen durchgeführt hat und sich damit Programmieren selbst beigebracht hat.
 + Das fertig kleine Übertragungsprogramm für alle Morsezeichen
-+ In 
+```blocks
+	input.onButtonPressed(Button.A, function () {
+	    radio.sendString("" + (auswahl_morsecode))
+	})
+	let auswahl_buchstabe = ""
+	let index = 0
+	let neigung = 0
+	let auswahl_morsecode = ""
+	liste_buchstaben = ["A","B","C","D","E","F","G","S","O"]
+	liste_morsecodes = [".-","-...","-.-.","-..",".","..-.","--.","...","---"]
+	let anz_bst = liste_buchstaben.length - 1
+	basic.forever(function () {
+	    neigung = input.acceleration(Dimension.X)
+	    if (neigung > 300) {
+	        index += 1
+	    }
+	    if (neigung < -300) {
+	        index += -1
+	    }
+	    if (index > anz_bst) {
+	        index = 0
+	    }
+	    if (index < 0) {
+	        index = anz_bst
+	    }
+	    auswahl_buchstabe = liste_buchstaben[index]
+	    auswahl_morsecode = liste_morsecodes[index]
+	    basic.showString("" + (auswahl_buchstabe))
+	    basic.pause(500)
+	})
+```
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1OTc2MDEwMCwxNDMyNzk2MzY5LC0xMT
+eyJoaXN0b3J5IjpbLTcwNTY0Mzg1MiwxNDMyNzk2MzY5LC0xMT
 E0NTQzMjgxLDU2MDg2OTEyMCwtMTcwNTQ3Mjc2LC00MDkwNjM0
 OTQsLTU3OTI2NzQ0MiwtOTY2ODM1NTk3LDU0NjM5ODQ5MSwtOD
 Y4MzY4MTIxLDE0NTYzNTQwMjksMTUxNjQyNzIyNywtMTYyMjYw
