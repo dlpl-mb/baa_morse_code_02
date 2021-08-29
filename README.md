@@ -260,8 +260,9 @@ Das fertige Programmgerüst enthält jetzt die wichtigsten Funktionen, damit du 
 [Der fertige Programmcode](https://makecode.microbit.org/---codeembed#pub:_8tqijz37gTMw "(target|_blank)")
 Einige Bemerkungen zum Programm:
 + Auf zwei Micro:bit wird dieses obige Programm gespeichert
-+ 
-+ Der Spieler, der als Sender auftritt - drückt 
++ Auf beiden Micro:bit wird ein Check-OK angezeigt
++ Der Spieler, der als Sender auftritt - drückt nun Tast A+B gemeinsam - das sagt dem System in welche richtung gesendet wird
++ Der Empfänger sollte nu wart 
 + Zu Beginn sitzen bei Spielpartner noch nebeneinander - um zu testen - später kann ein Spielpartner in einen Nachbarraum gehen und über Distanz kommunizieren.
 
 
@@ -283,11 +284,11 @@ Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer in
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNTg0ODQ1LDU3NTA2ODc0MSwxNDUyOD
-Y3MDEzLC0yMDA2NTQ1MTY2LDE0MzI3OTYzNjksLTExMTQ1NDMy
-ODEsNTYwODY5MTIwLC0xNzA1NDcyNzYsLTQwOTA2MzQ5NCwtNT
-c5MjY3NDQyLC05NjY4MzU1OTcsNTQ2Mzk4NDkxLC04NjgzNjgx
-MjEsMTQ1NjM1NDAyOSwxNTE2NDI3MjI3LC0xNjIyNjAyMjYwLD
-E2NDAwMzc2NjIsNTUwODE5NDYwLDEwNjE5NTU3MTQsLTcyNzU2
-NjMxOV19
+eyJoaXN0b3J5IjpbMjAwNzc3OTc2Niw1NzUwNjg3NDEsMTQ1Mj
+g2NzAxMywtMjAwNjU0NTE2NiwxNDMyNzk2MzY5LC0xMTE0NTQz
+MjgxLDU2MDg2OTEyMCwtMTcwNTQ3Mjc2LC00MDkwNjM0OTQsLT
+U3OTI2NzQ0MiwtOTY2ODM1NTk3LDU0NjM5ODQ5MSwtODY4MzY4
+MTIxLDE0NTYzNTQwMjksMTUxNjQyNzIyNywtMTYyMjYwMjI2MC
+wxNjQwMDM3NjYyLDU1MDgxOTQ2MCwxMDYxOTU1NzE0LC03Mjc1
+NjYzMTldfQ==
 -->
