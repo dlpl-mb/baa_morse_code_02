@@ -256,14 +256,17 @@ Der Autor dieses Beispielprogramms ist selbst seit Jahren Programmierer und hat 
 + Überlege, welche Erweiterungen 
 
 ## Reflexion und Erweiterung
-In dritten Teil diese Projektes werden nun einzelne Erweiterungen  und Verbesserungen vorgenommen, die mit weiteren neuen Funktionen erreicht werden.
-Neue Funktionen werden sein:
+In dritten Teil diese Projektes werden nun einzelne Erweiterungen  und Verbesserungen vorgenommen, die mit weiteren neuen Funktionen erreicht werden. Versuche nun selber Funktionen zu entdecken und zu testen - es werden im dritten Teil nur mehr wenige Kommentare gegeben.
+Viel Erfolg auf dem Weg zu profess
+
+
+**Neue Funktionen werden sein:**
 + Erweiterte Kommunikation zwischen Sender und Empfänger
 + Senden von ganzen Wörtern
 + Senden von akustischen Signalen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM3MTczNzg5LC0yMDA2NTQ1MTY2LDE0Mz
+eyJoaXN0b3J5IjpbMjczMzQwNDU5LC0yMDA2NTQ1MTY2LDE0Mz
 I3OTYzNjksLTExMTQ1NDMyODEsNTYwODY5MTIwLC0xNzA1NDcy
 NzYsLTQwOTA2MzQ5NCwtNTc5MjY3NDQyLC05NjY4MzU1OTcsNT
 Q2Mzk4NDkxLC04NjgzNjgxMjEsMTQ1NjM1NDAyOSwxNTE2NDI3
