@@ -257,7 +257,7 @@ Das fertige Programmgerüst enthält jetzt die wichtigsten Funktionen, damit du 
 		}    
 	})
 ```
-[Der fertige Programmcode](https://makecode.microbit.org/---codeembed#pub:_8tqijz37gTMw "(target|_blank)")
+## [Der fertige Programmcode](https://makecode.microbit.org/---codeembed#pub:_8tqijz37gTMw "(target|_blank)")
 
 **Eine kurze Spielanleitung zum Programm:**
 * Ihr braucht zwei Micro.bit mit jeweils angestecker Batterie
@@ -271,12 +271,11 @@ Das fertige Programmgerüst enthält jetzt die wichtigsten Funktionen, damit du 
 
 
 
-+ Überlege, welche Erweiterungen/Vereinfachung du hier noch machen möchtest:
-+ Man könnte mit mehreren Empfängern kommunizieren.
 
 
 ## Reflexion und Erweiterung
 In dritten Teil diese Projektes werden nun einzelne Erweiterungen  und Verbesserungen vorgenommen, die mit weiteren neuen Funktionen erreicht werden. Versuche nun selber Funktionen zu entdecken und zu testen - es werden im dritten Teil nur mehr wenige Kommentare gegeben.
+
 **Viel Erfolg auf dem Weg zur kompetenten Programmiererin/zum kompetenten Programmierer.**
 
 **Abschlussbemerkung:**
@@ -287,13 +286,44 @@ Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer in
 + Senden von ganzen Wörtern
 + Senden von akustischen Signalen
 
+## Programmbedienung
+<img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robi_mb.png?raw=1">  Sender und Empfänger <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robi_mb.png?raw=1">
 
+* Nach dem Start sehen beide Micro:bit gleich aus
+* Nun muss abgemacht werden, wer nun bei diesem Spiel **Sender** ist:
+	* Nur der **Sender** drückt dazu beide `|Tasten A+B|` -> nun weiß das System, wer sendet und wer empfängt
+* Der **Empfänger** sollte bisher nur warten
+
+**Der Sender**
+* Jetzt kann der **Sender** durch `||Links-und-rechts-Neigen||` des Micro:bit einen Buchstaben wählen
+	* Ist der zu sendende Buchstabe gefunden, wird der Micro:bit wieder waagrecht gehalten und es kann der Buchstabe abgeschickt werden - mit `|Taste A|`
+* Es wird dann der Morsecode des Buchstaben an den Empfänger gesendet und dort angezeigt.
+
+**Der Empfänger**
+* Der **Empfänger** sieht nun das Morsezeichen und sucht über die Morse-Tabelle den richtigen Buchstaben, schreibt diesen auf ein Blatt Papier und gibt Bescheid, ob der Buchstabe erkannt wurde:
+	* `|Taste A|` bedeutet: Morsezeichen **erkannt**
+	* `|Taste B|` bedeutet: **Nicht erkannt** - bitte noch einmal senden
+* Diese Antwort erhält der **Sender** auf sein Micro:bit Display (+ oder-)
+* Führt einmal 5 Durchgänge durch und wechselt dann ihr die Rollen.
+
+**Rollen tauschen** (immer in Abstimmung mit dem Partner/der Partnerin)
+
+* Wie wird ein neues Spiel gestartet?
+* Bei beiden Micro:bit die `|Reset-Taste|` (Rückseite des Micro.bit) drücken
+* Dann den Sender neu bestimmen mit `|Taste A+B|`
+* Erfindet selber neue Spielregeln dazu
+* Natürlich kann man den Micro:bit auch umprogrammieren:
+	* Dabei ist wichtig, dass man im Team die Regeln bespricht.
+
+
+<img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/SOS.svg.png?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">
+# !!! Danke für eure Mitarbeit !!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMDAzNjE3MCw1NzUwNjg3NDEsMTQ1Mj
-g2NzAxMywtMjAwNjU0NTE2NiwxNDMyNzk2MzY5LC0xMTE0NTQz
-MjgxLDU2MDg2OTEyMCwtMTcwNTQ3Mjc2LC00MDkwNjM0OTQsLT
-U3OTI2NzQ0MiwtOTY2ODM1NTk3LDU0NjM5ODQ5MSwtODY4MzY4
-MTIxLDE0NTYzNTQwMjksMTUxNjQyNzIyNywtMTYyMjYwMjI2MC
-wxNjQwMDM3NjYyLDU1MDgxOTQ2MCwxMDYxOTU1NzE0LC03Mjc1
-NjYzMTldfQ==
+eyJoaXN0b3J5IjpbLTIxNjQ3MjIyNywtNjAwMDM2MTcwLDU3NT
+A2ODc0MSwxNDUyODY3MDEzLC0yMDA2NTQ1MTY2LDE0MzI3OTYz
+NjksLTExMTQ1NDMyODEsNTYwODY5MTIwLC0xNzA1NDcyNzYsLT
+QwOTA2MzQ5NCwtNTc5MjY3NDQyLC05NjY4MzU1OTcsNTQ2Mzk4
+NDkxLC04NjgzNjgxMjEsMTQ1NjM1NDAyOSwxNTE2NDI3MjI3LC
+0xNjIyNjAyMjYwLDE2NDAwMzc2NjIsNTUwODE5NDYwLDEwNjE5
+NTU3MTRdfQ==
 -->
