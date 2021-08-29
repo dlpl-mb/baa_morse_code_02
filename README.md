@@ -151,8 +151,8 @@ Eingebaut in das Übertragungsprogramm:
 		basic.showNumber(input.acceleration(Dimension.X))
 	})
 ```
-* Beobachte dabei die x-Werte - wir wollen diese Neigung ausnutzen, um in den Buchstaben zu `blättern`. 
-* Experimentiere mit der folgenden Funktion zum Hinauf- und Herunterzählen einer Zahl (sehr schwierig): 
+* Beobachte dabei die x-Werte - wir wollen diese Neigung ausnutzen, um später in den Buchstaben zu `blättern`. 
+* Experimentiere nun mit der folgenden Funktion zum Hinauf- und Herunterzählen einer Zahl (sehr schwierig) (bitte auf den Micro.bit spielen): 
 
 
 
@@ -365,7 +365,7 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNjQ3NzgwOSw1NjA4NjkxMjAsLTE3MD
+eyJoaXN0b3J5IjpbLTczODg3NjIzMyw1NjA4NjkxMjAsLTE3MD
 U0NzI3NiwtNDA5MDYzNDk0LC01NzkyNjc0NDIsLTk2NjgzNTU5
 Nyw1NDYzOTg0OTEsLTg2ODM2ODEyMSwxNDU2MzU0MDI5LDE1MT
 Y0MjcyMjcsLTE2MjI2MDIyNjAsMTY0MDAzNzY2Miw1NTA4MTk0
