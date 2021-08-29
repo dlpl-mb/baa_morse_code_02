@@ -260,7 +260,9 @@ Das fertige Programmgerüst enthält jetzt die wichtigsten Funktionen, damit du 
 [Der fertige Programmcode](https://makecode.microbit.org/---codeembed#pub:_8tqijz37gTMw "(target|_blank)")
 Einige Bemerkungen zum Programm:
 + Auf zwei Micro:bit wird dieses obige Programm gespeichert
-+ Zu Beginn sitzen 
++ 
++ Der Spieler, der als Sender auftritt - drückt 
++ Zu Beginn sitzen bei Spielpartner noch nebeneinander - um zu testen - später kann ein Spielpartner in einen Nachbarraum gehen und über Distanz kommunizieren.
 
 
 
@@ -281,7 +283,7 @@ Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer in
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI4MzQzNDc5LDU3NTA2ODc0MSwxNDUyOD
+eyJoaXN0b3J5IjpbMTExNTg0ODQ1LDU3NTA2ODc0MSwxNDUyOD
 Y3MDEzLC0yMDA2NTQ1MTY2LDE0MzI3OTYzNjksLTExMTQ1NDMy
 ODEsNTYwODY5MTIwLC0xNzA1NDcyNzYsLTQwOTA2MzQ5NCwtNT
 c5MjY3NDQyLC05NjY4MzU1OTcsNTQ2Mzk4NDkxLC04NjgzNjgx
