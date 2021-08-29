@@ -267,11 +267,12 @@ Das fertige Programmgerüst enthält jetzt die wichtigsten Funktionen, damit du 
 * Der Spieler, der als Sender auftritt - drückt nun Tast A+B gemeinsam - das sagt dem System in welche richtung gesendet wird
 *  Der Empfänger sollte nur warten und nichts betätigen. 
 * Zu Beginn sitzen beide Spielpartner noch nebeneinander - um das Programm zu testen - später kann ein Spielpartner in einen Nachbarraum gehen und über Distanz kommunizieren.
+* Nun wählt der Sender durch 
 
 
 
 + Überlege, welche Erweiterungen/Vereinfachung du hier noch machen möchtest:
-+ 
++ Man könnte mit mehreren Empfängern kommunizieren.
 
 
 ## Reflexion und Erweiterung
@@ -288,7 +289,7 @@ Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer in
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NTg1MzQyNSw1NzUwNjg3NDEsMTQ1Mj
+eyJoaXN0b3J5IjpbLTYwMDAzNjE3MCw1NzUwNjg3NDEsMTQ1Mj
 g2NzAxMywtMjAwNjU0NTE2NiwxNDMyNzk2MzY5LC0xMTE0NTQz
 MjgxLDU2MDg2OTEyMCwtMTcwNTQ3Mjc2LC00MDkwNjM0OTQsLT
 U3OTI2NzQ0MiwtOTY2ODM1NTk3LDU0NjM5ODQ5MSwtODY4MzY4
