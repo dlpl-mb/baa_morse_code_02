@@ -263,13 +263,15 @@ Das fertige Programmgerüst enthält jetzt die wichtigsten Funktionen, damit du 
 * Ihr braucht zwei Micro.bit mit jeweils angestecker Batterie
 * Auf zwei Micro:bit wird dieses obige Programm gespeichert
 * Auf beiden Micro:bit wird ein Check-OK angezeigt
+* Die Rollen sollten bei diesem Spiel unbedingt eingehalten werden: 1 Spieler + 1 Empfänger
 * Der Spieler, der als Sender auftritt - drückt nun Tast A+B gemeinsam - das sagt dem System in welche richtung gesendet wird
-*  Der Empfänger sollte nu warten und nichts betätigen. 
+*  Der Empfänger sollte nur warten und nichts betätigen. 
 * Zu Beginn sitzen beide Spielpartner noch nebeneinander - um das Programm zu testen - später kann ein Spielpartner in einen Nachbarraum gehen und über Distanz kommunizieren.
 
 
 
-+ Überlege, welche Erweiterungen/Vereinfachung du hier noch machen möchtest.
++ Überlege, welche Erweiterungen/Vereinfachung du hier noch machen möchtest:
++ 
 
 
 ## Reflexion und Erweiterung
@@ -286,11 +288,11 @@ Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer in
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODE5NjA5NzUsNTc1MDY4NzQxLDE0NT
-I4NjcwMTMsLTIwMDY1NDUxNjYsMTQzMjc5NjM2OSwtMTExNDU0
-MzI4MSw1NjA4NjkxMjAsLTE3MDU0NzI3NiwtNDA5MDYzNDk0LC
-01NzkyNjc0NDIsLTk2NjgzNTU5Nyw1NDYzOTg0OTEsLTg2ODM2
-ODEyMSwxNDU2MzU0MDI5LDE1MTY0MjcyMjcsLTE2MjI2MDIyNj
-AsMTY0MDAzNzY2Miw1NTA4MTk0NjAsMTA2MTk1NTcxNCwtNzI3
-NTY2MzE5XX0=
+eyJoaXN0b3J5IjpbMTA1NTg1MzQyNSw1NzUwNjg3NDEsMTQ1Mj
+g2NzAxMywtMjAwNjU0NTE2NiwxNDMyNzk2MzY5LC0xMTE0NTQz
+MjgxLDU2MDg2OTEyMCwtMTcwNTQ3Mjc2LC00MDkwNjM0OTQsLT
+U3OTI2NzQ0MiwtOTY2ODM1NTk3LDU0NjM5ODQ5MSwtODY4MzY4
+MTIxLDE0NTYzNTQwMjksMTUxNjQyNzIyNywtMTYyMjYwMjI2MC
+wxNjQwMDM3NjYyLDU1MDgxOTQ2MCwxMDYxOTU1NzE0LC03Mjc1
+NjYzMTldfQ==
 -->
