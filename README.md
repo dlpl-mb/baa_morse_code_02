@@ -257,24 +257,11 @@ Das fertige Programmgerüst enthält jetzt die wichtigsten Funktionen, damit du 
 		}    
 	})
 ```
-## [Der fertige Programmcode](https://makecode.microbit.org/---codeembed#pub:_8tqijz37gTMw "(target|_blank)")
-
-**Eine kurze Spielanleitung zum Programm:**
-* Ihr braucht zwei Micro.bit mit jeweils angestecker Batterie
-* Auf zwei Micro:bit wird dieses obige Programm gespeichert
-* Auf beiden Micro:bit wird ein Check-OK angezeigt
-* Die Rollen sollten bei diesem Spiel unbedingt eingehalten werden: 1 Spieler + 1 Empfänger
-* Der Spieler, der als Sender auftritt - drückt nun Tast A+B gemeinsam - das sagt dem System in welche richtung gesendet wird
-*  Der Empfänger sollte nur warten und nichts betätigen. 
-* Zu Beginn sitzen beide Spielpartner noch nebeneinander - um das Programm zu testen - später kann ein Spielpartner in einen Nachbarraum gehen und über Distanz kommunizieren.
-* Nun wählt der Sender durch 
-
-
-
-
 
 ## Reflexion und Erweiterung
 In dritten Teil diese Projektes werden nun einzelne Erweiterungen  und Verbesserungen vorgenommen, die mit weiteren neuen Funktionen erreicht werden. Versuche nun selber Funktionen zu entdecken und zu testen - es werden im dritten Teil nur mehr wenige Kommentare gegeben.
++ Überlege, welche Erweiterungen/Vereinfachung du hier noch machen möchtest:
++ Man könnte mit mehreren Empfängern kommunizieren.
 
 **Viel Erfolg auf dem Weg zur kompetenten Programmiererin/zum kompetenten Programmierer.**
 
@@ -285,6 +272,10 @@ Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer in
 + Erweiterte Kommunikation zwischen Sender und Empfänger
 + Senden von ganzen Wörtern
 + Senden von akustischen Signalen
+
+## [Der fertige Programmcode](https://makecode.microbit.org/---codeembed#pub:_8tqijz37gTMw "(target|_blank)")
+
+
 
 ## Programmbedienung
 <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robi_mb.png?raw=1">  Sender und Empfänger <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robi_mb.png?raw=1">
@@ -319,11 +310,11 @@ Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer in
 <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/SOS.svg.png?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">
 # !!! Danke für eure Mitarbeit !!!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNjQ3MjIyNywtNjAwMDM2MTcwLDU3NT
-A2ODc0MSwxNDUyODY3MDEzLC0yMDA2NTQ1MTY2LDE0MzI3OTYz
-NjksLTExMTQ1NDMyODEsNTYwODY5MTIwLC0xNzA1NDcyNzYsLT
-QwOTA2MzQ5NCwtNTc5MjY3NDQyLC05NjY4MzU1OTcsNTQ2Mzk4
-NDkxLC04NjgzNjgxMjEsMTQ1NjM1NDAyOSwxNTE2NDI3MjI3LC
-0xNjIyNjAyMjYwLDE2NDAwMzc2NjIsNTUwODE5NDYwLDEwNjE5
-NTU3MTRdfQ==
+eyJoaXN0b3J5IjpbLTE5OTQ2MTQ5NDEsLTYwMDAzNjE3MCw1Nz
+UwNjg3NDEsMTQ1Mjg2NzAxMywtMjAwNjU0NTE2NiwxNDMyNzk2
+MzY5LC0xMTE0NTQzMjgxLDU2MDg2OTEyMCwtMTcwNTQ3Mjc2LC
+00MDkwNjM0OTQsLTU3OTI2NzQ0MiwtOTY2ODM1NTk3LDU0NjM5
+ODQ5MSwtODY4MzY4MTIxLDE0NTYzNTQwMjksMTUxNjQyNzIyNy
+wtMTYyMjYwMjI2MCwxNjQwMDM3NjYyLDU1MDgxOTQ2MCwxMDYx
+OTU1NzE0XX0=
 -->
