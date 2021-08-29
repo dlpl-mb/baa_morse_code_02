@@ -258,8 +258,9 @@ Das fertige Programmgerüst enthält jetzt die wichtigsten Funktionen, damit du 
 	})
 ```
 [Der fertige Programmcode](https://makecode.microbit.org/---codeembed#pub:_8tqijz37gTMw "(target|_blank)")
-+ Einige Bemerkungen zum Programm:
-+ 
+Einige Bemerkungen zum Programm:
++ Auf zwei Micro:bit wird dieses obige Programm gespeichert
++ Zu Beginn sitzen 
 
 
 
@@ -280,11 +281,11 @@ Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer in
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjc5Mjk0NjEsNTc1MDY4NzQxLDE0NT
-I4NjcwMTMsLTIwMDY1NDUxNjYsMTQzMjc5NjM2OSwtMTExNDU0
-MzI4MSw1NjA4NjkxMjAsLTE3MDU0NzI3NiwtNDA5MDYzNDk0LC
-01NzkyNjc0NDIsLTk2NjgzNTU5Nyw1NDYzOTg0OTEsLTg2ODM2
-ODEyMSwxNDU2MzU0MDI5LDE1MTY0MjcyMjcsLTE2MjI2MDIyNj
-AsMTY0MDAzNzY2Miw1NTA4MTk0NjAsMTA2MTk1NTcxNCwtNzI3
-NTY2MzE5XX0=
+eyJoaXN0b3J5IjpbMzI4MzQzNDc5LDU3NTA2ODc0MSwxNDUyOD
+Y3MDEzLC0yMDA2NTQ1MTY2LDE0MzI3OTYzNjksLTExMTQ1NDMy
+ODEsNTYwODY5MTIwLC0xNzA1NDcyNzYsLTQwOTA2MzQ5NCwtNT
+c5MjY3NDQyLC05NjY4MzU1OTcsNTQ2Mzk4NDkxLC04NjgzNjgx
+MjEsMTQ1NjM1NDAyOSwxNTE2NDI3MjI3LC0xNjIyNjAyMjYwLD
+E2NDAwMzc2NjIsNTUwODE5NDYwLDEwNjE5NTU3MTQsLTcyNzU2
+NjMxOV19
 -->
