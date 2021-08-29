@@ -141,6 +141,8 @@ Eingebaut in das Übertragungsprogramm:
 		basic.showNumber(input.acceleration(Dimension.X))
 	})
 ```
+[Programmcode](https://makecode.microbit.org/#pub:_DVe8TrKz3cRU "(target|_blank)")
+
 * Beobachte dabei die x-Werte - wir wollen diese Neigung ausnutzen, um in den Buchstaben zu `blättern`. 
 * Experimentiere mit der folgenden Funktion zum Hinauf- und Herunterzählen einer Zahl (sehr schwierig): 
 
@@ -160,6 +162,24 @@ Eingebaut in das Übertragungsprogramm:
 	})
 ```
 [Programmcode](https://makecode.microbit.org/#pub:_DVe8TrKz3cRU "(target|_blank)")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -335,11 +355,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDU0NzI3NiwtNDA5MDYzNDk0LC01Nz
-kyNjc0NDIsLTk2NjgzNTU5Nyw1NDYzOTg0OTEsLTg2ODM2ODEy
-MSwxNDU2MzU0MDI5LDE1MTY0MjcyMjcsLTE2MjI2MDIyNjAsMT
-Y0MDAzNzY2Miw1NTA4MTk0NjAsMTA2MTk1NTcxNCwtNzI3NTY2
-MzE5LC0xNjkyNDMyMzQ2LC0yNzA1NzcyNzgsLTE4OTE2NzY4MS
-wtNjc1MDgxOTE3LC0xOTA3MDAxMjg1LDEyMTAxMDU4MzcsNjQ2
-NjQyNjg4XX0=
+eyJoaXN0b3J5IjpbNTYwODY5MTIwLC0xNzA1NDcyNzYsLTQwOT
+A2MzQ5NCwtNTc5MjY3NDQyLC05NjY4MzU1OTcsNTQ2Mzk4NDkx
+LC04NjgzNjgxMjEsMTQ1NjM1NDAyOSwxNTE2NDI3MjI3LC0xNj
+IyNjAyMjYwLDE2NDAwMzc2NjIsNTUwODE5NDYwLDEwNjE5NTU3
+MTQsLTcyNzU2NjMxOSwtMTY5MjQzMjM0NiwtMjcwNTc3Mjc4LC
+0xODkxNjc2ODEsLTY3NTA4MTkxNywtMTkwNzAwMTI4NSwxMjEw
+MTA1ODM3XX0=
 -->
