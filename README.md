@@ -206,7 +206,8 @@ Eingebaut in das Übertragungsprogramm:
 + Erst wenn diese Funktionen "verdaut" sind - hat es Sinn das gesamte Programm anzusehen.
 
 ## Fertiges Programm: Das Morse-Alphabet II
-Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer und hat festgestellt, dass er dann am meisten gelernt hat, wenn er fremde Programm analysiert hat und versucht hat, sie zu verstehen. Danach hat er einfache Änderungen durchgeführt hat und sich so Programmieren selbst beigebracht.
+
+
 + Das fertig kleine Übertragungsprogramm für alle Morsezeichen
 ```blocks
 	input.onButtonPressed(Button.A, function () {
@@ -256,8 +257,13 @@ Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer un
 		}    
 	})
 ```
-[Der fertige Programmcode](https://makecode.microbit.org/---codeembed#pub:_2DDXk49W3Aey "(target|_blank)")
+[Der fertige Programmcode](https://makecode.microbit.org/---codeembed#pub:_8tqijz37gTMw "(target|_blank)")
++ einge 
+
+
+
 + Überlege, welche Erweiterungen/Vereinfachung du hier noch machen möchtest.
+
 
 ## Reflexion und Erweiterung
 In dritten Teil diese Projektes werden nun einzelne Erweiterungen  und Verbesserungen vorgenommen, die mit weiteren neuen Funktionen erreicht werden. Versuche nun selber Funktionen zu entdecken und zu testen - es werden im dritten Teil nur mehr wenige Kommentare gegeben.
@@ -271,11 +277,11 @@ In dritten Teil diese Projektes werden nun einzelne Erweiterungen  und Verbesser
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU0ODcwNTQ5LDU3NTA2ODc0MSwxNDUyOD
-Y3MDEzLC0yMDA2NTQ1MTY2LDE0MzI3OTYzNjksLTExMTQ1NDMy
-ODEsNTYwODY5MTIwLC0xNzA1NDcyNzYsLTQwOTA2MzQ5NCwtNT
-c5MjY3NDQyLC05NjY4MzU1OTcsNTQ2Mzk4NDkxLC04NjgzNjgx
-MjEsMTQ1NjM1NDAyOSwxNTE2NDI3MjI3LC0xNjIyNjAyMjYwLD
-E2NDAwMzc2NjIsNTUwODE5NDYwLDEwNjE5NTU3MTQsLTcyNzU2
-NjMxOV19
+eyJoaXN0b3J5IjpbMTQxOTY0ODIzMSw1NzUwNjg3NDEsMTQ1Mj
+g2NzAxMywtMjAwNjU0NTE2NiwxNDMyNzk2MzY5LC0xMTE0NTQz
+MjgxLDU2MDg2OTEyMCwtMTcwNTQ3Mjc2LC00MDkwNjM0OTQsLT
+U3OTI2NzQ0MiwtOTY2ODM1NTk3LDU0NjM5ODQ5MSwtODY4MzY4
+MTIxLDE0NTYzNTQwMjksMTUxNjQyNzIyNywtMTYyMjYwMjI2MC
+wxNjQwMDM3NjYyLDU1MDgxOTQ2MCwxMDYxOTU1NzE0LC03Mjc1
+NjYzMTldfQ==
 -->
