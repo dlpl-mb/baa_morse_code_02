@@ -205,15 +205,18 @@ Eingebaut in das Übertragungsprogramm:
 ```
 [Programmcode](https://makecode.microbit.org/---codeembed#pub:_PHiaYDfFzD83 "(target|_blank)")
 + Teste bei diesem Teilprogramm vor allem die Auswahltastatur
-+ Erst wenn diese Funktionen "verdaut" sind - hat es Sinn
++ Erst wenn diese Funktionen "verdaut" sind - hat es Sinn das gesamte Programm anzusehen.
+
+## Fertiges Programm: Das Morse-Alphabet II
+Der Autor dieses Beispielprogramms ist selbst seit Jahren Programm
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTU5ODQzNDEsMTQzMjc5NjM2OSwtMT
-ExNDU0MzI4MSw1NjA4NjkxMjAsLTE3MDU0NzI3NiwtNDA5MDYz
-NDk0LC01NzkyNjc0NDIsLTk2NjgzNTU5Nyw1NDYzOTg0OTEsLT
-g2ODM2ODEyMSwxNDU2MzU0MDI5LDE1MTY0MjcyMjcsLTE2MjI2
-MDIyNjAsMTY0MDAzNzY2Miw1NTA4MTk0NjAsMTA2MTk1NTcxNC
-wtNzI3NTY2MzE5LC0xNjkyNDMyMzQ2LC0yNzA1NzcyNzgsLTE4
-OTE2NzY4MV19
+eyJoaXN0b3J5IjpbMzkxMDE3NjQ0LDE0MzI3OTYzNjksLTExMT
+Q1NDMyODEsNTYwODY5MTIwLC0xNzA1NDcyNzYsLTQwOTA2MzQ5
+NCwtNTc5MjY3NDQyLC05NjY4MzU1OTcsNTQ2Mzk4NDkxLC04Nj
+gzNjgxMjEsMTQ1NjM1NDAyOSwxNTE2NDI3MjI3LC0xNjIyNjAy
+MjYwLDE2NDAwMzc2NjIsNTUwODE5NDYwLDEwNjE5NTU3MTQsLT
+cyNzU2NjMxOSwtMTY5MjQzMjM0NiwtMjcwNTc3Mjc4LC0xODkx
+Njc2ODFdfQ==
 -->
