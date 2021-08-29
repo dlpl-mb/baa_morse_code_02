@@ -168,8 +168,9 @@ Eingebaut in das Übertragungsprogramm:
 	    basic.pause(1000)
 	})
 ```
-[Programmcode](https://makecode.microbit.org/#pub:_DVe8TrKz3cRU "(target|_blank)")
+[Programmcode](https://makecode.microbit.org/#pub:_UXKHMAL1pFWp "(target|_blank)")
 
+Hie rlässt sich serh gut beobac
 
 
 
@@ -362,7 +363,7 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNzQyOTQzMSw1NjA4NjkxMjAsLTE3MD
+eyJoaXN0b3J5IjpbLTY5MzU4NDA0Myw1NjA4NjkxMjAsLTE3MD
 U0NzI3NiwtNDA5MDYzNDk0LC01NzkyNjc0NDIsLTk2NjgzNTU5
 Nyw1NDYzOTg0OTEsLTg2ODM2ODEyMSwxNDU2MzU0MDI5LDE1MT
 Y0MjcyMjcsLTE2MjI2MDIyNjAsMTY0MDAzNzY2Miw1NTA4MTk0
