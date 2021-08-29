@@ -170,6 +170,39 @@ Eingebaut in das Übertragungsprogramm:
 ```
 [Programmcode](https://makecode.microbit.org/#pub:_UXKHMAL1pFWp "(target|_blank)")
 + Hier lässt sich sehr gut beobachten, wie man die Sensoren (Beschleunigungs- und Lagesensor) nutzen kann, um Messwerte zu verwenden.
++ Damit sind nun die Voraussetzungen geschaffen, die Hilfstastatur (Auswahltastatur) zu testen.
+ 
+```blocks
+	input.onButtonPressed(Button.A, function () {
+	    index = randint(0, anz_bst)
+	    auswahl_buchstabe = liste_buchstaben[index]
+	    // damit siehst du als Sender den Buchstaben auch auf deinem Display
+	    basic.showString("" + (auswahl_buchstabe))
+	    radio.sendString("" + (liste_morsecodes[index]))
+	})
+	radio.onReceivedString(function (receivedString) {
+	    // Beim Emfänger werden die empfangenen Daten angezeigt
+	    basic.showString(receivedString)
+	})
+	input.onButtonPressed(Button.B, function () {
+	    for (let index2 = 0; index2 <= anz_bst; index2++) {
+	        basic.showString("" + (liste_buchstaben[index2]))
+	        basic.showString("" + (liste_morsecodes[index2]))
+	        basic.pause(2000)
+	        basic.clearScreen()
+	    }
+	})
+	let auswahl_buchstabe = ""
+	let index = 0
+	let anz_bst = 0
+	let liste_morsecodes: string[] = []
+	let liste_buchstaben: string[] = []
+	radio.setGroup(99)
+	liste_buchstaben = ["A","B","C","D","E","F","G","S","O"]
+	liste_morsecodes = [".-","-...","-.-.","-..",".","..-.","--.","...","---"]
+	anz_bst = liste_buchstaben.length - 1
+```
+[Programmcode](https://makecode.microbit.org/---codeembed#pub:_VE2dfFHrwDi9 "(target|_blank)")
 
 
 
@@ -362,7 +395,7 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODIzNzg3MDEsNTYwODY5MTIwLC0xNz
+eyJoaXN0b3J5IjpbLTExMTQ1NDMyODEsNTYwODY5MTIwLC0xNz
 A1NDcyNzYsLTQwOTA2MzQ5NCwtNTc5MjY3NDQyLC05NjY4MzU1
 OTcsNTQ2Mzk4NDkxLC04NjgzNjgxMjEsMTQ1NjM1NDAyOSwxNT
 E2NDI3MjI3LC0xNjIyNjAyMjYwLDE2NDAwMzc2NjIsNTUwODE5
