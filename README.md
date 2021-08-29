@@ -208,7 +208,7 @@ Eingebaut in das Übertragungsprogramm:
 + Erst wenn diese Funktionen "verdaut" sind - hat es Sinn das gesamte Programm anzusehen.
 
 ## Fertiges Programm: Das Morse-Alphabet II
-Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer und hat festgestellt, dass er dann am meisten gelernt hat, wenn er fremde Programm analysierversucht hat, zu verstehen. Danach und dabei einfache Änderungen durchgeführt hat und sich damit Programmieren selbst beigebracht hat.
+Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer und hat festgestellt, dass er dann am meisten gelernt hat, wenn er fremde Programm analysiert hat und versucht hat, sie zu verstehen. Danach hat er einfache Änderungen durchgeführt hat und sich so Programmieren selbst beigebracht.
 + Das fertig kleine Übertragungsprogramm für alle Morsezeichen
 ```blocks
 	input.onButtonPressed(Button.A, function () {
@@ -266,7 +266,7 @@ In dritten Teil diese Projektes werden nun einzelne Erweiterungen  und Verbesser
 + Senden von akustischen Signalen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njk0Mzg2NzYsLTIwMDY1NDUxNjYsMT
+eyJoaXN0b3J5IjpbLTE4MTkzOTUyNTksLTIwMDY1NDUxNjYsMT
 QzMjc5NjM2OSwtMTExNDU0MzI4MSw1NjA4NjkxMjAsLTE3MDU0
 NzI3NiwtNDA5MDYzNDk0LC01NzkyNjc0NDIsLTk2NjgzNTU5Ny
 w1NDYzOTg0OTEsLTg2ODM2ODEyMSwxNDU2MzU0MDI5LDE1MTY0
