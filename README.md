@@ -145,7 +145,7 @@ Eingebaut in das Übertragungsprogramm:
 [Programmcode](https://makecode.microbit.org/#pub:_55zbeHhRTa2o "(target|_blank)")
 - Immer wenn `Taste A` gedrückt wird, zeigt es den augenblicklichen Kippwinkel (x) an. 
 - Spiele das Programm auf den Micro:bit und teste.
-- Auch dieses Sequenz zeigt dir den Kippwinkel x (links-Rechts) an
+- Auch dieses folgende Sequenz zeigt dir den Kippwinkel x (links-Rechts) an - aber hier werden ständig neue Winkelwerte angezeigt, dadurch entstehen sehr viele Zahlen, ...
 ```blocks
 	basic.forever(function () {
 		basic.showNumber(input.acceleration(Dimension.X))
@@ -365,11 +365,11 @@ anz_bst = liste_buchstaben.length - 1
 
 [Page Link](https://makecode.microbit.org/#pub:_Ux2V81PmkYMM "(target|_blank)")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODYwODg1MDgsNTYwODY5MTIwLC0xNz
-A1NDcyNzYsLTQwOTA2MzQ5NCwtNTc5MjY3NDQyLC05NjY4MzU1
-OTcsNTQ2Mzk4NDkxLC04NjgzNjgxMjEsMTQ1NjM1NDAyOSwxNT
-E2NDI3MjI3LC0xNjIyNjAyMjYwLDE2NDAwMzc2NjIsNTUwODE5
-NDYwLDEwNjE5NTU3MTQsLTcyNzU2NjMxOSwtMTY5MjQzMjM0Ni
-wtMjcwNTc3Mjc4LC0xODkxNjc2ODEsLTY3NTA4MTkxNywtMTkw
-NzAwMTI4NV19
+eyJoaXN0b3J5IjpbLTgwNjQ3NzgwOSw1NjA4NjkxMjAsLTE3MD
+U0NzI3NiwtNDA5MDYzNDk0LC01NzkyNjc0NDIsLTk2NjgzNTU5
+Nyw1NDYzOTg0OTEsLTg2ODM2ODEyMSwxNDU2MzU0MDI5LDE1MT
+Y0MjcyMjcsLTE2MjI2MDIyNjAsMTY0MDAzNzY2Miw1NTA4MTk0
+NjAsMTA2MTk1NTcxNCwtNzI3NTY2MzE5LC0xNjkyNDMyMzQ2LC
+0yNzA1NzcyNzgsLTE4OTE2NzY4MSwtNjc1MDgxOTE3LC0xOTA3
+MDAxMjg1XX0=
 -->
