@@ -211,45 +211,128 @@ Eingebaut in das Übertragungsprogramm:
 Der Autor dieses Beispielprogramms ist selbst seit Jahren Programmierer und hat für sich festgestellt, dass er dann am meisten gelernt hat, wenn er fremde Programm versucht hat, zu verstehen. Danach und dabei einfache Änderungen durchgeführt hat und sich damit Programmieren selbst beigebracht hat.
 + Das fertig kleine Übertragungsprogramm für alle Morsezeichen
 ```blocks
-	input.onButtonPressed(Button.A, function () {
-	    radio.sendString("" + (auswahl_morsecode))
-	})
-	let auswahl_buchstabe = ""
-	let index = 0
-	let neigung = 0
-	let auswahl_morsecode = ""
-	liste_buchstaben = ["A","B","C","D","E","F","G","S","O"]
-	liste_morsecodes = [".-","-...","-.-.","-..",".","..-.","--.","...","---"]
-	let anz_bst = liste_buchstaben.length - 1
-	basic.forever(function () {
-	    neigung = input.acceleration(Dimension.X)
-	    if (neigung > 300) {
-	        index += 1
-	    }
-	    if (neigung < -300) {
-	        index += -1
-	    }
-	    if (index > anz_bst) {
-	        index = 0
-	    }
-	    if (index < 0) {
-	        index = anz_bst
-	    }
-	    auswahl_buchstabe = liste_buchstaben[index]
-	    auswahl_morsecode = liste_morsecodes[index]
-	    basic.showString("" + (auswahl_buchstabe))
-	    basic.pause(500)
-	})
+input.onButtonPressed(Button.A, function () {
+    radio.sendString("" + (auswahl_morsecode))
+})
+radio.onReceivedString(function (receivedString) {
+    basic.showString(receivedString)
+})
+input.onButtonPressed(Button.B, function () {
+    radio.sendString("+")
+})
+let auswahl_buchstabe = ""
+let index = 0
+let neigung = 0
+let auswahl_morsecode = ""
+basic.showIcon(IconNames.Yes)
+let liste_morsecodes = [
+".-",
+"-...",
+"-.-.",
+"-..",
+".",
+"..-.",
+"--.",
+"....",
+"..",
+".---",
+"-.-",
+".-..",
+"--",
+"-.",
+"---",
+".--.",
+"--.-",
+".-.",
+"...",
+"-",
+"..-",
+"...-",
+".--",
+"-..-",
+"-.--",
+"--..",
+".----",
+"..---",
+"...--",
+"....-",
+".....",
+"-....",
+"--...",
+"---..",
+"----.",
+"-----"
+]
+let liste_buchstaben = [
+"A",
+"B",
+"C",
+"D",
+"E",
+"F",
+"G",
+"H",
+"I",
+"J",
+"K",
+"L",
+"M",
+"N",
+"O",
+"P",
+"Q",
+"R",
+"S",
+"T",
+"U",
+"V",
+"W",
+"X",
+"Y",
+"Z",
+"1",
+"2",
+"3",
+"4",
+"5",
+"6",
+"7",
+"8",
+"9",
+"0"
+]
+let anz_bst = liste_buchstaben.length - 1
+radio.setGroup(99)
+basic.forever(function () {
+    neigung = input.acceleration(Dimension.X)
+    if (neigung > 300) {
+        index += 1
+    }
+    if (neigung < -300) {
+        index += -1
+    }
+    if (index > anz_bst) {
+        index = 0
+    }
+    if (index < 0) {
+        index = anz_bst
+    }
+    auswahl_buchstabe = liste_buchstaben[index]
+    auswahl_morsecode = liste_morsecodes[index]
+    basic.showString("" + (auswahl_buchstabe))
+    basic.pause(500)
+})
+
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNTY0Mzg1MiwxNDMyNzk2MzY5LC0xMT
-E0NTQzMjgxLDU2MDg2OTEyMCwtMTcwNTQ3Mjc2LC00MDkwNjM0
-OTQsLTU3OTI2NzQ0MiwtOTY2ODM1NTk3LDU0NjM5ODQ5MSwtOD
-Y4MzY4MTIxLDE0NTYzNTQwMjksMTUxNjQyNzIyNywtMTYyMjYw
-MjI2MCwxNjQwMDM3NjYyLDU1MDgxOTQ2MCwxMDYxOTU1NzE0LC
-03Mjc1NjYzMTksLTE2OTI0MzIzNDYsLTI3MDU3NzI3OCwtMTg5
-MTY3NjgxXX0=
+eyJoaXN0b3J5IjpbLTIwMDY1NDUxNjYsMTQzMjc5NjM2OSwtMT
+ExNDU0MzI4MSw1NjA4NjkxMjAsLTE3MDU0NzI3NiwtNDA5MDYz
+NDk0LC01NzkyNjc0NDIsLTk2NjgzNTU5Nyw1NDYzOTg0OTEsLT
+g2ODM2ODEyMSwxNDU2MzU0MDI5LDE1MTY0MjcyMjcsLTE2MjI2
+MDIyNjAsMTY0MDAzNzY2Miw1NTA4MTk0NjAsMTA2MTk1NTcxNC
+wtNzI3NTY2MzE5LC0xNjkyNDMyMzQ2LC0yNzA1NzcyNzgsLTE4
+OTE2NzY4MV19
 -->
