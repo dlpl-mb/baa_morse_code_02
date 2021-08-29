@@ -256,13 +256,18 @@ Der Autor dieses Beispielprogramms ist selbst seit Jahren Programmierer und hat 
 + Überlege, welche Erweiterungen 
 
 ## Reflexion und Erweiterung
-In dritten Teil diese Projektes werden nun einzelne Erweiterungen  und Verbesserungen vorgenommen, die mit w
+In dritten Teil diese Projektes werden nun einzelne Erweiterungen  und Verbesserungen vorgenommen, die mit weiteren neuen Funktionen erreicht werden.
+Neue Funktionen werden sein:
++ Erweiterte Kommunikation zwischen Sender und Empfänger
++ Senden von ganzen Wörtern
++ Senden von akustischen Signalen
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MzM5MTMwMCwtMjAwNjU0NTE2NiwxND
-MyNzk2MzY5LC0xMTE0NTQzMjgxLDU2MDg2OTEyMCwtMTcwNTQ3
-Mjc2LC00MDkwNjM0OTQsLTU3OTI2NzQ0MiwtOTY2ODM1NTk3LD
-U0NjM5ODQ5MSwtODY4MzY4MTIxLDE0NTYzNTQwMjksMTUxNjQy
-NzIyNywtMTYyMjYwMjI2MCwxNjQwMDM3NjYyLDU1MDgxOTQ2MC
-wxMDYxOTU1NzE0LC03Mjc1NjYzMTksLTE2OTI0MzIzNDYsLTI3
-MDU3NzI3OF19
+eyJoaXN0b3J5IjpbODM3MTczNzg5LC0yMDA2NTQ1MTY2LDE0Mz
+I3OTYzNjksLTExMTQ1NDMyODEsNTYwODY5MTIwLC0xNzA1NDcy
+NzYsLTQwOTA2MzQ5NCwtNTc5MjY3NDQyLC05NjY4MzU1OTcsNT
+Q2Mzk4NDkxLC04NjgzNjgxMjEsMTQ1NjM1NDAyOSwxNTE2NDI3
+MjI3LC0xNjIyNjAyMjYwLDE2NDAwMzc2NjIsNTUwODE5NDYwLD
+EwNjE5NTU3MTQsLTcyNzU2NjMxOSwtMTY5MjQzMjM0NiwtMjcw
+NTc3Mjc4XX0=
 -->
