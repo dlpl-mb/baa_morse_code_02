@@ -23,12 +23,13 @@ let liste_morsezeichen = [".-","-...","-.-.","-..",".","..-.","--.","...","---"]
 * Mehrere Morsezeichen ergeben ein Wort
 * Eines der wichtigsten Morse-Worte solltest du  merken - es ist für Notfälle gedacht: 
 * SOS ("save our ship"): drei kurz, drei lang, drei kurz - ... --- ... 
-* Beachte dabei, dass nach jedem Buchstaben **"dreimal kurz"** (=S) ein kurze Pause gemacht wird und erst dann **"dreimal lang"** (=O) gesendet wird. Später wird noch wichtig, dass nach einem gesamten Wort ebenso eine längere Pause (etwa 1 Sekunde) gemacht wird.
-* Schreibt auf Papier, wir nun das folgende Wort heißt:  <img src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/anna.png?raw=1">
+* Beachte dabei, dass nach jedem Buchstaben **"dreimal kurz"** (=S) ein kurze Pause gemacht wird und erst dann **"dreimal lang"** (=O) gesendet wird. 
+* Später wird noch wichtig, dass bei ganzen Sätzen nach einem gesamten Wort ebenso eine längere Pause (etwa 1 Sekunde) gemacht wird.
+* Schreibt auf Papier, wir nun das folgende Wort heißen wird:  <img src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/anna.png?raw=1">
 
 ## Programmteil 1: Verbindung von 2 micro:bit
 
-Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit durch ein kurzes Programm verbunden werden - suche dir also eine zweite Person als Kontaktpartner. Arbeitet zu zweit weiter.
+Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit durch einige Befehle verbunden werden - aso eine zweite Person als Kontaktpartner. Arbeitet zu zweit weiter.
 **Grundregeln dazu sind:**
 * Wähle mit deinem/r Kommunikationspartner/in einen Funkkanal von 1 bis 255 aus - niemand anderer im Raum darf denselben verwenden, sonst gibt es Kommunikationssalat - in unserem Beispiel wählen wir **99**.
 * Es muss genau definiert werden, wer ist **Sender** und wer ist **Empfänger**: Es muss auch genau vereinbart werden, wann soll gesendet werden, wann meldet sich der Empfänger.
@@ -317,7 +318,7 @@ Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer in
 <style>.page-header {font-size:1rem;height:0vh;padding-top:1.5rem}</style>
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzA2MDQ2OTMsLTEwMDUyNzg4LC05Nj
+eyJoaXN0b3J5IjpbLTIwODMxMTk2OTUsLTEwMDUyNzg4LC05Nj
 M5Mjk2NTEsOTk4NDA5MzExLC0xNTg1NTQxMTQwLC0xODY3Mjgz
 NzE3LDE5OTQ2MDg1OTIsLTE5OTQ2MTQ5NDEsLTYwMDAzNjE3MC
 w1NzUwNjg3NDEsMTQ1Mjg2NzAxMywtMjAwNjU0NTE2NiwxNDMy
