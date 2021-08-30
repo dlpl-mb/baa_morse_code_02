@@ -4,9 +4,10 @@
 <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/SOS.svg.png?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">
 
 Wusstest du, dass ein Micro:bit mit anderen Micro:bit über Funkwellen kommunizieren kann. In diesem Morse-Code-Lektion II werden wir nun den Morsecode zwischen 2 Micro:bit versenden. Dazu müssen wir einige Vereinbarungen treffen, damit die Kommunikation auch funktioniert, wenn sich Robi01 und Robi02 nicht sehen und hören können - etwa, wenn sie sich in verschiedenen Räumen befinden. Die Vereinbarungen sind:
- * Die `|Taste A|` sendet den Morse-Code
- * Die `|Taste B|` dient zum Bestätigen der Nachricht 
- * Ein Plus `+` dient als OK, ein Minus `-`  ! Dann kann der Sender die nächste Nachricht senden.
+ * Sender: Die `|Taste A|` sendet den Morse-Code
+ * Empfänger: Die `|Taste A|` dient zum Bestätigen der Nachricht (ein Plus wird gesendet)
+	 * Die `|Taste B|` sendet ein Minus `-` - damit sieht ! 
+	 * Dann kann der Sender die nächste Nachricht senden.
  * Ein rauriger Smiley dient als - Nicht OK - bitte noch einmal senden!
  * Natürlich könnt ihr euch beim Programmieren eigene Kommunikationssymbole ausmachen.
  
@@ -316,7 +317,7 @@ Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer in
 <style>.page-header {font-size:1rem;height:0vh;padding-top:1.5rem}</style>
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5OTEyMDgxNCwtMTAwNTI3ODgsLTk2Mz
+eyJoaXN0b3J5IjpbMTAyNzMyMDE3MCwtMTAwNTI3ODgsLTk2Mz
 kyOTY1MSw5OTg0MDkzMTEsLTE1ODU1NDExNDAsLTE4NjcyODM3
 MTcsMTk5NDYwODU5MiwtMTk5NDYxNDk0MSwtNjAwMDM2MTcwLD
 U3NTA2ODc0MSwxNDUyODY3MDEzLC0yMDA2NTQ1MTY2LDE0MzI3
