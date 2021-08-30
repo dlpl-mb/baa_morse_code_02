@@ -308,13 +308,15 @@ Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer in
 
 <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/SOS.svg.png?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">
 # !!! Danke für eure Mitarbeit !!!
+#### Technische Metadaten
 <style>.page-header {font-size:1rem;height:0vh;padding-top:1.5rem}</style>
+<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDYwODU5MiwtMTk5NDYxNDk0MSwtNj
-AwMDM2MTcwLDU3NTA2ODc0MSwxNDUyODY3MDEzLC0yMDA2NTQ1
-MTY2LDE0MzI3OTYzNjksLTExMTQ1NDMyODEsNTYwODY5MTIwLC
-0xNzA1NDcyNzYsLTQwOTA2MzQ5NCwtNTc5MjY3NDQyLC05NjY4
-MzU1OTcsNTQ2Mzk4NDkxLC04NjgzNjgxMjEsMTQ1NjM1NDAyOS
-wxNTE2NDI3MjI3LC0xNjIyNjAyMjYwLDE2NDAwMzc2NjIsNTUw
-ODE5NDYwXX0=
+eyJoaXN0b3J5IjpbLTE4NjcyODM3MTcsMTk5NDYwODU5MiwtMT
+k5NDYxNDk0MSwtNjAwMDM2MTcwLDU3NTA2ODc0MSwxNDUyODY3
+MDEzLC0yMDA2NTQ1MTY2LDE0MzI3OTYzNjksLTExMTQ1NDMyOD
+EsNTYwODY5MTIwLC0xNzA1NDcyNzYsLTQwOTA2MzQ5NCwtNTc5
+MjY3NDQyLC05NjY4MzU1OTcsNTQ2Mzk4NDkxLC04NjgzNjgxMj
+EsMTQ1NjM1NDAyOSwxNTE2NDI3MjI3LC0xNjIyNjAyMjYwLDE2
+NDAwMzc2NjJdfQ==
 -->
