@@ -94,7 +94,7 @@ Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit d
 ```
 * Überlege auch warum ein leeres Feld eingebaut wurde
 * [Programmcode 2 ](https://makecode.microbit.org/#pub:_DVe8TrKz3cRU){:target="_blank"}
-* [Programmcode 2](https://makecode.microbit.org/_3dh6h5JKqHkJ){:target="_blank"}
+
 
 Eingebaut in das Übertragungsprogramm:
 * Nun wird der Zufallsgenerator in der `Taste A-Funktion` eingebaut:
@@ -129,7 +129,8 @@ Eingebaut in das Übertragungsprogramm:
 	liste_morsecodes = [".-","-...","-.-.","-..",".","..-.","--.","...","---"]
 	anz_bst = liste_buchstaben.length - 1
 ```
-* [Programmcode 3](https://makecode.microbit.org/---codeembed#pub:_VE2dfFHrwDi9 "(target|_blank)")
+* [Programmcode 3](https://makecode.microbit.org/---codeembed#pub:_VE2dfFHrwDi9){:target="_blank"}
+
 
 
 **Lösung b:** Wir bauen eine Auswahltastatur
@@ -143,7 +144,8 @@ Eingebaut in das Übertragungsprogramm:
 	})
 ```
 
-[Programmcode](https://makecode.microbit.org/#pub:_55zbeHhRTa2o "(target|_blank)")
+[Programmcode 4](https://makecode.microbit.org/#pub:_55zbeHhRTa2o){:target="_blank"}
+
 
 - Immer wenn `Taste A` gedrückt wird, zeigt es den augenblicklichen Kippwinkel (x) an. 
 - Spiele das Programm auf den Micro:bit und teste.
@@ -170,7 +172,8 @@ Eingebaut in das Übertragungsprogramm:
 	    basic.pause(1000)
 	})
 ```
-[Programmcode 4](https://makecode.microbit.org/#pub:_UXKHMAL1pFWp "(target|_blank)")
+[Programmcode 5](https://makecode.microbit.org/#pub:_UXKHMAL1pFWp){:target="_blank"}
+
 
 + Hier lässt sich sehr gut beobachten, wie man die Sensoren (Beschleunigungs- und Lagesensor) nutzen kann, um Messwerte zu verwenden.
 + Damit sind nun die Voraussetzungen geschaffen, die Hilfstastatur (Auswahltastatur) zu testen.
@@ -206,7 +209,8 @@ Eingebaut in das Übertragungsprogramm:
 	    basic.pause(500)
 	})
 ```
-[Programmcode 5](https://makecode.microbit.org/---codeembed#pub:_PHiaYDfFzD83 "(target|_blank)")
+[Programmcode 5](https://makecode.microbit.org/---codeembed#pub:_PHiaYDfFzD83){:target="_blank"}
+
 + Teste bei diesem Teilprogramm vor allem die Auswahltastatur
 + Erst wenn diese Funktionen "verdaut" sind - hat es Sinn das gesamte Programm anzusehen.
 
@@ -278,7 +282,8 @@ Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer in
 + Senden von ganzen Wörtern
 + Senden von akustischen Signalen
 
-## [Der fertige Programmcode](https://makecode.microbit.org/---codeembed#pub:_8tqijz37gTMw "(target|_blank)")
+## [Der fertige Programmcode](https://makecode.microbit.org/---codeembed#pub:_8tqijz37gTMw){:target="_blank"}
+
 
 
 
@@ -319,7 +324,7 @@ Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer in
 <style>.page-header {font-size:1rem;height:0vh;padding-top:1.5rem}</style>
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NzkzNDkwMCwtMTAwNTI3ODgsLTk2Mz
+eyJoaXN0b3J5IjpbMTc5OTQ3OTU5NSwtMTAwNTI3ODgsLTk2Mz
 kyOTY1MSw5OTg0MDkzMTEsLTE1ODU1NDExNDAsLTE4NjcyODM3
 MTcsMTk5NDYwODU5MiwtMTk5NDYxNDk0MSwtNjAwMDM2MTcwLD
 U3NTA2ODc0MSwxNDUyODY3MDEzLC0yMDA2NTQ1MTY2LDE0MzI3
