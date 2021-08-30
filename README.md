@@ -29,7 +29,7 @@ let liste_morsezeichen = [".-","-...","-.-.","-..",".","..-.","--.","...","---"]
 
 ## Programmteil 1: Verbindung von 2 micro:bit
 
-Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit durch einige Befehle verbunden werden - aso eine zweite Person als Kontaktpartner. Arbeitet zu zweit weiter.
+Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit durch einige Befehle verbunden werden - arbeite also mit deinem Partner/deiner Partnerin zusammen. Arbeitet immer zu zweit.
 **Grundregeln dazu sind:**
 * Wähle mit deinem/r Kommunikationspartner/in einen Funkkanal von 1 bis 255 aus - niemand anderer im Raum darf denselben verwenden, sonst gibt es Kommunikationssalat - in unserem Beispiel wählen wir **99**.
 * Es muss genau definiert werden, wer ist **Sender** und wer ist **Empfänger**: Es muss auch genau vereinbart werden, wann soll gesendet werden, wann meldet sich der Empfänger.
@@ -318,11 +318,11 @@ Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer in
 <style>.page-header {font-size:1rem;height:0vh;padding-top:1.5rem}</style>
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODMxMTk2OTUsLTEwMDUyNzg4LC05Nj
-M5Mjk2NTEsOTk4NDA5MzExLC0xNTg1NTQxMTQwLC0xODY3Mjgz
-NzE3LDE5OTQ2MDg1OTIsLTE5OTQ2MTQ5NDEsLTYwMDAzNjE3MC
-w1NzUwNjg3NDEsMTQ1Mjg2NzAxMywtMjAwNjU0NTE2NiwxNDMy
-Nzk2MzY5LC0xMTE0NTQzMjgxLDU2MDg2OTEyMCwtMTcwNTQ3Mj
-c2LC00MDkwNjM0OTQsLTU3OTI2NzQ0MiwtOTY2ODM1NTk3LDU0
-NjM5ODQ5MV19
+eyJoaXN0b3J5IjpbODkwODYyNTYwLC0xMDA1Mjc4OCwtOTYzOT
+I5NjUxLDk5ODQwOTMxMSwtMTU4NTU0MTE0MCwtMTg2NzI4Mzcx
+NywxOTk0NjA4NTkyLC0xOTk0NjE0OTQxLC02MDAwMzYxNzAsNT
+c1MDY4NzQxLDE0NTI4NjcwMTMsLTIwMDY1NDUxNjYsMTQzMjc5
+NjM2OSwtMTExNDU0MzI4MSw1NjA4NjkxMjAsLTE3MDU0NzI3Ni
+wtNDA5MDYzNDk0LC01NzkyNjc0NDIsLTk2NjgzNTU5Nyw1NDYz
+OTg0OTFdfQ==
 -->
