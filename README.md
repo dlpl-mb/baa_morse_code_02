@@ -1,4 +1,3 @@
-<style>.page-header {font-size:1rem;height:10vh;padding-top:1.5rem}</style>
 ## Geheimzeichen: Das Morse-Alphabet II
 **Hallo, ich bin Robi01 und werde dich beim Programmieren mit Micro:bit begleiten. Wir werden bei diesem Projekt nun Morsezeichen zu meiner Freundin Robi02 übertragen.**
 
@@ -309,12 +308,13 @@ Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer in
 
 <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/SOS.svg.png?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">
 # !!! Danke für eure Mitarbeit !!!
+<style>.page-header {font-size:1rem;height:10vh;padding-top:1.5rem}</style>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTQ2MTQ5NDEsLTYwMDAzNjE3MCw1Nz
-UwNjg3NDEsMTQ1Mjg2NzAxMywtMjAwNjU0NTE2NiwxNDMyNzk2
-MzY5LC0xMTE0NTQzMjgxLDU2MDg2OTEyMCwtMTcwNTQ3Mjc2LC
-00MDkwNjM0OTQsLTU3OTI2NzQ0MiwtOTY2ODM1NTk3LDU0NjM5
-ODQ5MSwtODY4MzY4MTIxLDE0NTYzNTQwMjksMTUxNjQyNzIyNy
-wtMTYyMjYwMjI2MCwxNjQwMDM3NjYyLDU1MDgxOTQ2MCwxMDYx
-OTU1NzE0XX0=
+eyJoaXN0b3J5IjpbMTQ3ODkwNzcxLC0xOTk0NjE0OTQxLC02MD
+AwMzYxNzAsNTc1MDY4NzQxLDE0NTI4NjcwMTMsLTIwMDY1NDUx
+NjYsMTQzMjc5NjM2OSwtMTExNDU0MzI4MSw1NjA4NjkxMjAsLT
+E3MDU0NzI3NiwtNDA5MDYzNDk0LC01NzkyNjc0NDIsLTk2Njgz
+NTU5Nyw1NDYzOTg0OTEsLTg2ODM2ODEyMSwxNDU2MzU0MDI5LD
+E1MTY0MjcyMjcsLTE2MjI2MDIyNjAsMTY0MDAzNzY2Miw1NTA4
+MTk0NjBdfQ==
 -->
