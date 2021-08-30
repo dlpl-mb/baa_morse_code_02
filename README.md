@@ -15,14 +15,15 @@ Wusstest du, dass ein Micro:bit mit anderen Micro:bit über Funkwellen kommunizi
 <img width="100%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/morse-tab.png?raw=1"> 
 Drucke Dir die Tabelle aller Morsecodes aus (Rechte Maustaste - Bild kopieren und dann mit Word ausdrucken)
 
-**Wir arbeiten aus Gründen der Übersichtlichkeit weiter mit der Trainingsliste von 9 Buchstaben, später, wenn das Programm fertig ist, werden wir alle Zeichen verwenden**
+**Wir arbeiten aus Gründen der Übersichtlichkeit weiter mit der Trainingsliste von 9 Buchstaben (A bis G und S und O), später, wenn das Programm fertig ist, werden wir alle Zeichen verwenden**
 ```
 let liste_buchstaben = ["A","B","C","D","E","F","G","S","O"]
 let liste_morsezeichen = [".-","-...","-.-.","-..",".","..-.","--.","...","---"]
 ```
+* Mehrere Morsezeichen ergeben ein Wort
 * Eines der wichtigsten Morse-Worte solltest du  merken - es ist für Notfälle gedacht: 
 * SOS ("save our ship"): drei kurz, drei lang, drei kurz - ... --- ... 
-* Beachte dabei, dass nach jdem Bustaben **"dreimal kurz"** (=S) ein kurze Pause gemacht wird und erst dann **"dreimal lang"** (=O) gesendet wird. Später wird noch wichtig, dass nach einem gesamten Wort ebenso eine längere Pause (etwa 1 Sekunde) gemacht wird.
+* Beachte dabei, dass nach jedem Buchstaben **"dreimal kurz"** (=S) ein kurze Pause gemacht wird und erst dann **"dreimal lang"** (=O) gesendet wird. Später wird noch wichtig, dass nach einem gesamten Wort ebenso eine längere Pause (etwa 1 Sekunde) gemacht wird.
 * Schreibt auf Papier, wir nun das folgende Wort heißt:  <img src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/anna.png?raw=1">
 
 ## Programmteil 1: Verbindung von 2 micro:bit
@@ -316,11 +317,11 @@ Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer in
 <style>.page-header {font-size:1rem;height:0vh;padding-top:1.5rem}</style>
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3OTIwMzUwNCwtMTAwNTI3ODgsLTk2Mz
-kyOTY1MSw5OTg0MDkzMTEsLTE1ODU1NDExNDAsLTE4NjcyODM3
-MTcsMTk5NDYwODU5MiwtMTk5NDYxNDk0MSwtNjAwMDM2MTcwLD
-U3NTA2ODc0MSwxNDUyODY3MDEzLC0yMDA2NTQ1MTY2LDE0MzI3
-OTYzNjksLTExMTQ1NDMyODEsNTYwODY5MTIwLC0xNzA1NDcyNz
-YsLTQwOTA2MzQ5NCwtNTc5MjY3NDQyLC05NjY4MzU1OTcsNTQ2
-Mzk4NDkxXX0=
+eyJoaXN0b3J5IjpbLTE3NzA2MDQ2OTMsLTEwMDUyNzg4LC05Nj
+M5Mjk2NTEsOTk4NDA5MzExLC0xNTg1NTQxMTQwLC0xODY3Mjgz
+NzE3LDE5OTQ2MDg1OTIsLTE5OTQ2MTQ5NDEsLTYwMDAzNjE3MC
+w1NzUwNjg3NDEsMTQ1Mjg2NzAxMywtMjAwNjU0NTE2NiwxNDMy
+Nzk2MzY5LC0xMTE0NTQzMjgxLDU2MDg2OTEyMCwtMTcwNTQ3Mj
+c2LC00MDkwNjM0OTQsLTU3OTI2NzQ0MiwtOTY2ODM1NTk3LDU0
+NjM5ODQ5MV19
 -->
