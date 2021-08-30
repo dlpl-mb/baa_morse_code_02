@@ -59,7 +59,7 @@ Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit d
 	})
 	radio.setGroup(99)
 ```
-[Programmcode](https://makecode.microbit.org/_3dh6h5JKqHkJ "(target|_blank)")
+[Prosgrammcode](https://makecode.microbit.org/_3dh6h5JKqHkJ "(target|_blank)")
 
 * Schreibe das Programm auf eure beiden Micro:bit (oder wählt Programmcode) und macht erste Tests
 * Tausch die Rollen des Senders und Empfängers
@@ -126,7 +126,8 @@ Eingebaut in das Übertragungsprogramm:
 	liste_morsecodes = [".-","-...","-.-.","-..",".","..-.","--.","...","---"]
 	anz_bst = liste_buchstaben.length - 1
 ```
-* [Der Programmcode](https://makecode.microbit.org/---codeembed#pub:_VE2dfFHrwDi9 "(target|_blank)")<hr>
+* [Der Programmcode](https://makecode.microbit.org/---codeembed#pub:_VE2dfFHrwDi9 "(target|_blank)")
+* <hr>
 
 **Lösung b:** Wir bauen eine Auswahltastatur
 * Bei dieser Lösung arbeiten wir mit dem Neigungswinkel in Richtung x - eine sehr leistungsfähige Funktion, mit der man viele Spiele gestalten kann.
@@ -314,11 +315,11 @@ Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer in
 <style>.page-header {font-size:1rem;height:0vh;padding-top:1.5rem}</style>
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODU1NDExNDAsLTE4NjcyODM3MTcsMT
-k5NDYwODU5MiwtMTk5NDYxNDk0MSwtNjAwMDM2MTcwLDU3NTA2
-ODc0MSwxNDUyODY3MDEzLC0yMDA2NTQ1MTY2LDE0MzI3OTYzNj
-ksLTExMTQ1NDMyODEsNTYwODY5MTIwLC0xNzA1NDcyNzYsLTQw
-OTA2MzQ5NCwtNTc5MjY3NDQyLC05NjY4MzU1OTcsNTQ2Mzk4ND
-kxLC04NjgzNjgxMjEsMTQ1NjM1NDAyOSwxNTE2NDI3MjI3LC0x
-NjIyNjAyMjYwXX0=
+eyJoaXN0b3J5IjpbLTg4Mjk4ODI4OSwtMTU4NTU0MTE0MCwtMT
+g2NzI4MzcxNywxOTk0NjA4NTkyLC0xOTk0NjE0OTQxLC02MDAw
+MzYxNzAsNTc1MDY4NzQxLDE0NTI4NjcwMTMsLTIwMDY1NDUxNj
+YsMTQzMjc5NjM2OSwtMTExNDU0MzI4MSw1NjA4NjkxMjAsLTE3
+MDU0NzI3NiwtNDA5MDYzNDk0LC01NzkyNjc0NDIsLTk2NjgzNT
+U5Nyw1NDYzOTg0OTEsLTg2ODM2ODEyMSwxNDU2MzU0MDI5LDE1
+MTY0MjcyMjddfQ==
 -->
