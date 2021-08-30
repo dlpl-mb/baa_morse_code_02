@@ -3,7 +3,7 @@
 
 <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/SOS.svg.png?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">
 
-Wusstest du, dass ein Micro:bit mit anderen Micro:bit über Funkwellen kommunizieren kann. In diesem Morse-Code-Projekt II werden wir nun den Morsecode zwischen 2 micro:bits versenden. Dazu müssen wir einige Vereinbarungen treffen, damit die Kommunikation auch funktioniert, wenn ich Robi02 nicht sehen und hören kann - etwa, wenn sie sich in einem anderen Raum befindet. Die Vereinbarungen sind:
+Wusstest du, dass ein Micro:bit mit anderen Micro:bit über Funkwellen kommunizieren kann. In diesem Morse-Code-Lektion II werden wir nun den Morsecode zwischen 2 Micro:bit versenden. Dazu müssen wir einige Vereinbarungen treffen, damit die Kommunikation auch funktioniert, wenn sich Robi01 und Robi02 nicht sehen und hören können - etwa, wenn sie sich in v Raum befindet. Die Vereinbarungen sind:
  * Die Taste A sendet den Morse-Code
  * Die Taste B dient zum Bestätigen der Nachricht 
  * Ein Symbol Herz dient als OK! Dann kann der Sender die nächste Nachricht senden.
@@ -316,11 +316,11 @@ Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer in
 <style>.page-header {font-size:1rem;height:0vh;padding-top:1.5rem}</style>
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMDU1NTkyLC0xMDA1Mjc4OCwtOTYzOT
-I5NjUxLDk5ODQwOTMxMSwtMTU4NTU0MTE0MCwtMTg2NzI4Mzcx
-NywxOTk0NjA4NTkyLC0xOTk0NjE0OTQxLC02MDAwMzYxNzAsNT
-c1MDY4NzQxLDE0NTI4NjcwMTMsLTIwMDY1NDUxNjYsMTQzMjc5
-NjM2OSwtMTExNDU0MzI4MSw1NjA4NjkxMjAsLTE3MDU0NzI3Ni
-wtNDA5MDYzNDk0LC01NzkyNjc0NDIsLTk2NjgzNTU5Nyw1NDYz
-OTg0OTFdfQ==
+eyJoaXN0b3J5IjpbLTYyODQ0OTI0NiwtMTAwNTI3ODgsLTk2Mz
+kyOTY1MSw5OTg0MDkzMTEsLTE1ODU1NDExNDAsLTE4NjcyODM3
+MTcsMTk5NDYwODU5MiwtMTk5NDYxNDk0MSwtNjAwMDM2MTcwLD
+U3NTA2ODc0MSwxNDUyODY3MDEzLC0yMDA2NTQ1MTY2LDE0MzI3
+OTYzNjksLTExMTQ1NDMyODEsNTYwODY5MTIwLC0xNzA1NDcyNz
+YsLTQwOTA2MzQ5NCwtNTc5MjY3NDQyLC05NjY4MzU1OTcsNTQ2
+Mzk4NDkxXX0=
 -->
