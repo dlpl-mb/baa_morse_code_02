@@ -141,6 +141,7 @@ Eingebaut in das Übertragungsprogramm:
 ```
 
 [Programmcode](https://makecode.microbit.org/#pub:_55zbeHhRTa2o "(target|_blank)")
+
 - Immer wenn `Taste A` gedrückt wird, zeigt es den augenblicklichen Kippwinkel (x) an. 
 - Spiele das Programm auf den Micro:bit und teste.
 - Auch dieses folgende Sequenz zeigt dir den Kippwinkel x (links-Rechts) an - aber hier werden ständig neue Winkelwerte angezeigt, dadurch entstehen sehr viele Zahlen, ...
@@ -316,11 +317,11 @@ Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer in
 <style>.page-header {font-size:1rem;height:0vh;padding-top:1.5rem}</style>
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk4NDA5MzExLC0xNTg1NTQxMTQwLC0xOD
-Y3MjgzNzE3LDE5OTQ2MDg1OTIsLTE5OTQ2MTQ5NDEsLTYwMDAz
-NjE3MCw1NzUwNjg3NDEsMTQ1Mjg2NzAxMywtMjAwNjU0NTE2Ni
-wxNDMyNzk2MzY5LC0xMTE0NTQzMjgxLDU2MDg2OTEyMCwtMTcw
-NTQ3Mjc2LC00MDkwNjM0OTQsLTU3OTI2NzQ0MiwtOTY2ODM1NT
-k3LDU0NjM5ODQ5MSwtODY4MzY4MTIxLDE0NTYzNTQwMjksMTUx
-NjQyNzIyN119
+eyJoaXN0b3J5IjpbLTk2MzkyOTY1MSw5OTg0MDkzMTEsLTE1OD
+U1NDExNDAsLTE4NjcyODM3MTcsMTk5NDYwODU5MiwtMTk5NDYx
+NDk0MSwtNjAwMDM2MTcwLDU3NTA2ODc0MSwxNDUyODY3MDEzLC
+0yMDA2NTQ1MTY2LDE0MzI3OTYzNjksLTExMTQ1NDMyODEsNTYw
+ODY5MTIwLC0xNzA1NDcyNzYsLTQwOTA2MzQ5NCwtNTc5MjY3ND
+QyLC05NjY4MzU1OTcsNTQ2Mzk4NDkxLC04NjgzNjgxMjEsMTQ1
+NjM1NDAyOV19
 -->
