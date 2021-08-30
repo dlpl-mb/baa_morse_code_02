@@ -127,7 +127,7 @@ Eingebaut in das Übertragungsprogramm:
 	anz_bst = liste_buchstaben.length - 1
 ```
 * [Der Programmcode](https://makecode.microbit.org/---codeembed#pub:_VE2dfFHrwDi9 "(target|_blank)")
-* <hr>
+
 
 **Lösung b:** Wir bauen eine Auswahltastatur
 * Bei dieser Lösung arbeiten wir mit dem Neigungswinkel in Richtung x - eine sehr leistungsfähige Funktion, mit der man viele Spiele gestalten kann.
@@ -166,7 +166,8 @@ Eingebaut in das Übertragungsprogramm:
 	    basic.pause(1000)
 	})
 ```
-[Programmcode](https://makecode.microbit.org/#pub:_UXKHMAL1pFWp "(target|_blank)")
+[Programmcode 2](https://makecode.microbit.org/#pub:_UXKHMAL1pFWp "(target|_blank)")
+
 + Hier lässt sich sehr gut beobachten, wie man die Sensoren (Beschleunigungs- und Lagesensor) nutzen kann, um Messwerte zu verwenden.
 + Damit sind nun die Voraussetzungen geschaffen, die Hilfstastatur (Auswahltastatur) zu testen.
  
@@ -315,7 +316,7 @@ Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer in
 <style>.page-header {font-size:1rem;height:0vh;padding-top:1.5rem}</style>
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4Mjk4ODI4OSwtMTU4NTU0MTE0MCwtMT
+eyJoaXN0b3J5IjpbMTMyODcxNTY2NSwtMTU4NTU0MTE0MCwtMT
 g2NzI4MzcxNywxOTk0NjA4NTkyLC0xOTk0NjE0OTQxLC02MDAw
 MzYxNzAsNTc1MDY4NzQxLDE0NTI4NjcwMTMsLTIwMDY1NDUxNj
 YsMTQzMjc5NjM2OSwtMTExNDU0MzI4MSw1NjA4NjkxMjAsLTE3
