@@ -1,5 +1,5 @@
 ## Geheimzeichen: Das Morse-Alphabet II
-**Hallo, ich bin Robi01 und werde dich beim Programmieren mit Micro:bit begleiten. Wir werden bei diesem Projekt nun Morsezeichen zu meiner Freundin Robi02 übertragen.**
+**Hallo, wir sind Robi01 und werde dich beim Programmieren mit Micro:bit begleiten. Wir werden bei diesem Projekt nun Morsezeichen zu meiner Freundin Robi02 übertragen.**
 
 <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/SOS.svg.png?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">
 
@@ -316,11 +316,11 @@ Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer in
 <style>.page-header {font-size:1rem;height:0vh;padding-top:1.5rem}</style>
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDUyNzg4LC05NjM5Mjk2NTEsOTk4ND
-A5MzExLC0xNTg1NTQxMTQwLC0xODY3MjgzNzE3LDE5OTQ2MDg1
-OTIsLTE5OTQ2MTQ5NDEsLTYwMDAzNjE3MCw1NzUwNjg3NDEsMT
-Q1Mjg2NzAxMywtMjAwNjU0NTE2NiwxNDMyNzk2MzY5LC0xMTE0
-NTQzMjgxLDU2MDg2OTEyMCwtMTcwNTQ3Mjc2LC00MDkwNjM0OT
-QsLTU3OTI2NzQ0MiwtOTY2ODM1NTk3LDU0NjM5ODQ5MSwtODY4
-MzY4MTIxXX0=
+eyJoaXN0b3J5IjpbMTI2OTY0MDA1LC0xMDA1Mjc4OCwtOTYzOT
+I5NjUxLDk5ODQwOTMxMSwtMTU4NTU0MTE0MCwtMTg2NzI4Mzcx
+NywxOTk0NjA4NTkyLC0xOTk0NjE0OTQxLC02MDAwMzYxNzAsNT
+c1MDY4NzQxLDE0NTI4NjcwMTMsLTIwMDY1NDUxNjYsMTQzMjc5
+NjM2OSwtMTExNDU0MzI4MSw1NjA4NjkxMjAsLTE3MDU0NzI3Ni
+wtNDA5MDYzNDk0LC01NzkyNjc0NDIsLTk2NjgzNTU5Nyw1NDYz
+OTg0OTFdfQ==
 -->
