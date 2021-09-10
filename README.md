@@ -24,13 +24,13 @@ Wusstest du, dass ein Micro:bit mit anderen Micro:bit über Funkwellen kommunizi
 
 Drucke Dir die Tabelle aller Morsecodes aus (Rechte Maustaste - Bild kopieren und dann mit Word ausdrucken)
 
-### Übversichtlichkeit:
+### Übersichtlichkeit
 
 Damit unser Demonstrationsprogramm übersichtlich bleibt, arbeiten wir weiter mit der Buchstabenliste von 9 Buchstaben (A bis G, nun auch das S und O), später, wenn das Programm fertig ist, werden wir alle Zeichen einbauen.
 
 ```block
-let liste_buchstaben = ["A","B","C","D","E","F","G","S","O"]
-let liste_morsezeichen = [".-","-...","-.-.","-..",".","..-.","--.","...","---"]
+	let liste_buchstaben = ["A","B","C","D","E","F","G","S","O"]
+	let liste_morsezeichen = [".-","-...","-.-.","-..",".","..-.","--.","...","---"]
 ```
 
 * Mehrere Morsezeichen ergeben ein Wort
@@ -348,6 +348,6 @@ Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer in
 <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/SOS.svg.png?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">
 # !!! Danke für eure Mitarbeit !!!
 
-
 <style>.page-header {font-size:1rem;height:0vh;padding-top:1.5rem}</style>
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+<script src="https://makecode.com/gh-pages-embed.js"></script>
+<script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
