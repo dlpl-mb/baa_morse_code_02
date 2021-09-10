@@ -287,9 +287,10 @@ basic.forever(function () {
 ```
 
 ## Reflexion und Erweiterung
+
 In dritten Teil diese Projektes werden nun einzelne Erweiterungen  und Verbesserungen vorgenommen, die mit weiteren neuen Funktionen erreicht werden. Versuche nun selber Funktionen zu entdecken und zu testen - es werden im dritten Teil nur mehr wenige Kommentare gegeben.
-+ Überlege, welche Erweiterungen/Vereinfachung du hier noch machen möchtest:
-+ Man könnte mit mehreren Empfängern kommunizieren.
+* Überlege, welche Erweiterungen/Vereinfachung du hier noch machen möchtest:
+* Man könnte mit mehreren Empfängern kommunizieren.
 
 **Viel Erfolg auf dem Weg zur kompetenten Programmiererin/zum kompetenten Programmierer.**
 
@@ -297,32 +298,34 @@ In dritten Teil diese Projektes werden nun einzelne Erweiterungen  und Verbesser
 Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer in einigen Programmiersprachen und kann feststellen, dass er dann am meisten gelernt hat, wenn er fremde Programme analysiert hat und versucht hat, sie zu verstehen und mit kleinen schrittweisen Änderungen alles Unbekannte zu verstehen.
 
 **Neue Funktionen werden sein:**
-+ Erweiterte Kommunikation zwischen Sender und Empfänger
-+ Senden von ganzen Wörtern
-+ Senden von akustischen Signalen
+* Erweiterte Kommunikation zwischen Sender und Empfänger
+* Senden von ganzen Wörtern
+* Senden von akustischen Signalen
 
 ## [Der fertige Programmcode](https://makecode.microbit.org/---codeembed#pub:_8tqijz37gTMw){:target="_blank"}
 
-
-
+<br>
 
 ## Programmbedienung
+
 <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robi_mb.png?raw=1">  Sender und Empfänger <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robi_mb.png?raw=1">
 
 * Nach dem Start sehen beide Micro:bit gleich aus
 * Nun muss abgemacht werden, wer nun bei diesem Spiel **Sender** ist:
-	* Nur der **Sender** drückt dazu beide `|Tasten A+B|` -> nun weiß das System, wer sendet und wer empfängt
+  * Nur der **Sender** drückt dazu beide `|Tasten A+B|` -> nun weiß das System, wer sendet und wer empfängt
 * Der **Empfänger** sollte bisher nur warten
 
-**Der Sender**
+### Der Sender
+
 * Jetzt kann der **Sender** durch `||Links-und-rechts-Neigen||` des Micro:bit einen Buchstaben wählen
-	* Ist der zu sendende Buchstabe gefunden, wird der Micro:bit wieder waagrecht gehalten und es kann der Buchstabe abgeschickt werden - mit `|Taste A|`
+  * Ist der zu sendende Buchstabe gefunden, wird der Micro:bit wieder waagrecht gehalten und es kann der Buchstabe abgeschickt werden - mit `|Taste A|`
 * Es wird dann der Morsecode des Buchstaben an den Empfänger gesendet und dort angezeigt.
 
-**Der Empfänger**
+### Der Empfänger
+
 * Der **Empfänger** sieht nun das Morsezeichen und sucht über die Morse-Tabelle den richtigen Buchstaben, schreibt diesen auf ein Blatt Papier und gibt Bescheid, ob der Buchstabe erkannt wurde:
-	* `|Taste A|` bedeutet: Morsezeichen **erkannt**
-	* `|Taste B|` bedeutet: **Nicht erkannt** - bitte noch einmal senden
+  * `|Taste A|` bedeutet: Morsezeichen **erkannt**
+  * `|Taste B|` bedeutet: **Nicht erkannt** - bitte noch einmal senden
 * Diese Antwort erhält der **Sender** auf sein Micro:bit Display (+ oder-)
 * Führt einmal 5 Durchgänge durch und wechselt dann ihr die Rollen.
 
@@ -333,21 +336,10 @@ Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer in
 * Dann den Sender neu bestimmen mit `|Taste A+B|`
 * Erfindet selber neue Spielregeln dazu
 * Natürlich kann man den Micro:bit auch umprogrammieren:
-	* Dabei ist wichtig, dass man im Team die Regeln bespricht.
-
+  * Dabei ist wichtig, dass man im Team die Regeln bespricht.
 
 <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/SOS.svg.png?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">
 # !!! Danke für eure Mitarbeit !!!
 
-#### Technische Metadaten
 <style>.page-header {font-size:1rem;height:0vh;padding-top:1.5rem}</style>
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5OTQ3OTU5NSwtMTAwNTI3ODgsLTk2Mz
-kyOTY1MSw5OTg0MDkzMTEsLTE1ODU1NDExNDAsLTE4NjcyODM3
-MTcsMTk5NDYwODU5MiwtMTk5NDYxNDk0MSwtNjAwMDM2MTcwLD
-U3NTA2ODc0MSwxNDUyODY3MDEzLC0yMDA2NTQ1MTY2LDE0MzI3
-OTYzNjksLTExMTQ1NDMyODEsNTYwODY5MTIwLC0xNzA1NDcyNz
-YsLTQwOTA2MzQ5NCwtNTc5MjY3NDQyLC05NjY4MzU1OTcsNTQ2
-Mzk4NDkxXX0=
--->
