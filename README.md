@@ -1,25 +1,30 @@
+# Morse-Alphabet senden
+
 ## Geheimzeichen: Das Morse-Alphabet II
 
-**Hallo, wir sind Robi01 und Robi02 und werden dich beim Programmieren mit Micro:bit begleiten. Wir sind jetzt zu zweit, weil wir dann gleich 2 Micro:bit benützen.**
+**Hallo, wir sind Robi-x01 und Robi-x02 und werden dich beim Programmieren mit Micro:bit begleiten. Wir sind jetzt zu zweit, weil wir bei diesen Übungen dann Buchstaben an jeweils den anderen Micro:bit senden werden.**
 
 <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/SOS.svg.png?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">
 
-Wusstest du, dass ein Micro:bit mit anderen Micro:bit über Funkwellen kommunizieren kann. In diesem Morse-Code-Lektion II werden wir nun den Morsecode zwischen 2 Micro:bit versenden. Dazu müssen wir einige Vereinbarungen treffen, damit die Kommunikation auch funktioniert, wenn sich Robi01 und Robi02 nicht sehen und hören können - etwa, wenn sie sich in verschiedenen Räumen befinden. Die Vereinbarungen sind:
+Wusstest du, dass ein Micro:bit mit anderen Micro:bit über Funkwellen kommunizieren kann. In diesem Morsecode-Lektion II werden wir nun Nachrichten zwischen 2 Micro:bits versenden. Dazu müssen wir einige Vereinbarungen treffen, damit die Kommunikation auch funktioniert. Wenn sich etwa Robi-x01 und Robi-x02 in verschiedenen Räumen sind und sich nicht sehen und hören können.
 
-* Sender: Die `|Taste A|` sendet den Morse-Code
+**Die Vereinbarungen sind:**
 
-* Empfänger:
-  * Die `|Taste A|` dient zum Bestätigen der Nachricht (ein Plus wird gesendet) - dann kann der Sender den nächsten Buchstaben senden.
-  * Die `|Taste B|` sendet ein Minus `-` - damit sieht der Sender, dass noch einmal gesendet werden muss !
-  * Natürlich könnt ihr euch beim Programmieren eigene Kommunikationssymbole ausmachen.
+* **Beim Sender:** Die `|Taste A|` sendet den Morsecode
 
-## Die Zeichen des Morsealphabets
+* **Beim Empfänger:**
+  * Dieser Micro:bit wartet nur auf Nachrichten - erhält er eine sso muss diese bestätigt werden.
+  * Die `|Taste A|` dient zum Bestätigen der Nachricht (in unserem Programm wird ein Plus gesendet) - erst dann darf der Sender den nächsten Buchstaben senden
+  * Die `|Taste B|` sendet ein Minus `-` - damit erkennt der Sender, dass noch einmal gesendet werden muss!
+  * Natürlich könnt ihr euch beim Programmieren eigene Kommunikationsvereinbarungen treffen
+
+## Die Zeichen des Morsealphabets (zum Nachschlagen und Ausdrucken)
 
 <img width="100%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/morse-tab.png?raw=1">
 
 Drucke Dir die Tabelle aller Morsecodes aus (Rechte Maustaste - Bild kopieren und dann mit Word ausdrucken)
 
-**Wir arbeiten aus Gründen der Übersichtlichkeit weiter mit der Trainingsliste von 9 Buchstaben (A bis G und S und O), später, wenn das Programm fertig ist, werden wir alle Zeichen verwenden**
+**Damit unser Demonstrationsprogramm übersichtlich bleibt, arbeiten wir weiter mit der Buchstabenliste von 9 Buchstaben (A bis G und S und O), später, wenn das Programm fertig ist, werden wir alle Zeichen verwenden**
 
 ```block
 let liste_buchstaben = ["A","B","C","D","E","F","G","S","O"]
