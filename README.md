@@ -28,37 +28,46 @@ Drucke Dir die Tabelle aller Morsecodes aus (Rechte Maustaste - Bild kopieren un
 
 Damit unser Demonstrationsprogramm übersichtlich bleibt, arbeiten wir weiter mit der Buchstabenliste von 9 Buchstaben (A bis G, nun auch das S und O), später, wenn das Programm fertig ist, werden wir alle Zeichen einbauen.
 
-```block
-	let liste_buchstaben = ["A","B","C","D","E","F","G","S","O"]
-	let liste_morsezeichen = [".-","-...","-.-.","-..",".","..-.","--.","...","---"]
-```
+<img width="100%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/l2_prg_bst.png?raw=1">
 
-* Mehrere Morsezeichen ergeben ein Wort
-* Eines der wichtigsten Morse-Worte solltest du  merken - es ist für Notfälle gedacht:
-* SOS ("save our ship"): drei kurz, drei lang, drei kurz - ... --- ...
-* Beachte dabei, dass nach jedem Buchstaben **"dreimal kurz"** (=S) ein kurze Pause gemacht wird und erst dann **"dreimal lang"** (=O) gesendet wird.
-* Später wird noch wichtig, dass bei ganzen Sätzen nach einem gesamten Wort ebenso eine längere Pause (etwa 1 Sekunde) gemacht wird.
-* Schreibt auf Papier, wir nun das folgende Wort heißen wird:  <img src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/anna.png?raw=1">
+* Fügt man mehrere Morsezeichen zu einem Wort zusammen, muss beachtet werden, dass nach jedem Morsebuchstaben ein Leerplatz bzw. ein Pause eingelegt wird, damit der Empfänger weiß, dass nun ein neues Wort beginnt.
+* Sieht dir dieses kurze Morsewort an: ... --- ...
+* Es besteht aus drei Buchstaben - finde die Buchstaben heraus! 
+* Dieses wichtigste Morse-Worte solltest du dir merken - es ist für Notfälle gedacht:
+* SOS ("save our ship"): drei kurz, drei lang, drei kurz: ... --- ...
+* Beachte dabei, dass nach jedem Buchstaben **dreimal kurz** (S) ein kurze Pause gemacht wird und erst dann **dreimal lang** (Buchstabe O) gesendet wird.
+* Wenn man das nun weiter denkt, so ist natürlich auch das Satzende wichtig. Dort fällt die Pause noch länger aus (etwa 1 Sekunde)
+* Schreibt auf Papier, wie nun das folgende Wort heißen wird:  <img src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/anna.png?raw=1">
 
-## Programmteil 1: Verbindung von 2 micro:bit
+## Programmteil 1: Verbindung von 2 Micro:bits
 
-Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit durch einige Befehle verbunden werden - arbeite also mit deinem Partner/deiner Partnerin zusammen. Arbeitet immer zu zweit.
-**Grundregeln dazu sind:**
+Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit **verbunden** werden - arbeite auch hier mit deinem Partner/deiner Partnerin zusammen.
 
-* Wähle mit deinem/r Kommunikationspartner/in einen Funkkanal von 1 bis 255 aus - niemand anderer im Raum darf denselben verwenden, sonst gibt es Kommunikationssalat - in unserem Beispiel wählen wir **99**.
-* Es muss genau definiert werden, wer ist **Sender** und wer ist **Empfänger**: Es muss auch genau vereinbart werden, wann soll gesendet werden, wann meldet sich der Empfänger.
-* Beide micro.bit müssen über denselben Funkkanal verfügen - siehe ``||radio: radio.setGroup(1)||``
-* Beide Partner können in unserem Beispiel auch dasselbe Programm auf den Micro:bit spielen.
+### Grundregeln zur Verbindung von 2 Micro:bit sind
+
+* Wähle mit deinem/r Kommunikationspartner/in einen Funkkanal von 1 bis 255 aus - kein andere Spielpaar im Raum darf denselben Kanal verwenden, sonst gibt es Kommunikationssalat
+* Wir wählen für diese Beispiel **99** - also bedenkt: einen noch freien Funkkanal verwenden.
+* Jetzt muss ausgemacht werden, wer ist **Sender** und wer ist **Empfänger**: 
+* Es muss auch genau vereinbart werden, wann soll gesendet werden, was macht der Empfänger, ...
+* Denkt dabei daran, dass ihr nachher in getrennten Räumen arbeiten werdet und nicht mehr so einfach miteinander sprechen könnt.
+* Beide Micro:bits nun über denselben Funkkanal verbinden - siehe ``||radio: radio.setGroup(1)||``
+* Beide Partner können in unserem Beispiel dasselbe Programm auf dem jeweiligen Micro:bit benutzen.
 
 ```blocks
 radio.setGroup(99)
 ```
 
-**Der erster Test zur Übertragung:**
+### Der erster Test zur Übertragung
 
 * Wir werden mit `Taste A` senden und mit `Taste B` immer antworten.
-* Was heißt die Aufgabenstellung? 
-  * Der Sender sendet einmal den Buchstaben A und den dazugehörigen Morsecode
+* Die Aufgabenstellung heißt:
+  * Der Sender sendet einmal den Buchstaben **A** 
+  * 
+  * 
+  * 
+  * 
+  * 
+  * und den dazugehörigen Morsecode
   * Der Empfänger bekommt den Morsecode angezeigt und muss den empfangenen Morsecode in den Buchstaben übersetzen.
   * Programmtechnik: wir benötigen aus dem Menü `Funk` zwei Befehle:
     * Daten senden: `radio: radio.sendString("A")`
