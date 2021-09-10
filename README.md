@@ -108,39 +108,39 @@ input.onButtonPressed(Button.A, function () {
 * Überlege auch warum ein leeres Feld eingebaut wurde
 * [Programmcode 2 ](https://makecode.microbit.org/#pub:_DVe8TrKz3cRU){:target="_blank"}
 
-
 Eingebaut in das Übertragungsprogramm:
+
 * Nun wird der Zufallsgenerator in der `Taste A-Funktion` eingebaut:
 
 ```blocks
-	input.onButtonPressed(Button.A, function () {
-	    index = randint(0, anz_bst)
-	    auswahl_buchstabe = liste_buchstaben[index]
-	    // damit siehst du als Sender den Buchstaben auch auf deinem Display
-	    basic.showString("" + (auswahl_buchstabe))
-	    radio.sendString("" + (liste_morsecodes[index]))
-	})
-	radio.onReceivedString(function (receivedString) {
-	    // Beim Emfänger werden die empfangenen Daten angezeigt
-	    basic.showString(receivedString)
-	})
-	input.onButtonPressed(Button.B, function () {
-	    for (let index2 = 0; index2 <= anz_bst; index2++) {
-	        basic.showString("" + (liste_buchstaben[index2]))
-	        basic.showString("" + (liste_morsecodes[index2]))
-	        basic.pause(2000)
-	        basic.clearScreen()
-	    }
-	})
-	let auswahl_buchstabe = ""
-	let index = 0
-	let anz_bst = 0
-	let liste_morsecodes: string[] = []
-	let liste_buchstaben: string[] = []
-	radio.setGroup(99)
-	// liste_buchstaben = ["A","B","C","D","E","F","G","S","O"]
-	// liste_morsecodes = [".-","-...","-.-.","-..",".","..-.","--.","...","---"]
-	anz_bst = liste_buchstaben.length - 1
+input.onButtonPressed(Button.A, function () {
+	index = randint(0, anz_bst)
+	auswahl_buchstabe = liste_buchstaben[index]
+	// damit siehst du als Sender den Buchstaben auch auf deinem Display
+	basic.showString("" + (auswahl_buchstabe))
+	radio.sendString("" + (liste_morsecodes[index]))
+})
+radio.onReceivedString(function (receivedString) {
+	// Beim Emfänger werden die empfangenen Daten angezeigt
+	basic.showString(receivedString)
+})
+input.onButtonPressed(Button.B, function () {
+	for (let index2 = 0; index2 <= anz_bst; index2++) {
+		basic.showString("" + (liste_buchstaben[index2]))
+		basic.showString("" + (liste_morsecodes[index2]))
+		basic.pause(2000)
+		basic.clearScreen()
+	}
+})
+let auswahl_buchstabe = ""
+let index = 0
+let anz_bst = 0
+let liste_morsecodes: string[] = []
+let liste_buchstaben: string[] = []
+radio.setGroup(99)
+// liste_buchstaben = ["A","B","C","D","E","F","G","S","O"]
+// liste_morsecodes = [".-","-...","-.-.","-..",".","..-.","--.","...","---"]
+anz_bst = liste_buchstaben.length - 1
 ```
 
 * [Programmcode 3](https://makecode.microbit.org/---codeembed#pub:_VE2dfFHrwDi9){:target="_blank"}
