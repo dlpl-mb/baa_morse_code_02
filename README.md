@@ -61,8 +61,30 @@ radio.setGroup(99)
 
 * Wir werden mit `Taste A` senden und mit `Taste B` immer antworten.
 * Die Aufgabenstellung heißt:
-  * Der Sender sendet einmal den Buchstaben **A** 
-  * 
+  * Der Sender sendet einmal den Buchstaben **A**
+  * Der Empänger zeigt den erhaltenen Buchstaben an!
+  * Das Programm dazu könnte so aussehen
+
+```blocks
+input.onButtonPressed(Button.A, function () {
+    radio.sendString("A")
+})
+radio.onReceivedString(function (receivedString) {
+    basic.showString(receivedString)
+})
+radio.setGroup(99)
+```
+
+* Ihr könnt beide diese Programm auf dem Micro:bit erstellen
+* Ihr benötigt dazu das Menü ``Funk``
+* Die neuen Befehle sind das Senden eines Buchstaben und der Empfang einer Nachricht **receiveString** beim Empfänger.
+
+```block
+   radio.sendString("A")
+
+   basic.showString(receivedString)
+```
+
   * 
   * 
   * 
