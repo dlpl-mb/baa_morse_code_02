@@ -112,9 +112,8 @@ radio.setGroup(99)
 <img width="50%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/Morseschreiber.jpg?raw=1">
 
 * Zum Abschluss dieses Projektteils nun eine schwierige Aufgabe:
-  * Eine ganze Zeile ist zu lesen - der Vereinfachung halber sind nur die Wortgrenzen mit einem Schrägstrich markiert.
-
-[Programmcode 2 - Sende eine Nachrichtenzeile](https://makecode.microbit.org/_hhVeobX87KwU){:target="_blank"}
+  * Eine ganze Zeile ist zu lesen: Der Vereinfachung halber sind nur die Wortgrenzen mit einem Schrägstrich markiert.
+  [Programmcode 2 - Sende eine Nachrichtenzeile](https://makecode.microbit.org/_hhVeobX87KwU){:target="_blank"}
 
 * Verwende diesen einfachen Programmcode und ändere die Übertragungsnachricht.
 * Was könnte man beim Empfänger noch gestalten, damit dieser mehr Zeit hat zum lesen? Oder die Nachricht noch einmal ansehen kann?
@@ -127,7 +126,7 @@ radio.setGroup(99)
 
 ### Unser Ziel: Man möchte den Sende-Buchstaben zur Zufall auswählen lassen
 
-**Lösung a:** Ein Auswahl eines Buchstabens per Zufall
+**Lösung a:** Ein Auswahl eines Morsecodes per Zufall
 
 * Man benötigt eine Zufallszahl zwischen 0 und der Anzahl der verfübaren Buchstaben.
 * Eine Zufallszahl kann man im Bereich `Mathematik` erzeugen - der Befehl heißt `Wähle eine zufällige Zahl von 0 bis 10`
@@ -147,6 +146,14 @@ input.onButtonPressed(Button.A, function () {
 ```
 
 * Überlege warum im Programmcode ein leeres Feld eingebaut wurde
+* Wir werden in unserem Programm 26 Buchstaben verwenden - also brauchen wir eine Zufallszahl zwischen 0 und 25.  
+* Wir werden mit dem folgenden Testprogramm den Morsecode eines zufälligen Buchstabens senden.
+
+[Programmcode 3](https://makecode.microbit.org/#pub:_1aRd1965T2s5){:target="_blank"}
+
+* Das greift dabei mit dem Befehl ``[Arrays]: [liste_morsecodes[zufall]]`` auf ein Elment der Morsecode-Liste zu und zeigt dieses an.
+
+
 
 
 
@@ -334,7 +341,8 @@ basic.forever(function () {
 ## Reflexion und Erweiterung
 
 In dritten Teil diese Projektes werden nun einzelne Erweiterungen  und Verbesserungen vorgenommen, die mit weiteren neuen Funktionen erreicht werden. Versuche nun selber Funktionen zu entdecken und zu testen - es werden im dritten Teil nur mehr wenige Kommentare gegeben.
-* Überlege, welche Erweiterungen/Vereinfachung du hier noch machen möchtest:
+
+* Überlege, welche Erweiterungen/Vereinfachung du hier noch machen möchtest
 * Man könnte mit mehreren Empfängern kommunizieren.
 
 **Viel Erfolg auf dem Weg zur kompetenten Programmiererin/zum kompetenten Programmierer.**
