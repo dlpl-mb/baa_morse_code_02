@@ -39,7 +39,7 @@ Damit unser Demonstrationsprogramm übersichtlich bleibt, arbeiten wir weiter mi
 * Wenn man das nun weiter denkt, so ist natürlich auch das Satzende wichtig. Dort fällt die Pause noch länger aus (etwa 1 Sekunde)
 * Schreibt auf Papier, wie nun das folgende Wort heißen kann:  <img src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/anna.png?raw=1">
 
-## Programmteil 1: Verbindung von 2 Micro:bits
+## Programmcode 1: Verbindung von 2 Micro:bits
 
 Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit **verbunden** werden - arbeite auch hier mit deinem Partner/deiner Partnerin zusammen.
 
@@ -111,17 +111,24 @@ radio.setGroup(99)
 
 <img width="50%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/Morseschreiber.jpg?raw=1">
 
-[Programmcode 1](https://makecode.microbit.org/_3dh6h5JKqHkJ){:target="_blank"}
+* Zum Abschluss dieses Projektteils nun eine schwierige Aufgabe:
+  * Eine ganze Zeile ist zu lesen - der Vereinfachung halber sind nur die Wortgrenzen mit einem Schrägstrich markiert.
 
-* Schreibe das Programm auf eure beiden Micro:bit (oder wählt Programmcode) und macht erste Tests
-* Tausch die Rollen des Senders und Empfängers
-* Achtet unbedingt darauf, dass nicht andere Gruppen in eurem Raum denselben Kommunikationskanal benutzen
-  * Schreibt auf, was noch nicht gut funktioniert
+[Programmcode 2 - Sende eine Nachrichtenzeile](https://makecode.microbit.org/_hhVeobX87KwU){:target="_blank"}
 
-**Verbesserungsüberlegungen:**
+* Verwende diesen einfachen Programmcode und ändere die Übertragungsnachricht.
+* Was könnte man beim Empfänger noch gestalten, damit dieser mehr Zeit hat zum lesen? Oder die Nachricht noch einmal ansehen kann?
+* Diskutiert auf, was noch nicht gut funktioniert hat
 
-* Wenn du einen neuen Buchstaben senden will, musst du das Sender-Programm immer umschreiben.
-* Es wäre gut, könnte man den Buchstaben auswählen (es fehlt leider eine Tastatur auf dem Micro:bit zum Eingeben eines neuen Buchstabens).
+## Programmcode 2: Sendung von verschiedenen Botschaften
+
+* Nehmen wir das einfache Programm vom Senden eines Morsezeichens.
+* Wenn du einen neuen Morsebuchstaben senden willst, musst du das Sender-Programm immer weider umschreiben.
+
+### Unser Ziel: Man möchte den Buchstaben zur Zufall auswählen lassen
+
+* Es wäre gut, könnte man den Buchstaben auswählen
+* es fehlt leider eine Tastatur auf dem Micro:bit zum Eingeben eines neuen Buchstabens).
   * Wie könnte man aus den Buchstaben auswählen?
 	a) Entweder durch Zufallsgenerator oder
 	b) mit einer virtuellen (=gedachten) Tastatur
