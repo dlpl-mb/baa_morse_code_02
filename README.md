@@ -124,7 +124,7 @@ radio.setGroup(99)
 * Nehmen wir das obere einfache Programm vom Senden eines Morsezeichens.
 * Wenn du einen neuen Morsebuchstaben senden willst, musst du das Sender-Programm immer wieder umschreiben.
 
-### Aufgabe: Sende-Buchstaben per Zufall auswählen
+### Aufgabe: Zeige Buchstaben per Zufall
 
 **Lösung a:** Ein Auswahl eines Morsecodes per Zufall
 
@@ -149,17 +149,16 @@ input.onButtonPressed(Button.A, function () {
 * Überlege warum im Programmcode ein leeres Feld eingebaut wurde
 * Wir werden in unserem Programm 26 Buchstaben verwenden - also brauchen wir eine Zufallszahl zwischen 0 und 25.  
 * Wir werden mit dem folgenden Testprogramm den Morsecode eines zufälligen Buchstabens senden
-* [Programmcode **Zufällige Morsecode senden**](https://makecode.microbit.org/#pub:_1aRd1965T2s5){:target="_blank"}
-
-* Dabei greift man mit dem Befehl ``||array: [liste_morsecodes[zufall]]||`` auf ein Element der Morsecode-Liste zu und zeigt dieses an.
-* wie müsste man das Programm änder, damit nicht der Morsecode gesendet wird. sondern ein Buchstabe des Alphabeths.
+* [Programmcode **Zeige zufälligen Buchstaben**](https://makecode.microbit.org/#pub:_RcD107c83V1o){:target="_blank"}
+* Dabei greift man mit dem Befehl ``||array: [liste_buchstaben[zufall]]||`` auf ein Element der Buchstaben-Liste zu und zeigt dieses an.
 * Experimentiert weiter mit diesem Befehl.
 
 ### Aufgabe: Sende zufällig Morsezeichen - empfange Morsezeichen
 
 * Das zufällig Morsezeichen sollte nicht beim Sender anzeigt werden, sondern auch versendet werden.
 * Hier greifen wir auf früheren Programmcode zurück und bauen diesen um.
-* [Programmcode **Senden und Empfangen eines zufälligen Morsecodes**](https://makecode.microbit.org/#pub:_F5cKo14UE6oA){:target="_blank"}
+* [Programmcode **Senden des Morsecodes**](https://makecode.microbit.org/#pub:_Vy4KdpPxpWTm){:target="_blank"}
+
 
 ## Bestätigung des Empfangs (Fachbegriff: handshake)
 
@@ -183,7 +182,7 @@ input.onButtonPressed(Button.A, function () {
 * Wer sich schon viel mit Micro.bit beschäftig hat, kann dann auch versuchen den Micro:bit umprogrammieren:
   * Dabei ist wichtig, dass man im Team immer die Regeln bespricht.
 
-[Programmcode **Fertige Version ZUFALL**](https://makecode.microbit.org/#pub:_6WzcFd4RYfvc){:target="_blank"}
+[Programmcode: **Programm ZUFALL**](https://makecode.microbit.org/#pub:_6WzcFd4RYfvc){:target="_blank"}
 
 * Eine Zusatzfunktion baut ihr selber noch ein (Micro:bit V2 erforderlich oder ein angeschlossen Kopfhörer):
   * Sobald ein Buchstabe beim Empfänger ankommt, soll eine Ton gespielt werden
