@@ -163,17 +163,31 @@ input.onButtonPressed(Button.A, function () {
 
 ## Bestätigung des Empfangs (Fachbegriff: handshake)
 
-* Nun sollte der Empfänger noch Bestätigen, ob der/sie die Nachricht erhalten und verstanden hat.
-* Wir wählen für die Antwort die noch freie `Taste B`
+* Nun sollte der Empfänger noch bestätigen, ob er die Nachricht erhalten und verstanden hat.
+* Der Empfänger wählen für die Antwort die `Taste A`
 * Diese sollte die Nachricht "ok" zurückgeben
 * Erst dann darf der Sender wieder eine neue Nachricht senden
 * Versucht das einzubauen - das fertig Ergebnis sieht man im nächsten Programmcode.
+* Wurde die Sendungsinformation nicht verstanden drückt der Empfänger auf die `Taste B` - dadurch wird ein "no" gesendet.
+* Dadurch sieht der **Sender** auf sein Micro:bit-Display ein 'ok' oder 'no'
+* Probiert einmal 5 Durchgänge und wechselt dann die Rollen
+* Seht euch auch den Programmcode auf dem Computerbildschirm an
+* Ganz besonders ist auf die Abmachungen zu achten: Computer funktionieren nur, indem klare Regeln erstellt und eingehalten werden.
 
-[Programmcode **Bestätigen des Erhalts der Sendung**](https://makecode.microbit.org/#pub:_6WzcFd4RYfvc){:target="_blank"}
+**Rollen tauschen** (immer in Abstimmung mit dem Partner/der Partnerin)
+
+* Wie wird ein neues Spiel gestartet?
+* Bei beiden Micro:bit die `|Reset-Taste|` (Rückseite des Micro.bit) drücken
+* Dann den Sender NEU bestimmen mit `|Taste A+B|`, ... es geht los
+* Erfindet selber neue Spielregeln dazu
+* Wer sich schon viel mit Micro.bit beschäftig hat, kann dann auch versuchen den Micro:bit umprogrammieren:
+  * Dabei ist wichtig, dass man im Team immer die Regeln bespricht.
+
+[Programmcode **Fertige Version ZUFALL**](https://makecode.microbit.org/#pub:_6WzcFd4RYfvc){:target="_blank"}
 
 * Eine Zusatzfunktion baut ihr selber noch ein (Micro:bit V2 erforderlich oder ein angeschlossen Kopfhörer):
   * Sobald ein Buchstabe beim Empfänger ankommt, soll eine Ton gespielt werden
-  * Genauso, wenn die Antwort bei Sender ankommt, ein Bestätigungston. 
+  * Genauso, wenn die Antwort bei Sender ankommt, ein Bestätigungston.
 
 Das waren jetzt die großen Schritte zu einem Sende- und Empfangssystem für Morsezeichen. Nun kann das große Morsezeichen-Training beginnen.
 
