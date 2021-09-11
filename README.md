@@ -164,35 +164,40 @@ input.onButtonPressed(Button.A, function () {
 * Nun sollte der Empfänger noch bestätigen, ob er die Nachricht erhalten und verstanden hat.
 * Da die `Taste A` schon belegt ist, wird `Taste B` für die Antwort verwendet - diese sendet ein 'ok' zurück
 * Erst dann darf der **Sender** wieder eine neue Nachricht abschicken
-* Wurde die Sendungsinformation nicht verstanden drückt der Empfänger auf die `Taste A+B` - dadurch wird ein "no" gesendet.
+* Wurde die Sendungsinformation **nicht** verstanden drückt der Empfänger auf die `Taste A+B` - dadurch wird ein "no" gesendet.
 * Somit sieht der **Sender** auf sein Micro:bit-Display ein 'ok' oder 'no'
 * Probiert einmal 5 Durchgänge, schreibt die Ergebnisse auf, wie viele Marezeichen ihr richtig erkannt haben und wechselt dann die Rollen
 * Seht euch auch den Programmcode auf dem Computerbildschirm an
 * !!! Genaue Abmachungen zwischen Sender und Empfänger sind besonders wichtig !!!
 
 * Das fertig Ergebnis sieht man im nächsten Programmcode.
-* [Programmcode **Handshake**](https://makecode.microbit.org/#pub:_Vy4KdpPxpWTm){:target="_blank"}
+* [Programmcode **Handshake**](https://makecode.microbit.org/#pub:_U4McTvc4iCX2){:target="_blank"}
 
 **Rollen tauschen** (immer in Abstimmung mit dem Partner/der Partnerin)
 
-* Wie wird ein neues Spiel gestartet?
-* Bei beiden Micro:bit die `|Reset-Taste|` (Rückseite des Micro.bit) drücken
-* Dann den Sender NEU bestimmen mit `|Taste A+B|`, ... es geht los
+* Merke: Die `Taste A` gehört immer dem **Sender**
 * Erfindet selber neue Spielregeln dazu
-* Wer sich schon viel mit Micro.bit beschäftig hat, kann dann auch versuchen den Micro:bit umprogrammieren:
-  * Dabei ist wichtig, dass man im Team immer die Regeln bespricht.
 
-[Programmcode: **Programm ZUFALL**](https://makecode.microbit.org/#pub:_6WzcFd4RYfvc){:target="_blank"}
 
-* Eine Zusatzfunktion baut ihr selber noch ein (Micro:bit V2 erforderlich oder ein angeschlossen Kopfhörer):
-  * Sobald ein Buchstabe beim Empfänger ankommt, soll eine Ton gespielt werden
-  * Genauso, wenn die Antwort bei Sender ankommt, ein Bestätigungston.
+### Abschlussbelohnung: Tonausgabe
 
-Das waren jetzt die großen Schritte zu einem Sende- und Empfangssystem für Morsezeichen. Nun kann das große Morsezeichen-Training beginnen.
+<img width="50%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/mb_kopfhoerer.png?raw=1">
 
-## Erweiterungen und Programmausbau
+* Die Zusatzfunktion Tonausgabe baut ihr selber noch ein (Micro:bit V2 erforderlich oder ein angeschlossener Kopfhörer):
+* Sobald ein Buchstabe beim Empfänger ankommt, soll eine Ton gespielt werden
+* Genauso, wenn die Antwort bei Sender ankommt, ein Bestätigungston.
 
-Ein derartiges Programm kann man fast unendlich erweitern und mit neuen Funktionen versehen - bis hin zu Funktionen bei denen das Empfängerprogramm den Morsecode wieder zurück übersetzt in Buchstaben des Alphabeths. Das wäre dann notwendig, wenn man durch Akustik oder durch Lichtsignale über weite Strecken überträgt.
+```block
+  music.playTone(262, music.beat(BeatFraction.Whole))
+```
+
+[Programmcode: **Tonausgabe**](https://makecode.microbit.org/#pub:_0Uw0EdbciAaa){:target="_blank"}
+
+Das waren jetzt die großen Schritte zu einem Sende- und Empfangssystem für Morsezeichen. Nun kann das große Morsezeichen-Training beginnen. bei euren Wettwewerben dürft ihr natürlich die Morsetabelle benützen.
+
+### Erweiterungen und Programmausbau
+
+Ein derartiges Programm kann man fast unendlich erweitern und mit neuen Funktionen versehen. Man könnte sogar im Empfängerprogramm den Morsecode wieder zurück in Buchstaben des Alphabeths übersetzt. Das wäre dann notwendig, wenn man durch Akustik oder durch Lichtsignale über weite Strecken überträgt.
 
 ## [Aufruf des dritten Projektteils: **Morsecode professionell**](https://dlpl-mb.github.io/baa_morse_code_03)
 
