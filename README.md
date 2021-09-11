@@ -150,7 +150,7 @@ input.onButtonPressed(Button.A, function () {
 * Wir werden mit dem folgenden Testprogramm den Morsecode eines zufälligen Buchstabens senden
 * [Programmcode **Zufällige Morsecode senden**](https://makecode.microbit.org/#pub:_1aRd1965T2s5){:target="_blank"}
 
-* Dabei greift man mit dem Befehl ``||Arrays: [liste_morsecodes[zufall]]||`` auf ein Elment der Morsecode-Liste zu und zeigt dieses an.
+* Dabei greift man mit dem Befehl ``||array: [liste_morsecodes[zufall]]||`` auf ein Elment der Morsecode-Liste zu und zeigt dieses an.
 
 
 
