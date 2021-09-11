@@ -148,9 +148,9 @@ input.onButtonPressed(Button.A, function () {
 * Überlege warum im Programmcode ein leeres Feld eingebaut wurde
 * Wir werden in unserem Programm 26 Buchstaben verwenden - also brauchen wir eine Zufallszahl zwischen 0 und 25.  
 * Wir werden mit dem folgenden Testprogramm den Morsecode eines zufälligen Buchstabens senden
-* [Programmcode "Zufällige Morsecode senden"](https://makecode.microbit.org/#pub:_1aRd1965T2s5){:target="_blank"}
+* [Programmcode **Zufällige Morsecode senden**](https://makecode.microbit.org/#pub:_1aRd1965T2s5){:target="_blank"}
 
-* Dabei greift man mit dem Befehl ``[Arrays]: [liste_morsecodes[zufall]]`` auf ein Elment der Morsecode-Liste zu und zeigt dieses an.
+* Dabei greift man mit dem Befehl ``||Arrays: [liste_morsecodes[zufall]]||`` auf ein Elment der Morsecode-Liste zu und zeigt dieses an.
 
 
 
