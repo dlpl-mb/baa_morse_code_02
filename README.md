@@ -153,12 +153,11 @@ input.onButtonPressed(Button.A, function () {
 * Dabei greift man mit dem Befehl ``||array: [liste_buchstaben[zufall]]||`` auf ein Element der Buchstaben-Liste zu und zeigt dieses an.
 * Experimentiert weiter mit diesem Befehl.
 
-### Aufgabe: Sende zufällig Morsezeichen - empfange Morsezeichen
+### Aufgabe: Senden zufälliger Morsezeichen
 
-* Das zufällig Morsezeichen sollte nicht beim Sender anzeigt werden, sondern auch versendet werden.
-* Hier greifen wir auf früheren Programmcode zurück und bauen diesen um.
+* Das zufällig Morsezeichen sollte nicht beim **Sender** anzeigt werden, sondern auch zum Empfänger versendet werden.
+* Hier greifen wir auf früheren Programmcode zurück und bauen diesen weiter
 * [Programmcode **Senden des Morsecodes**](https://makecode.microbit.org/#pub:_Vy4KdpPxpWTm){:target="_blank"}
-
 
 ## Bestätigung des Empfangs (Fachbegriff: handshake)
 
