@@ -113,7 +113,7 @@ radio.setGroup(99)
 
 * Zum Abschluss dieses Projektteils nun eine schwierige Aufgabe:
   * Eine ganze Zeile ist zu lesen: Der Vereinfachung halber sind nur die Wortgrenzen mit einem Schrägstrich markiert.
-  [Programmcode 2 - Sende eine Nachrichtenzeile](https://makecode.microbit.org/_hhVeobX87KwU){:target="_blank"}
+  * [Programmcode 2 - Sende eine Nachrichtenzeile](https://makecode.microbit.org/_hhVeobX87KwU){:target="_blank"}
 
 * Verwende diesen einfachen Programmcode und ändere die Übertragungsnachricht.
 * Was könnte man beim Empfänger noch gestalten, damit dieser mehr Zeit hat zum lesen? Oder die Nachricht noch einmal ansehen kann?
@@ -158,7 +158,7 @@ input.onButtonPressed(Button.A, function () {
 
 
 
-* [Programmcode 2](https://makecode.microbit.org/#pub:_DVe8TrKz3cRU){:target="_blank"}
+* [Programmcode 4](https://makecode.microbit.org/#pub:_DVe8TrKz3cRU){:target="_blank"}
 
 Eingebaut in das Übertragungsprogramm:
 
