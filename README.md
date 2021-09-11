@@ -37,7 +37,7 @@ Damit unser Demonstrationsprogramm übersichtlich bleibt, arbeiten wir weiter mi
 * SOS ("save our ship"): drei kurz, drei lang, drei kurz: ... --- ...
 * Beachte dabei, dass nach jedem Buchstaben **dreimal kurz** (S) ein kurze Pause gemacht wird und erst dann **dreimal lang** (Buchstabe O) gesendet wird.
 * Wenn man das nun weiter denkt, so ist natürlich auch das Satzende wichtig. Dort fällt die Pause noch länger aus (etwa 1 Sekunde)
-* Schreibt auf Papier, wie nun das folgende Wort heißen wird:  <img src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/anna.png?raw=1">
+* Schreibt auf Papier, wie nun das folgende Wort heißen kann:  <img src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/anna.png?raw=1">
 
 ## Programmteil 1: Verbindung von 2 Micro:bits
 
@@ -45,11 +45,11 @@ Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit *
 
 ### Grundregeln zur Verbindung von 2 Micro:bit sind
 
-* Wähle mit deinem/r Kommunikationspartner/in einen Funkkanal von 1 bis 255 aus - kein andere Spielpaar im Raum darf denselben Kanal verwenden, sonst gibt es Kommunikationssalat
-* Wir wählen für diese Beispiel **99** - also bedenkt: einen noch freien Funkkanal verwenden.
-* Jetzt muss ausgemacht werden, wer ist **Sender** und wer ist **Empfänger**: 
-* Es muss auch genau vereinbart werden, wann soll gesendet werden, was macht der Empfänger, ...
-* Denkt dabei daran, dass ihr nachher in getrennten Räumen arbeiten werdet und nicht mehr so einfach miteinander sprechen könnt.
+* Wählt einen Funkkanal von 1 bis 255 aus - kein anderes Spielpaar im Raum darf denselben Kanal verwenden, sonst gibt es Kommunikationssalat
+* Wir wählen für diese Beispiel **99** (bedenkt: einen noch freien Funkkanal verwenden)
+* Jetzt muss abgemacht werden, wer ist **Sender** und wer ist **Empfänger**:
+* Es muss auch genau vereinbart werden, `wann soll gesendet werden`, `wie reagiert der Empfänger` mit seinem Mirco:bit, ...
+* Das ist deshalb wichtig, weil später in getrennten Räumen gearbeiten wird und die sprachliche Verständigung nicht mehr möglich ist.
 * Beide Micro:bits nun über denselben Funkkanal verbinden - siehe ``||radio: radio.setGroup(1)||``
 * Beide Partner können in unserem Beispiel dasselbe Programm auf dem jeweiligen Micro:bit benutzen.
 
@@ -60,10 +60,10 @@ radio.setGroup(99)
 ### Der erster Test zur Übertragung
 
 * Wir werden mit `Taste A` senden und mit `Taste B` immer antworten.
-* Die Aufgabenstellung heißt:
+* **Die Aufgabenstellung heißt:**
   * Der Sender sendet den Buchstaben **A**
-  * Der Empänger zeigt den erhaltenen Buchstaben an!
-  * Das Programm dazu könnte so aussehen:
+  * Der Empänger zeigt den erhaltenen Buchstaben an
+* Das Programm dazu könnte so aussehen:
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -75,10 +75,25 @@ radio.onReceivedString(function (receivedString) {
 radio.setGroup(99)
 ```
 
-* Dann tauscht ihr die Rollen - beachtet, es kann dasselbe Programm auf beiden Micro:bit verwendet werden.
+* Dann tauscht ihr die Rollen
 * Ändert auch die Sendebuchstaben
 * Erweitert das Senden auf ein ganzes Wort oder auch einen Satz
 * Der Empfänger muss die Nachricht immer lesen und auch bestätigen
+* Versucht nun auch einen Morsecode zu senden (also eine Kombination aus Punkten und Strichen)
+
+```blocks
+input.onButtonPressed(Button.A, function () {
+    radio.sendString("-..")
+})
+radio.onReceivedString(function (receivedString) {
+    basic.showString(receivedString)
+})
+radio.setGroup(99)
+```
+
+* Mit Hilfe der Morsetabelle können die Sender das Zeichen decodieren (entschlüsseln)
+* Eine weitere Varinate wäre, der Sender sendet mit `Taste A` und `Taste B` zwei Mordesymbole.
+
 
 
 
