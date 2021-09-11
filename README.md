@@ -149,28 +149,90 @@ input.onButtonPressed(Button.A, function () {
 * Überlege warum im Programmcode ein leeres Feld eingebaut wurde
 * Wir werden in unserem Programm 26 Buchstaben verwenden - also brauchen wir eine Zufallszahl zwischen 0 und 25.  
 * Wir werden mit dem folgenden Testprogramm den Morsecode eines zufälligen Buchstabens senden
-* [Programmcode **Zeige zufälligen Buchstaben**](https://makecode.microbit.org/#pub:_RcD107c83V1o){:target="_blank"}
+* [Programmcode **Zeige zufällige Buchstaben**](https://makecode.microbit.org/#pub:_RcD107c83V1o){:target="_blank"}
 * Dabei greift man mit dem Befehl ``||array: [liste_buchstaben[zufall]]||`` auf ein Element der Buchstaben-Liste zu und zeigt dieses an.
 * Experimentiert weiter mit diesem Befehl.
 
-### Aufgabe: Senden zufälliger Morsezeichen
+### Aufgabe: Sende zufällige Morsezeichen zum Empfänger
 
 * Das zufällig Morsezeichen sollte nicht beim **Sender** anzeigt werden, sondern auch zum Empfänger versendet werden.
 * Hier greifen wir auf früheren Programmcode zurück und bauen diesen weiter
-* [Programmcode **Senden des Morsecodes**](https://makecode.microbit.org/#pub:_Vy4KdpPxpWTm){:target="_blank"}
+* [Programmcode **Sende Morsecodes**](https://makecode.microbit.org/#pub:_Vy4KdpPxpWTm){:target="_blank"}
 
-## Bestätigung des Empfangs (Fachbegriff: handshake)
+### Erweiterung: Bestätigung des Empfangs (Fachbegriff: handshake)
 
 * Nun sollte der Empfänger noch bestätigen, ob er die Nachricht erhalten und verstanden hat.
-* Der Empfänger wählen für die Antwort die `Taste A`
-* Diese sollte die Nachricht "ok" zurückgeben
-* Erst dann darf der Sender wieder eine neue Nachricht senden
-* Versucht das einzubauen - das fertig Ergebnis sieht man im nächsten Programmcode.
-* Wurde die Sendungsinformation nicht verstanden drückt der Empfänger auf die `Taste B` - dadurch wird ein "no" gesendet.
-* Dadurch sieht der **Sender** auf sein Micro:bit-Display ein 'ok' oder 'no'
-* Probiert einmal 5 Durchgänge und wechselt dann die Rollen
+* Da die `Taste A` schon belegt ist, wird `Taste B` für die Antwort verwendet - diese sendet ein 'ok' zurück
+* Erst dann darf der **Sender** wieder eine neue Nachricht abschicken
+* Wurde die Sendungsinformation nicht verstanden drückt der Empfänger auf die `Taste A+B` - dadurch wird ein "no" gesendet.
+* Somit sieht der **Sender** auf sein Micro:bit-Display ein 'ok' oder 'no'
+* Probiert einmal 5 Durchgänge, schreibt die Ergebnisse auf, wie viele Marezeichen ihr richtig erkannt haben und wechselt dann die Rollen
 * Seht euch auch den Programmcode auf dem Computerbildschirm an
-* Ganz besonders ist auf die Abmachungen zu achten: Computer funktionieren nur, indem klare Regeln erstellt und eingehalten werden.
+* !!! Genaue Abmachungen zwischen Sender und Empfänger sind besonders wichtig !!!
+
+* Das fertig Ergebnis sieht man im nächsten Programmcode.
+* [Programmcode **Handshake**](https://makecode.microbit.org/#pub:_Vy4KdpPxpWTm){:target="_blank"}
+
+**Rollen tauschen** (immer in Abstimmung mit dem Partner/der Partnerin)
+
+* Wie wird ein neues Spiel gestartet?
+* Bei beiden Micro:bit die `|Reset-Taste|` (Rückseite des Micro.bit) drücken
+* Dann den Sender NEU bestimmen mit `|Taste A+B|`, ... es geht los
+* Erfindet selber neue Spielregeln dazu
+* Wer sich schon viel mit Micro.bit beschäftig hat, kann dann auch versuchen den Micro:bit umprogrammieren:
+  * Dabei ist wichtig, dass man im Team immer die Regeln bespricht.
+
+[Programmcode: **Programm ZUFALL**](https://makecode.microbit.org/#pub:_6WzcFd4RYfvc){:target="_blank"}
+
+* Eine Zusatzfunktion baut ihr selber noch ein (Micro:bit V2 erforderlich oder ein angeschlossen Kopfhörer):
+  * Sobald ein Buchstabe beim Empfänger ankommt, soll eine Ton gespielt werden
+  * Genauso, wenn die Antwort bei Sender ankommt, ein Bestätigungston.
+
+Das waren jetzt die großen Schritte zu einem Sende- und Empfangssystem für Morsezeichen. Nun kann das große Morsezeichen-Training beginnen.
+
+## Erweiterungen und Programmausbau
+
+Ein derartiges Programm kann man fast unendlich erweitern und mit neuen Funktionen versehen - bis hin zu Funktionen bei denen das Empfängerprogramm den Morsecode wieder zurück übersetzt in Buchstaben des Alphabeths. Das wäre dann notwendig, wenn man durch Akustik oder durch Lichtsignale über weite Strecken überträgt.
+
+## [Aufruf des dritten Projektteils: **Morsecode professionell**](https://dlpl-mb.github.io/baa_morse_code_03)
+
+<style>.page-header {font-size:1rem;height:0vh;padding-top:1.5rem}</style>
+<script src="https://makecode.com/gh-pages-embed.js"></script>
+<script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Erweiterung: Bestätigung des Empfangs (Fachbegriff: handshake)
+
+* Nun sollte der Empfänger noch bestätigen, ob er die Nachricht erhalten und verstanden hat.
+* Der Empfänger wählt für die Antwort die `Taste A` - dadurch wird ein "ok" zurückgesendet
+* Erst dann darf der **Sender** wieder eine neue Nachricht abschicken
+* Wurde die Sendungsinformation nicht verstanden drückt der Empfänger auf die `Taste B` - dadurch wird ein "no" gesendet.
+* Somit sieht der **Sender** auf sein Micro:bit-Display ein 'ok' oder 'no'
+* Probiert einmal 5 Durchgänge, schreibt die Ergebnisse auf, wie viele Marezeichen ihr richtig erkannt haben und wechselt dann die Rollen
+* Seht euch auch den Programmcode auf dem Computerbildschirm an
+* !!! Genaue Abmachungen zwischen Sender und Empfänger sind besonders wichtig !!!
+
+* Das fertig Ergebnis sieht man im nächsten Programmcode.
+* [Programmcode **Handshake**](https://makecode.microbit.org/#pub:_Vy4KdpPxpWTm){:target="_blank"}
 
 **Rollen tauschen** (immer in Abstimmung mit dem Partner/der Partnerin)
 
