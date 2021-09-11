@@ -106,10 +106,10 @@ radio.onReceivedString(function (receivedString) {
 radio.setGroup(99)
 ```
 
-* Dabei kann nun schon erkennen, wie extrem schwierig es für den Empfänger immer schon war, bei der Geschwindigkeit des Lesen mithalten zu können
+* Dabei kann man nun schon gut erkennen, wie extrem schwierig es für den Empfänger ist, bei der Geschwindigkeit mit dem Lesen mithalten zu können
 * Daher wurden die Zeichen früher bei sehr schnellen Übertragung auf Papier aufgezeichnet und im Nachhinein dann gelesen
 
-<img width="100%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/Morseschreiber.jpg?raw=1">
+<img width="50%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/Morseschreiber.jpg?raw=1">
 
 [Programmcode 1](https://makecode.microbit.org/_3dh6h5JKqHkJ){:target="_blank"}
 
