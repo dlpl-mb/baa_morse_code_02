@@ -125,19 +125,13 @@ radio.setGroup(99)
 * Nehmen wir das einfache Programm vom Senden eines Morsezeichens.
 * Wenn du einen neuen Morsebuchstaben senden willst, musst du das Sender-Programm immer weider umschreiben.
 
-### Unser Ziel: Man möchte den Buchstaben zur Zufall auswählen lassen
-
-* Es wäre gut, könnte man den Buchstaben auswählen
-* es fehlt leider eine Tastatur auf dem Micro:bit zum Eingeben eines neuen Buchstabens).
-  * Wie könnte man aus den Buchstaben auswählen?
-	a) Entweder durch Zufallsgenerator oder
-	b) mit einer virtuellen (=gedachten) Tastatur
-
-<hr>
+### Unser Ziel: Man möchte den Sende-Buchstaben zur Zufall auswählen lassen
 
 **Lösung a:** Ein Auswahl eines Buchstabens per Zufall
+
+* Man benötigt eine Zufallszahl zwischen 0 und der Anzahl der verfübaren Buchstaben.
 * Eine Zufallszahl kann man im Bereich `Mathematik` erzeugen - der Befehl heißt `Wähle eine zufällige Zahl von 0 bis 10`
-* Experimentiere mit der  Zufallsfunktion: 
+* Experimentiere mit der  Zufallsfunktion:
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -152,7 +146,11 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-* Überlege auch warum ein leeres Feld eingebaut wurde
+* Überlege warum im Programmcode ein leeres Feld eingebaut wurde
+
+
+
+
 * [Programmcode 2](https://makecode.microbit.org/#pub:_DVe8TrKz3cRU){:target="_blank"}
 
 Eingebaut in das Übertragungsprogramm:
@@ -391,3 +389,12 @@ Der Autor dieses Morse-Beispielprogramms ist selbst seit Jahren Programmierer in
 <style>.page-header {font-size:1rem;height:0vh;padding-top:1.5rem}</style>
 <script src="https://makecode.com/gh-pages-embed.js"></script>
 <script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+
+
+* Es wäre gut, könnte man den Buchstaben auswählen
+* es fehlt leider eine Tastatur auf dem Micro:bit zum Eingeben eines neuen Buchstabens).
+  * Wie könnte man aus den Buchstaben auswählen?
+	a) Entweder durch Zufallsgenerator oder
+	b) mit einer virtuellen (=gedachten) Tastatur
+
+<hr>
