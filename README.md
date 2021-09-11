@@ -171,7 +171,7 @@ input.onButtonPressed(Button.A, function () {
 * !!! Genaue Abmachungen zwischen Sender und Empfänger sind besonders wichtig !!!
 
 * Das fertig Ergebnis sieht man im nächsten Programmcode.
-* [Programmcode **Handshake**](https://makecode.microbit.org/#pub:_U4McTvc4iCX2){:target="_blank"}
+* [Programmcode **Handshake**](https://makecode.microbit.org/#pub:_4ucJWw6YpL6b){:target="_blank"}
 
 **Rollen tauschen** (immer in Abstimmung mit dem Partner/der Partnerin)
 
