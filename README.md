@@ -91,45 +91,25 @@ radio.onReceivedString(function (receivedString) {
 radio.setGroup(99)
 ```
 
-* Mit Hilfe der Morsetabelle können die Sender das Zeichen decodieren (entschlüsseln)
-* Eine weitere Varinate wäre, der Sender sendet mit `Taste A` und `Taste B` zwei Mordesymbole.
+* Mit Hilfe der Morsetabelle können die Empfänger das Zeichen decodieren (entschlüsseln)
+* Eine weitere Variante wäre, der Sender sendet mit `Taste A` und `Taste B` zwei Morsesymbole.
 
-
-
-
-* Ihr könnt beide diese Programm auf dem Micro:bit erstellen
-* Ihr benötigt dazu das Menü ``Funk``
-* Die neuen Befehle sind das Senden eines Buchstaben und der Empfang einer Nachricht **receiveString** beim Empfänger.
-
-```block
-   radio.sendString("A")
-
-   basic.showString(receivedString)
-```
-
-  * 
-  * 
-  * 
-  * 
-  * und den dazugehörigen Morsecode
-  * Der Empfänger bekommt den Morsecode angezeigt und muss den empfangenen Morsecode in den Buchstaben übersetzen.
-  * Programmtechnik: wir benötigen aus dem Menü `Funk` zwei Befehle:
-    * Daten senden: `radio: radio.sendString("A")`
-    * Daten empfangen: `radio: radio.onReceivedString(function (receivedString))`
-  * Der Empfänger sollte die Papierliste zum Entschlüsseln verwenden
-  
-* Folgendes Programm soll nun auf beiden Micro:bit programmiert werden, damit könnt ihr schon einmal einige Tests machen.
+### In einem Durchgang mehrere Zeichen Übertragen
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
-   basic.showString("A") //damit siehst du als Sender den Buchstaben auch auf deinem Display
-   radio.sendString(".-")
+   radio.sendString("... --- ...")
 })
 radio.onReceivedString(function (receivedString) {
-   basic.showString(receivedString) // Beim Emfänger werden die empfangenen Daten angezeigt
+   basic.showString(receivedString) 
 })
 radio.setGroup(99)
 ```
+
+* Dabei kann nun schon erkennen, wie extrem schwierig es für den Empfänger immer schon war, bei der Geschwindigkeit des Lesen mithalten zu können
+* Daher wurden die Zeichen früher bei sehr schnellen Übertragung auf Papier aufgezeichnet und im Nachhinein dann gelesen
+
+<img width="100%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/Morseschreiber.jpg?raw=1">
 
 [Programmcode 1](https://makecode.microbit.org/_3dh6h5JKqHkJ){:target="_blank"}
 
