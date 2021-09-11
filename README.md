@@ -124,12 +124,12 @@ radio.setGroup(99)
 * Nehmen wir das obere einfache Programm vom Senden eines Morsezeichens.
 * Wenn du einen neuen Morsebuchstaben senden willst, musst du das Sender-Programm immer wieder umschreiben.
 
-### Unser Ziel: Man möchte den Sende-Buchstaben per Zufall auswählen lassen
+### Übung: Sende-Buchstaben per Zufall auswählen
 
 **Lösung a:** Ein Auswahl eines Morsecodes per Zufall
 
 * Man benötigt eine Zufallszahl zwischen 0 und der Anzahl der verfübaren Buchstaben.
-* Eine Zufallszahl kann man im Bereich `Mathematik` erzeugen - der Befehl heißt `Wähle eine zufällige Zahl von 0 bis 10`
+* Eine Zufallszahl kann man im Bereich `|Mathematik|` erzeugen - der Befehl heißt `Wähle eine zufällige Zahl von 0 bis 10`
 * Experimentiere mit der  Zufallsfunktion:
 
 ```blocks
