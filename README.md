@@ -94,7 +94,7 @@ radio.setGroup(99)
 * Mit Hilfe der Morsetabelle können die Empfänger das Zeichen decodieren (entschlüsseln)
 * Eine weitere Variante wäre, der Sender sendet mit `Taste A` und `Taste B` zwei Morsesymbole.
 
-### In einem Durchgang mehrere Zeichen Übertragen
+### Übung: In einem Durchgang mehrere Morsezeichen übertragen
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -113,18 +113,18 @@ radio.setGroup(99)
 
 * Zum Abschluss dieses Projektteils nun eine schwierige Aufgabe:
   * Eine ganze Zeile ist zu lesen: Der Vereinfachung halber sind nur die Wortgrenzen mit einem Schrägstrich markiert.
-  * [Programmcode 2 - Sende eine Nachrichtenzeile](https://makecode.microbit.org/_hhVeobX87KwU){:target="_blank"}
+  * [Programmcode 2 - Senden einer Nachrichtenzeile](https://makecode.microbit.org/_hhVeobX87KwU){:target="_blank"}
 
 * Verwende diesen einfachen Programmcode und ändere die Übertragungsnachricht.
 * Was könnte man beim Empfänger noch gestalten, damit dieser mehr Zeit hat zum lesen? Oder die Nachricht noch einmal ansehen kann?
 * Diskutiert auf, was noch nicht gut funktioniert hat
 
-## Programmcode 2: Sendung von verschiedenen Botschaften
+## Übung: Sendung von verschiedenen Botschaften
 
-* Nehmen wir das einfache Programm vom Senden eines Morsezeichens.
-* Wenn du einen neuen Morsebuchstaben senden willst, musst du das Sender-Programm immer weider umschreiben.
+* Nehmen wir das obere einfache Programm vom Senden eines Morsezeichens.
+* Wenn du einen neuen Morsebuchstaben senden willst, musst du das Sender-Programm immer wieder umschreiben.
 
-### Unser Ziel: Man möchte den Sende-Buchstaben zur Zufall auswählen lassen
+### Unser Ziel: Man möchte den Sende-Buchstaben per Zufall auswählen lassen
 
 **Lösung a:** Ein Auswahl eines Morsecodes per Zufall
 
@@ -147,11 +147,10 @@ input.onButtonPressed(Button.A, function () {
 
 * Überlege warum im Programmcode ein leeres Feld eingebaut wurde
 * Wir werden in unserem Programm 26 Buchstaben verwenden - also brauchen wir eine Zufallszahl zwischen 0 und 25.  
-* Wir werden mit dem folgenden Testprogramm den Morsecode eines zufälligen Buchstabens senden.
+* Wir werden mit dem folgenden Testprogramm den Morsecode eines zufälligen Buchstabens senden
+* [Programmcode 3](https://makecode.microbit.org/#pub:_1aRd1965T2s5){:target="_blank"}
 
-[Programmcode 3](https://makecode.microbit.org/#pub:_1aRd1965T2s5){:target="_blank"}
-
-* Das greift dabei mit dem Befehl ``[Arrays]: [liste_morsecodes[zufall]]`` auf ein Elment der Morsecode-Liste zu und zeigt dieses an.
+* Dabei greift man mit dem Befehl ``[Arrays]: [liste_morsecodes[zufall]]`` auf ein Elment der Morsecode-Liste zu und zeigt dieses an.
 
 
 
