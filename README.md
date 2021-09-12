@@ -197,7 +197,7 @@ Das waren jetzt die großen Schritte zu einem Sende- und Empfangssystem für Mor
 
 ### Erweiterungen und Programmausbau
 
-Ein derartiges Programm kann man fast unendlich erweitern und mit neuen Funktionen versehen. Man könnte sogar im Empfängerprogramm den Morsecode wieder zurück in Buchstaben des Alphabeths übersetzt. Das wäre dann notwendig, wenn man durch Akustik oder durch Lichtsignale über weite Strecken überträgt.
+Ein derartiges Programm kann man fast unendlich erweitern und mit neuen Funktionen versehen. Man könnte sogar im Empfängerprogramm den Morsecode wieder zurück in Buchstaben des Alphabets übersetzt. Das wäre dann notwendig, wenn man durch Akustik oder durch Lichtsignale über weite Strecken überträgt.
 
 ## [Aufruf des dritten Projektteils: **Morsecode professionell**](https://dlpl-mb.github.io/baa_morse_code_03)
 
@@ -258,7 +258,7 @@ Das waren jetzt die großen Schritte zu einem Sende- und Empfangssystem für Mor
 
 ## Erweiterungen und Programmausbau
 
-Ein derartiges Programm kann man fast unendlich erweitern und mit neuen Funktionen versehen - bis hin zu Funktionen bei denen das Empfängerprogramm den Morsecode wieder zurück übersetzt in Buchstaben des Alphabeths. Das wäre dann notwendig, wenn man durch Akustik oder durch Lichtsignale über weite Strecken überträgt.
+Ein derartiges Programm kann man fast unendlich erweitern und mit neuen Funktionen versehen - bis hin zu Funktionen bei denen das Empfängerprogramm den Morsecode wieder zurück übersetzt in Buchstaben des Alphabets. Das wäre dann notwendig, wenn man durch Akustik oder durch Lichtsignale über weite Strecken überträgt.
 
 ## [Aufruf des dritten Projektteils: **Morsecode professionell**](https://dlpl-mb.github.io/baa_morse_code_03)
 
