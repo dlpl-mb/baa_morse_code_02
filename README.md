@@ -68,7 +68,7 @@ radio.onReceivedString(function (receivedString) {
 radio.setGroup(99)
 ```
 
-[Programmcode **Senden eines Buchstabens**](https://makecode.microbit.org/_URKakefgfccf){:target="_blank"}
+* [Programmcode **Senden eines Buchstabens**](https://makecode.microbit.org/_URKakefgfccf){:target="_blank"}
 
 * Experimentiert mit diesem kleine Programm und ihr werdet merken, dass das nicht gut funktioniert, weil man bald nicht mehr weiß, wer, wann, was gesendet hat.
 * Ihr müsst euch organisieren und verabreden, wer sendet und wer wartet.
@@ -97,7 +97,7 @@ input.onButtonPressed(Button.AB, function () {
 radio.setGroup(99)
 ```
 
-[Programmcode **Bestätigen mit Antwort**](https://makecode.microbit.org/_RVzCKyPbCbg3){:target="_blank"}
+* [Programmcode **Bestätigen mit Antwort**](https://makecode.microbit.org/_RVzCKyPbCbg3){:target="_blank"}
 
 * So mit dieser Abmachung können wir nun weiterarbeiten 
 * Ihr könnt versuchen, die Sendennachricht zu ändern - der Empfänger bestätigt, ob der es bekommen hat und lesen konnte.
@@ -121,7 +121,7 @@ radio.setGroup(99)
   * Man kann sich vorstellen, dass hier sehr exakte Abmachungen getroffen werden müssen, wann sendet wer, wie ist die Antwort, ...
   * Auch alle Fotos vom Mars werden mit genauen Regel Zeichen-für-Zeichen zur Erde geschickt
   
-<img width="50%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/rover.png?raw=1">
+* <img width="50%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/rover.png?raw=1">
 
 ## Senden von Morsecodes
 
@@ -141,7 +141,7 @@ radio.setGroup(99)
 * Mit Hilfe der Morsetabelle können die Empfänger das Zeichen decodieren (entschlüsseln)
 * Wir bauen nun unser Kommunikationsprogramm so um, dass wir Morsezeichen senden können
 
-[Programmcode **Morsezeichen senden**](https://makecode.microbit.org/_57W03beWCVrw){:target="_blank"}
+* [Programmcode **Morsezeichen senden**](https://makecode.microbit.org/_57W03beWCVrw){:target="_blank"}
 
 * Experimentiert mit diesem einfachen Programm, indem ihr die Morsezeichen wechselt
 
