@@ -242,10 +242,10 @@ Ein derartiges Programm kann man fast unendlich erweitern und mit neuen Funktion
 **Rollen tauschen** (immer in Abstimmung mit dem Partner/der Partnerin)
 
 * Wie wird ein neues Spiel gestartet?
-* Bei beiden Micro:bit die ``|Reset-Taste|`` (Rückseite des Micro.bit) drücken
+* Bei beiden Micro:bit die ``|Reset-Taste|`` (Rückseite des Micro:bit) drücken
 * Dann den Sender NEU bestimmen mit ``|Tasten A+B|``, ... es geht los
 * Erfindet selber neue Spielregeln dazu
-* Wer sich schon viel mit Micro.bit beschäftig hat, kann dann auch versuchen den Micro:bit umprogrammieren:
+* Wer sich schon viel mit Micro:bit beschäftig hat, kann dann auch versuchen den Micro:bit umprogrammieren:
   * Dabei ist wichtig, dass man im Team immer die Regeln bespricht.
 
 [Programmcode: **Programm ZUFALL**](https://makecode.microbit.org/#pub:_6WzcFd4RYfvc){:target="_blank"}
