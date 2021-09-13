@@ -5,8 +5,8 @@
 <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/SOS.svg.png?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">
 
 Wusstest du, dass ein Micro:bit mit anderen Micro:bit über Funkwellen kommunizieren kann. In diesem Morse-Code-Projekt II werden wir nun den Morsecode zwischen 2 micro:bits versenden. Dazu müssen wir einige Vereinbarungen treffen, damit die Kommunikation auch funktioniert, wenn ich Robi02 nicht sehen und hören kann - etwa, wenn sie sich in einem anderen Raum befindet. Die Vereinbarungen sind:
- * Die Taste A sendet den Morse-Code
- * Die Taste B dient zum Bestätigen der Nachricht 
+ * Die ``|Taste A|`` sendet den Morse-Code
+ * Die ``|Taste B|`` dient zum Bestätigen der Nachricht 
  * Ein Symbol Herz dient als OK! Dann kann der Sender die nächste Nachricht senden.
  * Ein rauriger Smiley dient als - Nicht OK - bitte noch einmal senden!
  * Natürlich könnt ihr euch beim Programmieren eigene Kommunikationssymbole ausmachen.
@@ -26,7 +26,7 @@ let liste_morsezeichen = [".-","-...","-.-.","-..",".","..-.","--.","...","---"]
 * Beachte dabei, dass nach jdem Bustaben **"dreimal kurz"** (=S) ein kurze Pause gemacht wird und erst dann **"dreimal lang"** (=O) gesendet wird. Später wird noch wichtig, dass nach einem gesamten Wort ebenso eine längere Pause (etwa 1 Sekunde) gemacht wird.
 * Schreibt auf Papier, wir nun das folgende Wort heißt:  <img src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/anna.png?raw=1">
 
-## Programmteil 1: Verbindung von 2 micro:bit
+## Programmteil 1: Verbindung von 2 Micro:bit
 
 Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit durch ein kurzes Programm verbunden werden - suche dir also eine zweite Person als Kontaktpartner. Arbeitet zu zweit weiter.
 **Grundregeln dazu sind:**
@@ -40,7 +40,7 @@ Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit d
 <br>
 
 **Der erster Test zur Übertragung:** 
-* Wir werden mit `Taste A` senden und mit `Taste B` immer antworten. 
+* Wir werden mit ``|Taste A|`` senden und mit ``|Taste B|`` immer antworten. 
 * Was heißt die Aufgabenstellung? 
 	* Der Sender sendet einmal den Buchstaben A und den dazugehörigen Morsecode
 	* Der Empfänger bekommt den Morsecode angezeigt und muss den empfangenen Morsecode in den Buchstaben übersetzen.
@@ -95,7 +95,7 @@ Um nachher Morsecodes und Buchstaben senden zu können, müssen zwei Micro:bit d
 * [Der Programmcode](https://makecode.microbit.org/#pub:_DVe8TrKz3cRU "(target|_blank)")
 
 Eingebaut in das Übertragungsprogramm:
-* Nun wird der Zufallsgenerator in der `Taste A-Funktion` eingebaut:
+* Nun wird der Zufallsgenerator in der ``|Taste A|``-Funktion eingebaut:
 
 ```blocks
 	input.onButtonPressed(Button.A, function () {
@@ -169,7 +169,7 @@ Eingebaut in das Übertragungsprogramm:
 
 
 Eingebaut in das Übertragungsprogramm:
-* Nun wird der Zufallsgenerator in der `Taste A-Funktion` eingebaut:
+* Nun wird der Zufallsgenerator in der ``|Taste A|``-Funktion eingebaut:
 
 ```blocks
 	input.onButtonPressed(Button.A, function () {
@@ -218,9 +218,9 @@ Eingebaut in das Übertragungsprogramm:
 <br>
 **Verbesserungen:**
 
-* Taste A des Micro:bit zeigt die Buchstaben A bis G (Später nehmen wir alle anderen Buchstaben dazu.)
-* Taste B zeigt die Morse-Codes für diese Zeichen an 
-* Später wirst du dein Programm so ausgebauen, dass du Codes zu anderen micro:bits übertragen und somit Anderen senden kann.
+* ``|Taste A|`` des Micro:bit zeigt die Buchstaben A bis G (Später nehmen wir alle anderen Buchstaben dazu.)
+* ``|Taste B|`` zeigt die Morse-Codes für diese Zeichen an 
+* Später wirst du dein Programm so ausgebauen, dass du Codes zu anderen Micro:bits übertragen und somit Anderen senden kann.
 * Probiere das gleich mit dem Button "Dreieck" aus:
 <img width="40%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/dreieck.png?raw=1">
 

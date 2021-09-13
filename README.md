@@ -10,12 +10,12 @@ Wusstest du, dass ein Micro:bit mit anderen Micro:bit über Funkwellen kommunizi
 
 **Die Vereinbarungen sind:**
 
-* **Beim Sender:** Die `|Taste A|` sendet den Morsecode
+* **Beim Sender:** Die ``|Taste A|`` sendet den Morsecode
 
 * **Beim Empfänger:**
   * Dieser Micro:bit wartet nur auf Nachrichten - erhält er eine sso muss diese bestätigt werden.
-  * Die `|Taste A|` dient zum Bestätigen der Nachricht (in unserem Programm wird ein Plus gesendet) - erst dann darf der Sender den nächsten Buchstaben senden
-  * Die `|Taste B|` sendet ein Minus `-` - damit erkennt der Sender, dass noch einmal gesendet werden muss!
+  * Die ``|Taste A|`` dient zum Bestätigen der Nachricht (in unserem Programm wird ein Plus gesendet) - erst dann darf der Sender den nächsten Buchstaben senden
+  * Die ``|Taste B|`` sendet ein Minus `-` - damit erkennt der Sender, dass noch einmal gesendet werden muss!
   * Natürlich könnt ihr euch beim Programmieren eigene Kommunikationsvereinbarungen treffen
 
 ## Die Zeichen des Morsealphabets (zum Nachschlagen und Ausdrucken)
@@ -59,7 +59,7 @@ radio.setGroup(99)
 
 ### Der erster Test zur Übertragung
 
-* Wir werden mit `Taste A` senden und mit `Taste B` immer antworten.
+* Wir werden mit ``|Taste A|`` senden und mit ``|Taste B|`` immer antworten.
 * **Die Aufgabenstellung heißt:**
   * Der Sender sendet den Buchstaben **A**
   * Der Empänger zeigt den erhaltenen Buchstaben an
@@ -92,7 +92,7 @@ radio.setGroup(99)
 ```
 
 * Mit Hilfe der Morsetabelle können die Empfänger das Zeichen decodieren (entschlüsseln)
-* Eine weitere Variante wäre, der Sender sendet mit `Taste A` und `Taste B` zwei Morsesymbole.
+* Eine weitere Variante wäre, der Sender sendet mit ``|Taste A|`` und ``|Taste B|`` zwei Morsesymbole.
 
 ### Übung: In einem Durchgang mehrere Morsezeichen übertragen
 
@@ -162,9 +162,9 @@ input.onButtonPressed(Button.A, function () {
 ### Erweiterung: Bestätigung des Empfangs (Fachbegriff: handshake)
 
 * Nun sollte der Empfänger noch bestätigen, ob er die Nachricht erhalten und verstanden hat.
-* Da die `Taste A` schon belegt ist, wird `Taste B` für die Antwort verwendet - diese sendet ein 'ok' zurück
+* Da die ``|Taste A|`` schon belegt ist, wird ``|Taste B|`` für die Antwort verwendet - diese sendet ein 'ok' zurück
 * Erst dann darf der **Sender** wieder eine neue Nachricht abschicken
-* Wurde die Sendungsinformation **nicht** verstanden drückt der Empfänger auf die `Taste A+B` - dadurch wird ein "no" gesendet.
+* Wurde die Sendungsinformation **nicht** verstanden drückt der Empfänger auf die ``|Tasten A+B|`` - dadurch wird ein "no" gesendet.
 * Somit sieht der **Sender** auf sein Micro:bit-Display ein 'ok' oder 'no'
 * Probiert einmal 5 Durchgänge, schreibt die Ergebnisse auf, wie viele Marezeichen ihr richtig erkannt haben und wechselt dann die Rollen
 * Seht euch auch den Programmcode auf dem Computerbildschirm an
@@ -175,7 +175,7 @@ input.onButtonPressed(Button.A, function () {
 
 **Rollen tauschen** (immer in Abstimmung mit dem Partner/der Partnerin)
 
-* Merke: Die `Taste A` gehört immer dem **Sender**
+* Merke: Die ``|Taste A|`` gehört immer dem **Sender**
 * Erfindet selber neue Spielregeln dazu
 
 
@@ -228,9 +228,9 @@ Ein derartiges Programm kann man fast unendlich erweitern und mit neuen Funktion
 ### Erweiterung: Bestätigung des Empfangs (Fachbegriff: handshake)
 
 * Nun sollte der Empfänger noch bestätigen, ob er die Nachricht erhalten und verstanden hat.
-* Der Empfänger wählt für die Antwort die `Taste A` - dadurch wird ein "ok" zurückgesendet
+* Der Empfänger wählt für die Antwort die ``|Taste A|`` - dadurch wird ein "ok" zurückgesendet
 * Erst dann darf der **Sender** wieder eine neue Nachricht abschicken
-* Wurde die Sendungsinformation nicht verstanden drückt der Empfänger auf die `Taste B` - dadurch wird ein "no" gesendet.
+* Wurde die Sendungsinformation nicht verstanden drückt der Empfänger auf die ``|Taste B|`` - dadurch wird ein "no" gesendet.
 * Somit sieht der **Sender** auf sein Micro:bit-Display ein 'ok' oder 'no'
 * Probiert einmal 5 Durchgänge, schreibt die Ergebnisse auf, wie viele Marezeichen ihr richtig erkannt haben und wechselt dann die Rollen
 * Seht euch auch den Programmcode auf dem Computerbildschirm an
@@ -242,8 +242,8 @@ Ein derartiges Programm kann man fast unendlich erweitern und mit neuen Funktion
 **Rollen tauschen** (immer in Abstimmung mit dem Partner/der Partnerin)
 
 * Wie wird ein neues Spiel gestartet?
-* Bei beiden Micro:bit die `|Reset-Taste|` (Rückseite des Micro.bit) drücken
-* Dann den Sender NEU bestimmen mit `|Taste A+B|`, ... es geht los
+* Bei beiden Micro:bit die ``|Reset-Taste|`` (Rückseite des Micro.bit) drücken
+* Dann den Sender NEU bestimmen mit ``|Tasten A+B|``, ... es geht los
 * Erfindet selber neue Spielregeln dazu
 * Wer sich schon viel mit Micro.bit beschäftig hat, kann dann auch versuchen den Micro:bit umprogrammieren:
   * Dabei ist wichtig, dass man im Team immer die Regeln bespricht.
