@@ -178,7 +178,7 @@ radio.setGroup(99)
 ### Erweiterungen und Programmausbau
 
 * Ein derartiges Programm kann man fast unendlich erweitern und mit neuen Funktionen versehen
-* Versucht nun selber 
+* Versucht nun selber weiterzubauen
 * Man könnte Morsecode in Lichtsignale umwandeln
 * Man könnte Morsecode in soundsignale umwandeln
 
@@ -187,88 +187,4 @@ Einiges von dem werden wir im dritten Teil, dem Erweiterungsteil bearbeiten.
 ## [Aufruf des dritten Projektteils: **Morsecode professionell**](https://dlpl-mb.github.io/baa_morse_code_03)
 
 <style>.page-header {font-size:1rem;height:0vh;padding-top:1.5rem}</style>
-<script src="https://makecode.com/gh-pages-embed.js"></script>
-<script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Erweiterung: Bestätigung des Empfangs (Fachbegriff: handshake)
-
-* Nun sollte der Empfänger noch bestätigen, ob er die Nachricht erhalten und verstanden hat.
-* Der Empfänger wählt für die Antwort die ``|Taste A|`` - dadurch wird ein "ok" zurückgesendet
-* Erst dann darf der **Sender** wieder eine neue Nachricht abschicken
-* Wurde die Sendungsinformation nicht verstanden drückt der Empfänger auf die ``|Taste B|`` - dadurch wird ein "no" gesendet.
-* Somit sieht der **Sender** auf sein Micro:bit-Display ein 'ok' oder 'no'
-* Probiert einmal 5 Durchgänge, schreibt die Ergebnisse auf, wie viele Marezeichen ihr richtig erkannt haben und wechselt dann die Rollen
-* Seht euch auch den Programmcode auf dem Computerbildschirm an
-* !!! Genaue Abmachungen zwischen Sender und Empfänger sind besonders wichtig !!!
-
-* Das fertig Ergebnis sieht man im nächsten Programmcode.
-* [Programmcode **Handshake**](https://makecode.microbit.org/#pub:_Vy4KdpPxpWTm){:target="_blank"}
-
-**Rollen tauschen** (immer in Abstimmung mit dem Partner/der Partnerin)
-
-* Wie wird ein neues Spiel gestartet?
-* Bei beiden Micro:bit die ``|Reset-Taste|`` (Rückseite des Micro:bit) drücken
-* Dann den Sender NEU bestimmen mit ``|Tasten A+B|``, ... es geht los
-* Erfindet selber neue Spielregeln dazu
-* Wer sich schon viel mit Micro:bit beschäftig hat, kann dann auch versuchen den Micro:bit umprogrammieren:
-  * Dabei ist wichtig, dass man im Team immer die Regeln bespricht.
-
-[Programmcode: **Programm ZUFALL**](https://makecode.microbit.org/#pub:_6WzcFd4RYfvc){:target="_blank"}
-
-* Eine Zusatzfunktion baut ihr selber noch ein (Micro:bit V2 erforderlich oder ein angeschlossen Kopfhörer):
-  * Sobald ein Buchstabe beim Empfänger ankommt, soll eine Ton gespielt werden
-  * Genauso, wenn die Antwort bei Sender ankommt, ein Bestätigungston.
-
-Das waren jetzt die großen Schritte zu einem Sende- und Empfangssystem für Morsezeichen. Nun kann das große Morsezeichen-Training beginnen.
-
-## Erweiterungen und Programmausbau
-
-Ein derartiges Programm kann man fast unendlich erweitern und mit neuen Funktionen versehen - bis hin zu Funktionen bei denen das Empfängerprogramm den Morsecode wieder zurück übersetzt in Buchstaben des Alphabets. Das wäre dann notwendig, wenn man durch Akustik oder durch Lichtsignale über weite Strecken überträgt.
-
-## [Aufruf des dritten Projektteils: **Morsecode professionell**](https://dlpl-mb.github.io/baa_morse_code_03)
-
-<style>.page-header {font-size:1rem;height:0vh;padding-top:1.5rem}</style>
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
-
-
-
-
-
-
-
-
-
-**Die Vereinbarungen für unser Beispiel sind:**
-
-* Ihr müsst genau abmachen, wer **senden** und wer **empfangen** darf.
-* **Der Sender** sendet mit ``|Taste A|`` einen Morsecode
-
-* **Der Empfänger:**
-  * Dessen Micro:bit wartet nur auf Nachrichten - erhält er eine Nachricht, so muss diese bestätigt werden.
-  * Die ``|Taste B|`` dient zum Bestätigen der Nachricht (in unserem Programm wird ein 'ok' gesendet) - erst dann darf der Sender die nächste Nachricht (den nächsten Buchstaben) senden
-  * Mit der ``|Tastenkombination A+B|`` sendet der Empfänger ein `no` - damit erkennt der Sender, dass noch einmal gesendet werden muss!
-  * Natürlich könnt ihr beim Programmieren eigene Kommunikationsregeln machen - wenn die Kommunikationsvereinbarungen nicht genau passen gibt es meist Missverständnisse
-
-
-
-
