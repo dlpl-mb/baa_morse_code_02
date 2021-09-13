@@ -6,27 +6,26 @@
 
 <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/SOS.svg.png?raw=1">  <img width="20%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/robo_mbit_funk.gif?raw=1">
 
-Wusstest du, dass ein Micro:bit mit anderen Micro:bit über Funkwellen kommunizieren kann. In diesem Morsecode-Lektion II werden wir nun Nachrichten zwischen 2 Micro:bits versenden. Dazu müssen wir einige Vereinbarungen treffen, damit die Kommunikation auch funktioniert. Wenn sich etwa Robi-x01 und Robi-x02 in verschiedenen Räumen sind und sich nicht sehen und hören können.
+Wusstest du, dass ein Micro:bit mit anderen Micro:bits über Funkwellen kommunizieren kann. In dieser Morsecode-Lektion werden wir nun Nachrichten zwischen 2 Micro:bits versenden. Dazu müssen wir einige Vereinbarungen treffen, damit die Kommunikation auch funktioniert. Wenn sich etwa Robi-x01 und Robi-x02 in verschiedenen Räumen befinden und sich weder hören noch sehen können.
 
-**Die Vereinbarungen sind:**
+**Die Vereinbarungen für unser Beispiel sind:**
 
-* **Beim Sender:** Die ``|Taste A|`` sendet den Morsecode
+* Ihr müsst genau abmachen, wer **senden** und wer **empfangen** darf.
+* **Der Sender** sendet mit ``|Taste A|`` einen Morsecode
 
-* **Beim Empfänger:**
-  * Dieser Micro:bit wartet nur auf Nachrichten - erhält er eine sso muss diese bestätigt werden.
-  * Die ``|Taste A|`` dient zum Bestätigen der Nachricht (in unserem Programm wird ein Plus gesendet) - erst dann darf der Sender den nächsten Buchstaben senden
-  * Die ``|Taste B|`` sendet ein Minus `-` - damit erkennt der Sender, dass noch einmal gesendet werden muss!
-  * Natürlich könnt ihr euch beim Programmieren eigene Kommunikationsvereinbarungen treffen
+* **Der Empfänger:**
+  * Dessen Micro:bit wartet nur auf Nachrichten - erhält er eine Nachricht, so muss diese bestätigt werden.
+  * Die ``|Taste B|`` dient zum Bestätigen der Nachricht (in unserem Programm wird ein 'ok' gesendet) - erst dann darf der Sender die nächste Nachricht (den nächsten Buchstaben) senden
+  * Die ``|Tastenkombination A+B|`` sendet ein Minus `no` - damit erkennt der Sender, dass noch einmal gesendet werden muss!
+  * Natürlich könnt ihr euch beim Programmieren eigene Kommunikationsvereinbarungen treffen - wenn die Kommunikationsvereinbarungen nicht genau passen gibt es meist Missverständnisse
 
-## Die Zeichen des Morsealphabets (zum Nachschlagen und Ausdrucken)
+## Die Zeichen des Morsealphabets
 
 <img width="100%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/morse-tab.png?raw=1">
 
-Drucke Dir die Tabelle aller Morsecodes aus (Rechte Maustaste - Bild kopieren und dann mit Word ausdrucken)
+Drucke dir die Tabelle aller Morsecodes aus (rechte Maustaste - Bild kopieren und dann in Word einfügen und ausdrucken)
 
-### Übersichtlichkeit
-
-Damit unser Demonstrationsprogramm übersichtlich bleibt, arbeiten wir weiter mit der Buchstabenliste von 9 Buchstaben (A bis G, nun auch das S und O), später, wenn das Programm fertig ist, werden wir alle Zeichen einbauen.
+Damit unser Demonstrationsprogramm übersichtlich bleibt, arbeiten wir weiter mit einer kleinen Buchstabenliste (A bis G, nun auch das S und O), später, wenn das Programm fertig ist, werden wir alle Zeichen einbauen.
 
 <img width="50%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/l2_prg_bst.png?raw=1">
 
