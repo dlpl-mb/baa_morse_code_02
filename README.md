@@ -16,6 +16,12 @@ Wusstest du, dass ein Micro:bit mit anderen Micro:bits über Funkwellen kommuniz
 
 * Drucke dir die Tabelle aller Morsecodes aus (rechte Maustaste - Bild kopieren und dann in Word einfügen und ausdrucken)
 
+
+
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_dApdC9886imh" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+
+
+
 Damit unser Demonstrationsprogramm übersichtlich bleibt, arbeiten wir mit einer kleinen Buchstabenliste (A bis G, nun auch das S und O), später werden wir alle Zeichen einbauen.
 
 <img width="50%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/l2_prg_bst.png?raw=1">
