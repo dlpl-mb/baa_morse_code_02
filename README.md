@@ -27,7 +27,7 @@ Wusstest du, dass ein Micro:bit mit anderen Micro:bits über Funkwellen kommuniz
 * Führt 10 Versuche durch und tauscht die Rollen
 * Wie gut bist du im Erkennen des Morsecodes
 
-* **ENDE der Präsentation** * - Wenn es dich interessiert, wie man so etwas programmiert, dann kannst du hier weitermachen.
+* **ENDE der Präsentation** - Wenn es dich interessiert, wie man so etwas programmiert, dann kannst du hier weitermachen.
 
 <hr>
 
