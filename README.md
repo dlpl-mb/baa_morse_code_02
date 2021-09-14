@@ -1,6 +1,6 @@
 # Morse-Alphabet senden
 
-IN ARBEIT
+... IN ARBEIT ...
 
 ## Geheimzeichen: Das Morse-Alphabet II
 
