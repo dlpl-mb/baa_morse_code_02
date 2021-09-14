@@ -16,7 +16,7 @@ Wusstest du, dass ein Micro:bit mit anderen Micro:bits über Funkwellen kommuniz
 
 ## Der Morsecode-Beamer
 
-* [Programmcode **Morsecode-Beamer**](https://makecode.microbit.org/_L34VpDcr1Hfo){:target="_blank"}
+* [Programmcode **Morsecode-Beamer**](https://makecode.microbit.org/#pub:_L34VpDcr1Hfo){:target="_blank"}
 
 * Ein Spiel zu zweit
 * Spielt dieses Programm auf 2 Micro:bits und teste die Verbindung beider zueinander!
