@@ -14,17 +14,22 @@ Wusstest du, dass ein Micro:bit mit anderen Micro:bits über Funkwellen kommuniz
 
 <img width="100%" src="https://github.com/dlpl-mb/baa_morse_code_01/blob/master/images/morse-tab.png?raw=1">
 
-* Drucke dir die Tabelle aller Morsecodes aus (rechte Maustaste - Bild kopieren und dann in Word einfügen und ausdrucken)
 
-<div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_C86iEaiEriHA" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
+## Der Morsecode-Beamer
 
-<div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_C86iEaiEriHA" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
+* [Programmcode - Morsecode-Beamer`](https://makecode.microbit.org/#pub:_YF16Xa8C9ecP(https://makecode.microbit.org/_AmMhjhDtrAcE)){:target="_blank"}
 
+* Ein Spiel zu zweit
+* Spielt dieses Programm auf 2 Micro:bits und teste die Verbindung beider zueinander!
+* Einer ist der Sender, der andere der Empfänger
+* Sender: Drücke ``|Taste A|`` für die Aufgabe
+* Empfänger: Suche den angezeigten Buchstaben in der Morsetabelle
+* Führt 10 Versuche durch und tauscht die Rollen
+* Wie gut bist du im Erkennen des Morsecodes
 
+* **ENDE der Präsentation** * - Wenn es dich interessiert, wie man so etwas programmiert, dann kannst du hier weitermachen.
 
-<div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=_dApdC9886imh" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
-
-
+<hr>
 
 Damit unser Demonstrationsprogramm übersichtlich bleibt, arbeiten wir mit einer kleinen Buchstabenliste (A bis G, nun auch das S und O), später werden wir alle Zeichen einbauen.
 
