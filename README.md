@@ -1,6 +1,6 @@
 # Morse-Alphabet senden
 
-... IN ARBEIT ... derzeit nur Grobentwurf
+... IN ARBEIT ... derzeit nur Grobentwurf - wird noch stark gekürzt
 
 ## Geheimzeichen: Das Morse-Alphabet II
 
